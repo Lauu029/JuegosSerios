@@ -21,7 +21,6 @@ public class cambioDeEscenas : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("ay");
             gm.changeScene(nextScene);
         }
     }
