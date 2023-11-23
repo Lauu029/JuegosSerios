@@ -83,11 +83,11 @@ El juego está pensado para jugarse en talleres sobre psicología que traten est
 ### Vista general
 
 <p align="center">
-  <img src="./VG1.png" alt="vista"/>
+  <img src="./Imagenes/VistaGEneralHabitacion.png" alt="vista"/>
 </p>
 
 <p align="center">
-  <img src="./VG2.png" alt="vista"/>
+  <img src="./Imagenes/VistaGeneralMenu.png" alt="vista"/>
 </p>
 
 #### 1.1. Relato breve y parcial de una partida típica  
