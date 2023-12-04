@@ -65,12 +65,36 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_SmoothRotation
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_TightenPosition
+      value: 0.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_TightenRotation
+      value: 0.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
       propertyPath: m_UseDynamicAttach
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
       propertyPath: m_InteractionManager
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_SmoothPositionAmount
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+      propertyPath: m_SmoothRotationAmount
+      value: 1.6
       objectReference: {fileID: 0}
     - target: {fileID: 3797735411499448836, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
       propertyPath: m_RootOrder
@@ -118,12 +142,88 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6306275752088758926, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
       propertyPath: m_Name
-      value: CowPrize
+      value: vaquita
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+--- !u!1 &7098120811371422980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6306275752088758926, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+  m_PrefabInstance: {fileID: 3820727209139703690}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &122079991996986766 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3797735411499448836, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
   m_PrefabInstance: {fileID: 3820727209139703690}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3682960571305328592 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 439507813205373018, guid: 6d1b875c79caa944fad02087e1c9402c, type: 3}
+  m_PrefabInstance: {fileID: 3820727209139703690}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098120811371422980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-1418403010328507217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098120811371422980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62fb9fb1177925e4b8a383be2b9db66c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3263358773000102334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098120811371422980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49e0a5b5ff5540f5b14dd29d46faec22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransitionDuration: 0.125
+  m_InteractableSource: {fileID: 3682960571305328592}
+  m_IgnoreHoverEvents: 0
+  m_IgnoreHoverPriorityEvents: 1
+  m_IgnoreSelectEvents: 0
+  m_IgnoreActivateEvents: 0
+  m_SelectClickAnimationMode: 1
+  m_ActivateClickAnimationMode: 1
+  m_ClickAnimationDuration: 0.25
+  m_ClickAnimationCurve:
+    m_UseConstant: 1
+    m_ConstantValue:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_Variable: {fileID: 0}
