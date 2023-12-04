@@ -684,6 +684,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 90, y: -90, z: 0}
+--- !u!1 &1618043732 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7184804031037542117, guid: b9afff63f47b3204891355fdf8e8cdde, type: 3}
+  m_PrefabInstance: {fileID: 1696705842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1618043733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618043732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -641732459
+      Data2: 1325451218
+      Data3: 197801388
+      Data4: -1805968032
+    Path: event:/Trafico
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1618044075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1341,10 +1377,6 @@ PrefabInstance:
     - target: {fileID: 3156788818243114494, guid: 5bf08e9c8daef2d46b8d582e573d8282, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7596257115430260834, guid: 5bf08e9c8daef2d46b8d582e573d8282, type: 3}
       propertyPath: m_ConnectedAnchor.x

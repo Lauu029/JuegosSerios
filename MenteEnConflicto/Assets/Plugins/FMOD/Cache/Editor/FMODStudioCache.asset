@@ -42,11 +42,38 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638373127131036813
+  lastModified: 638373141078080458
   FileSizes:
   - Name: Desktop
     Value: 1036
   Exists: 1
+--- !u!114 &-2081551309548944940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Trafico
+  m_EditorClassIdentifier: 
+  Path: event:/Trafico
+  Guid:
+    Data1: -641732459
+    Data2: 1325451218
+    Data3: 197801388
+    Data4: -1805968032
+  Banks:
+  - {fileID: 4159193931849171116}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62500
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63,14 +90,16 @@ MonoBehaviour:
   - {fileID: 3230230705695538216}
   - {fileID: -6380818880355175297}
   - {fileID: 3490605633191003469}
+  - {fileID: 4159193931849171116}
   EditorEvents:
   - {fileID: -8725165389690200358}
+  - {fileID: -2081551309548944940}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638373127132475213
+  cacheTime: 638373141091406071
   cacheVersion: 131609
 --- !u!114 &3230230705695538216
 MonoBehaviour:
@@ -87,10 +116,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638373127131083527
+  lastModified: 638373141078104407
   FileSizes:
   - Name: Desktop
-    Value: 822
+    Value: 978
   Exists: 1
 --- !u!114 &3490605633191003469
 MonoBehaviour:
@@ -107,8 +136,28 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Sonidos muy intensos.bank
   Name: Sonidos muy intensos
   StudioPath: bank:/Sonidos muy intensos
-  lastModified: 638373127132475213
+  lastModified: 638373141078396655
   FileSizes:
   - Name: Desktop
     Value: 48832
+  Exists: 1
+--- !u!114 &4159193931849171116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SonidosPocoIntensos.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
+  Name: SonidosPocoIntensos
+  StudioPath: bank:/SonidosPocoIntensos
+  lastModified: 638373141091406071
+  FileSizes:
+  - Name: Desktop
+    Value: 1251104
   Exists: 1
