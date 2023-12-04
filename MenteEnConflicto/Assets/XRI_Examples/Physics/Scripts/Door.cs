@@ -46,7 +46,7 @@ namespace UnityEngine.XR.Content.Interaction
         bool m_Closed = false;
         float m_LastHandleValue = 1.0f;
 
-        bool m_Locked = false;
+        bool m_Locked = true;
 
         GameObject m_KeySocket;
         IXRSelectInteractable m_Key;
@@ -166,6 +166,10 @@ namespace UnityEngine.XR.Content.Interaction
         {
             m_KnobInteractor = null;
             m_KnobInteractorAttachTransform = null;
+        }
+        public void changeLock(bool locked)
+        {
+            m_Locked = locked;
         }
     }
 }
