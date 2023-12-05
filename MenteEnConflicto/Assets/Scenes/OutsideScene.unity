@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 32178022}
   - component: {fileID: 32178021}
   - component: {fileID: 32178023}
-  - component: {fileID: 32178020}
   - component: {fileID: 32178024}
   m_Layer: 0
   m_Name: LeaveRoom
@@ -143,19 +142,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &32178020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32178019}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 773903347ac21a04597b3bb77daa0b85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  door: {fileID: 0}
 --- !u!65 &32178021
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -222,6 +208,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7304140861066739517, guid: cf3dc1b1f315618429cf21c8a8b8542e, type: 3}
   m_PrefabInstance: {fileID: 400414891}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &197855789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197855791}
+  - component: {fileID: 197855790}
+  m_Layer: 0
+  m_Name: sonidos de fuera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &197855790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197855789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -641732459
+      Data2: 1325451218
+      Data3: 197801388
+      Data4: -1805968032
+    Path: event:/Trafico
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &197855791
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197855789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.35, y: 3.98, z: 1.8253772}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &303798356 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2950162969453672307, guid: dd9a52bf782326c4883d32540910436f, type: 3}
@@ -972,6 +1020,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3538900603939779928, guid: cb5878222087c8949b9049c34feffa7a, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 2087291712}
+    - target: {fileID: 3538900603939779928, guid: cb5878222087c8949b9049c34feffa7a, type: 3}
       propertyPath: objectsToCollect.Array.size
       value: 4
       objectReference: {fileID: 0}
@@ -1131,7 +1183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073337075}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.06657076, y: -0.58902425, z: 4.2621713}
+  m_LocalPosition: {x: 0.06657076, y: -0.58902425, z: 4.288}
   m_LocalScale: {x: 0.12059, y: 1, z: 0.27444637}
   m_Children: []
   m_Father: {fileID: 841555059}
@@ -1570,37 +1622,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7184804031037542117, guid: b9afff63f47b3204891355fdf8e8cdde, type: 3}
   m_PrefabInstance: {fileID: 1696705842}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1618043733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618043732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: -641732459
-      Data2: 1325451218
-      Data3: 197801388
-      Data4: -1805968032
-    Path: event:/Trafico
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
 --- !u!4 &1618043741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9198663002541707747, guid: b9afff63f47b3204891355fdf8e8cdde, type: 3}
@@ -2400,7 +2421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3156788818243114494, guid: 5bf08e9c8daef2d46b8d582e573d8282, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.05100012
+      value: 0.106000185
       objectReference: {fileID: 0}
     - target: {fileID: 3156788818243114494, guid: 5bf08e9c8daef2d46b8d582e573d8282, type: 3}
       propertyPath: m_LocalRotation.w
