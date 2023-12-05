@@ -1144,7 +1144,7 @@ MonoBehaviour:
   m_RightHandTurnStyle: 0
   m_EnableComfortMode: 0
   m_ComfortMode: {fileID: 0}
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_EnableFly: 0
   m_EnableGrabMovement: 0
 --- !u!1001 &553018692727262454
