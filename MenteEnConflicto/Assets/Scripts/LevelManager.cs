@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Content.Interaction;
 
 public class LevelManager : MonoBehaviour
 {
-    private int totalObjects = 1;
+    public GameObject[] objectsToCollect;
     private int objectsCollected;
     private bool canChangeScene;
+    public Door door;
     private static LevelManager instance_;
     private GameManager gameManager;
 
@@ -44,14 +46,19 @@ public class LevelManager : MonoBehaviour
     {
         objectsCollected++;
         Debug.Log("Objects Collected: " + objectsCollected);
-        if (objectsCollected == totalObjects)
+        if (objectsCollected == objectsToCollect.Length)
         {
             canChangeScene = true;
         }
     }
+    public void removeObjectSelected()
+    {
+        objectsCollected--;
+        Debug.Log("Objects Collected: " + objectsCollected);
+    }
     public void tryLeaveRoom()
     {
-        if (canChangeScene)
+        if (canChangeScene && !door.isLocked())
         { 
             gameManager.changeScene("CentroCocotero");
         }

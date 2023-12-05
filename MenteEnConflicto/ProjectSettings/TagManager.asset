@@ -11,6 +11,9 @@ TagManager:
   - Water
   - Pillow
   - Key
+  - Vaca
+  - oveja
+  - Cajon
   layers:
   - Default
   - TransparentFX

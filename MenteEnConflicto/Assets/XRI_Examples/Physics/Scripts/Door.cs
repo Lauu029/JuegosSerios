@@ -171,5 +171,9 @@ namespace UnityEngine.XR.Content.Interaction
         {
             m_Locked = locked;
         }
+        public bool isLocked()
+        {
+            return m_Locked;
+        }
     }
 }

@@ -42,7 +42,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638373271429111409
+  lastModified: 638373269495962076
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -99,7 +99,7 @@ MonoBehaviour:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638373271429159333
+  cacheTime: 638373269495992175
   cacheVersion: 131609
 --- !u!114 &3230230705695538216
 MonoBehaviour:
@@ -116,7 +116,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638373271429122943
+  lastModified: 638373269495962076
   FileSizes:
   - Name: Desktop
     Value: 978
@@ -136,7 +136,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Sonidos muy intensos.bank
   Name: Sonidos muy intensos
   StudioPath: bank:/Sonidos muy intensos
-  lastModified: 638373271429129313
+  lastModified: 638373269495962076
   FileSizes:
   - Name: Desktop
     Value: 48832
@@ -156,7 +156,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638373271429159333
+  lastModified: 638373269495992175
   FileSizes:
   - Name: Desktop
     Value: 1251104
