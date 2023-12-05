@@ -14,6 +14,7 @@ TagManager:
   - Vaca
   - oveja
   - Cajon
+  - Taza
   layers:
   - Default
   - TransparentFX

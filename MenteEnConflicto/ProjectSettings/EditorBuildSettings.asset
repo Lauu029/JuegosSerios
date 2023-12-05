@@ -24,6 +24,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CentroCocotero.unity
     guid: ab8f383ecc3f4e246870f9f21d4988c3
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e7b6cf70c80d6634799bd6c8ea8a47ff, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 7b82b08ca8b24a54f9bec2143a2e1fcd, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fba6072275013e6448e381f83d131b7f, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e60ad326389e9b14e9f7ae2c33703862, type: 2}
