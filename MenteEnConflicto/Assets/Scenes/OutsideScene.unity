@@ -2764,6 +2764,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 1054376192392820449, guid: d873174ed8c9d2a448126278760d9a28, type: 3}
+      propertyPath: m_TagString
+      value: Laptop
+      objectReference: {fileID: 0}
     - target: {fileID: 1057204266603537859, guid: d873174ed8c9d2a448126278760d9a28, type: 3}
       propertyPath: m_RootOrder
       value: 6
