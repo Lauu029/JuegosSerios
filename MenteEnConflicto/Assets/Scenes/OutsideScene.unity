@@ -301,10 +301,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -641732459
-      Data2: 1325451218
-      Data3: 197801388
-      Data4: -1805968032
+      Data1: 2047026064
+      Data2: 1173477844
+      Data3: -970228053
+      Data4: -1698038736
     Path: event:/Trafico
   Event: 
   PlayEvent: 1
@@ -313,7 +313,9 @@ MonoBehaviour:
   TriggerOnce: 0
   Preload: 0
   AllowNonRigidbodyDoppler: 0
-  Params: []
+  Params:
+  - Name: AmbientDistance
+    Value: 69
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
