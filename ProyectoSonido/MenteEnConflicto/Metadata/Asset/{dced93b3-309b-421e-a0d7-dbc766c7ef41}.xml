@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="EncodableAsset" id="{dced93b3-309b-421e-a0d7-dbc766c7ef41}">
 		<property name="assetPath">
-			<value>Obras/</value>
+			<value>SonidosExteriores/Muy intensos/Obras/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>

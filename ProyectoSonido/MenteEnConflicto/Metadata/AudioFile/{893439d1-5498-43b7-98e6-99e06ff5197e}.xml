@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{893439d1-5498-43b7-98e6-99e06ff5197e}">
 		<property name="assetPath">
-			<value>Obras/taladro3.wav</value>
+			<value>SonidosExteriores/Muy intensos/Obras/taladro3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

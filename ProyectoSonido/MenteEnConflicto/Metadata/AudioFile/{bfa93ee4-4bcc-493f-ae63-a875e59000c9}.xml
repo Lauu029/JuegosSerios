@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{bfa93ee4-4bcc-493f-ae63-a875e59000c9}">
 		<property name="assetPath">
-			<value>Obras/martilloMadera.wav</value>
+			<value>SonidosExteriores/Muy intensos/Obras/martilloMadera.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

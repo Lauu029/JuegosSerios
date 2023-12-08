@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{6d2c9b7f-8d0c-49db-9804-62dc0912e9c1}">
 		<property name="assetPath">
-			<value>Obras/sierraElectrica.wav</value>
+			<value>SonidosExteriores/Muy intensos/Obras/sierraElectrica.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
