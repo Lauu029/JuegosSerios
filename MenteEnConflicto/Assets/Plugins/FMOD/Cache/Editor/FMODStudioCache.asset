@@ -288,7 +288,7 @@ MonoBehaviour:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638376409798135901
+  cacheTime: 638376418969909519
   cacheVersion: 131609
 --- !u!114 &2156408755551129723
 MonoBehaviour:
@@ -345,10 +345,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638376409798135901
+  lastModified: 638376418969909519
   FileSizes:
   - Name: Desktop
-    Value: 3081760
+    Value: 3082176
   Exists: 1
 --- !u!114 &8351528506772194004
 MonoBehaviour:
@@ -411,7 +411,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4159193931849171116}
   IsStream: 1
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
   - {fileID: -3482272511219791420}

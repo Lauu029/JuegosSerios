@@ -125,6 +125,9 @@
 		<property name="polyphony">
 			<value>2</value>
 		</property>
+		<property name="soundStealing">
+			<value>3</value>
+		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>1500</value>
 		</property>
@@ -163,6 +166,9 @@
 			<value>62.5</value>
 		</property>
 		<property name="polyphony">
+			<value>2</value>
+		</property>
+		<property name="soundStealing">
 			<value>3</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
