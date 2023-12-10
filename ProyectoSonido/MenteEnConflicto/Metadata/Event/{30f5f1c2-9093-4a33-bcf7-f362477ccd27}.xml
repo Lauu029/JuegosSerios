@@ -5,7 +5,7 @@
 			<value>GenteHablando</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6ae6a39c-de4a-4b23-ae0a-34a514aeea04}</destination>
@@ -136,7 +136,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="sound">
 			<destination>{d4bc403c-7266-41a9-9115-c817df6f1262}</destination>
