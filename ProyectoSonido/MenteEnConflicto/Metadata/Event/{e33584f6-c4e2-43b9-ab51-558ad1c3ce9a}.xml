@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{e33584f6-c4e2-43b9-ab51-558ad1c3ce9a}">
 		<property name="name">
-			<value>Obras</value>
+			<value>MartilloMetal</value>
 		</property>
 		<property name="outputFormat">
-			<value>5</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{6ae6a39c-de4a-4b23-ae0a-34a514aeea04}</destination>
@@ -155,7 +155,11 @@
 			<destination>{5f5e7b62-9a90-43f0-9ed9-24f4edf40aac}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{22cd72b0-9e0e-4b4a-9a0b-44189a7ca029}" />
+	<object class="MixerBusPanner" id="{22cd72b0-9e0e-4b4a-9a0b-44189a7ca029}">
+		<property name="overridingOutputFormat">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{4d6d06e0-64ea-4169-b148-a7a5a0b127d4}" />
 	<object class="Automator" id="{26c49e2f-90d8-484e-9bb9-1a6bfd6d4950}">
 		<property name="nameOfPropertyBeingAutomated">

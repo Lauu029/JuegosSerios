@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5d3ec527-efbc-44ba-afb1-f7f94136b716}">
+		<property name="name">
+			<value>SonidosExtra</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b2312353-a088-471b-831d-f112e337c87d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a7563dd6-a4ff-4785-88f3-13b29ae5f53c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a7563dd6-a4ff-4785-88f3-13b29ae5f53c}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
