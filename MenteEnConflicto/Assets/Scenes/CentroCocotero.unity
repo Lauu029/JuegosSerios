@@ -5121,7 +5121,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   people:
-  - {fileID: 498979923382261168, guid: ad09b6e1c7aabbc4f9a6b299b8e1135a, type: 3}
+  - {fileID: 2108101425689607428, guid: 0ee920ad8721084469b24005fd7a1c71, type: 3}
+  - {fileID: 2108101425689607428, guid: a459801f53bb9ba41988989a9b81201e, type: 3}
+  - {fileID: 2108101425689607428, guid: 3f41b822081b07a4487934360b9bc780, type: 3}
+  - {fileID: 2108101425689607428, guid: d2b54c95a7e8a7d438b064af162cea57, type: 3}
+  - {fileID: 2108101425689607428, guid: ba661a85900de9446a709cf589f2559e, type: 3}
+  - {fileID: 2108101425689607428, guid: af9504dd08afdaf4eaf5cc2720cef022, type: 3}
+  - {fileID: 2108101425689607428, guid: f34cfbef87b80e04fac1da01c15fe419, type: 3}
+  - {fileID: 2108101425689607428, guid: 084729da9d5b43d479e1dd0c6af8e8cb, type: 3}
+  - {fileID: 2108101425689607428, guid: e061ce6d92b30ef47a0a141b78d37f3f, type: 3}
   maxPeople: 100
   minSpawnTime: 0
   maxSpawnTime: 0
