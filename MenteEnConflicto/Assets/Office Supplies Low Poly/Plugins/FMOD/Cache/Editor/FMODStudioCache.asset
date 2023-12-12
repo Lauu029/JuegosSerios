@@ -27,6 +27,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7074
+--- !u!114 &-8517818735189963820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MartilloMetal
+  m_EditorClassIdentifier: 
+  Path: event:/MartilloMetal
+  Guid:
+    Data1: -483031818
+    Data2: 1136248034
+    Data3: -1974120021
+    Data4: -1697725487
+  Banks:
+  - {fileID: 7900978014421650048}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6005627881266518946}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-8105644681223099181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78,6 +106,30 @@ MonoBehaviour:
   - Medium
   - High
   Exists: 1
+--- !u!114 &-7644368700650708735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteObras/SonidosExtra
+  m_EditorClassIdentifier: 
+  Name: SonidosExtra
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2535665618
+    data2: 1643589543
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-6380818880355175297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,7 +145,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638376408300829267
+  lastModified: 638379909604862524
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -125,8 +177,8 @@ MonoBehaviour:
   - {fileID: -8038523354988454195}
   MinDistance: 1
   MaxDistance: 20
-  Length: 3169
---- !u!114 &-3935555627740404361
+  Length: 11573
+--- !u!114 &-6044387368245358587
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,7 +188,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Obras/PitchMartillo
+  m_Name: parameter:/Corazon/Anxiety
+  m_EditorClassIdentifier: 
+  Name: Anxiety
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 144667361
+    data2: 2902182771
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Low
+  - Medium
+  - High
+  Exists: 1
+--- !u!114 &-6005627881266518946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MartilloMetal/PitchMartillo
   m_EditorClassIdentifier: 
   Name: PitchMartillo
   StudioPath: 
@@ -150,6 +229,60 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-5623795283261012336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GolpesPared
+  m_EditorClassIdentifier: 
+  Path: event:/GolpesPared
+  Guid:
+    Data1: -1561672953
+    Data2: 1301496408
+    Data3: 851594163
+    Data4: -1281545790
+  Banks:
+  - {fileID: 8351528506772194004}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16000
+--- !u!114 &-5287791704541732581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ObjetosCaen
+  m_EditorClassIdentifier: 
+  Path: event:/ObjetosCaen
+  Guid:
+    Data1: 1166512090
+    Data2: 1229714884
+    Data3: 556665742
+    Data4: 2064121922
+  Banks:
+  - {fileID: 8351528506772194004}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20500
 --- !u!114 &-3482272511219791420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +307,7 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &-2678366739078089941
+--- !u!114 &-2936591011625619311
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,24 +317,53 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Obras
+  m_Name: event:/Portazos
   m_EditorClassIdentifier: 
-  Path: event:/Obras
+  Path: event:/Portazos
   Guid:
-    Data1: -483031818
-    Data2: 1136248034
-    Data3: -1974120021
-    Data4: -1697725487
+    Data1: -1003451023
+    Data2: 1290611795
+    Data3: 1543686818
+    Data4: 335231834
   Banks:
-  - {fileID: 8972585171871809040}
+  - {fileID: 8351528506772194004}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: -3935555627740404361}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2000
+  Length: 16000
+--- !u!114 &-2194998343967076885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbienteObras
+  m_EditorClassIdentifier: 
+  Path: event:/AmbienteObras
+  Guid:
+    Data1: -515135861
+    Data2: 1094080433
+    Data3: -692168044
+    Data4: -964950335
+  Banks:
+  - {fileID: 8351528506772194004}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7644368700650708735}
+  - {fileID: 1877987171285305251}
+  - {fileID: 5658316785088513323}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
 --- !u!114 &-2081551309548944940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +392,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 62500
+--- !u!114 &-513818486537720291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Corazon.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
+  Name: Corazon
+  StudioPath: bank:/Corazon
+  lastModified: 638379909604717617
+  FileSizes:
+  - Name: Desktop
+    Value: 22208
+  Exists: 1
 --- !u!114 &-440794419126899796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,22 +456,54 @@ MonoBehaviour:
   - {fileID: -6380818880355175297}
   - {fileID: 4159193931849171116}
   - {fileID: 8351528506772194004}
-  - {fileID: 8972585171871809040}
   - {fileID: 2156408755551129723}
+  - {fileID: -513818486537720291}
+  - {fileID: 7900978014421650048}
   EditorEvents:
   - {fileID: -8725165389690200358}
   - {fileID: -2081551309548944940}
   - {fileID: -440794419126899796}
   - {fileID: 9189095436266695510}
-  - {fileID: -2678366739078089941}
   - {fileID: -6239030372134967830}
+  - {fileID: 7179147635566416600}
+  - {fileID: 6039230427267672778}
+  - {fileID: -5623795283261012336}
+  - {fileID: 2438754030489851067}
+  - {fileID: -2936591011625619311}
+  - {fileID: -2194998343967076885}
+  - {fileID: -5287791704541732581}
+  - {fileID: -8517818735189963820}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638376418969909519
+  cacheTime: 638379909643660516
   cacheVersion: 131609
+--- !u!114 &1877987171285305251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteObras/IntensidadObras
+  m_EditorClassIdentifier: 
+  Name: IntensidadObras
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1273698289
+    data2: 3719787863
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &2156408755551129723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,11 +519,38 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638376408301859935
+  lastModified: 638379909606378160
   FileSizes:
   - Name: Desktop
-    Value: 28640
+    Value: 126240
   Exists: 1
+--- !u!114 &2438754030489851067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlarmaCoche
+  m_EditorClassIdentifier: 
+  Path: event:/AlarmaCoche
+  Guid:
+    Data1: 1576363030
+    Data2: 1326660069
+    Data3: -647658321
+    Data4: 908979368
+  Banks:
+  - {fileID: 8351528506772194004}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13000
 --- !u!114 &3230230705695538216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,10 +566,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638376408300849227
+  lastModified: 638379909604882412
   FileSizes:
   - Name: Desktop
-    Value: 1328
+    Value: 1834
   Exists: 1
 --- !u!114 &4159193931849171116
 MonoBehaviour:
@@ -345,10 +586,109 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638376418969909519
+  lastModified: 638379909643660516
   FileSizes:
   - Name: Desktop
-    Value: 3082176
+    Value: 3082368
+  Exists: 1
+--- !u!114 &5658316785088513323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteObras/PitchMartillo
+  m_EditorClassIdentifier: 
+  Name: PitchMartillo
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3266228057
+    data2: 1202309308
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &6039230427267672778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Latidos
+  m_EditorClassIdentifier: 
+  Path: event:/Latidos
+  Guid:
+    Data1: -670468951
+    Data2: 1115785288
+    Data3: 1225382300
+    Data4: -1754507343
+  Banks:
+  - {fileID: -513818486537720291}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7179147635566416600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Corazon
+  m_EditorClassIdentifier: 
+  Path: event:/Corazon
+  Guid:
+    Data1: -1460658428
+    Data2: 1269014402
+    Data3: -1885277527
+    Data4: 903525134
+  Banks:
+  - {fileID: -513818486537720291}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6044387368245358587}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3542
+--- !u!114 &7900978014421650048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SonidosMuyIntensos.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
+  Name: SonidosMuyIntensos
+  StudioPath: bank:/SonidosMuyIntensos
+  lastModified: 638379909623917951
+  FileSizes:
+  - Name: Desktop
+    Value: 13632
   Exists: 1
 --- !u!114 &8351528506772194004
 MonoBehaviour:
@@ -365,30 +705,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
   Name: SonidosIntensos
   StudioPath: bank:/SonidosIntensos
-  lastModified: 638374663560000000
+  lastModified: 638379909623414279
   FileSizes:
   - Name: Desktop
-    Value: 48832
-  Exists: 1
---- !u!114 &8972585171871809040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Obras.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Obras.bank
-  Name: Obras
-  StudioPath: bank:/Obras
-  lastModified: 638376408301211709
-  FileSizes:
-  - Name: Desktop
-    Value: 13184
+    Value: 2223776
   Exists: 1
 --- !u!114 &9189095436266695510
 MonoBehaviour:
@@ -411,7 +731,7 @@ MonoBehaviour:
   Banks:
   - {fileID: 4159193931849171116}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters:
   - {fileID: -3482272511219791420}
