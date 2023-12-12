@@ -16,6 +16,8 @@ TagManager:
   - Cajon
   - Taza
   - Laptop
+  - Foto
+  - Silla
   layers:
   - Default
   - TransparentFX
