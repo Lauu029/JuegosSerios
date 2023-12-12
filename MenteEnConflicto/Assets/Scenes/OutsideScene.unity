@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1187,8 +1187,8 @@ Transform:
   - {fileID: 303798356}
   - {fileID: 929202837}
   - {fileID: 698778926}
-  - {fileID: 428118287}
   - {fileID: 2061790179}
+  - {fileID: 428118287}
   - {fileID: 2034709322}
   - {fileID: 1951978592}
   - {fileID: 1512192673}
@@ -2848,13 +2848,13 @@ Transform:
   m_Children:
   - {fileID: 981099560}
   - {fileID: 684014500}
+  - {fileID: 3982001796451024514}
   - {fileID: 970526765}
   - {fileID: 112405263}
   - {fileID: 870201544}
-  - {fileID: 4196223756237883507}
   - {fileID: 553542193}
   - {fileID: 1552832858}
-  - {fileID: 3982001796451024514}
+  - {fileID: 4196223756237883507}
   - {fileID: 6984726458412373769}
   - {fileID: 2238654173153441783}
   - {fileID: 8355030959054209049}
@@ -3269,7 +3269,7 @@ GameObject:
   - component: {fileID: 481086678800711269}
   - component: {fileID: 481086678800711268}
   - component: {fileID: 481086678800711267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Silla
   m_TagString: Silla
   m_Icon: {fileID: 0}
@@ -4873,7 +4873,7 @@ Transform:
   m_LocalScale: {x: 0.55, y: 0.55, z: 0.55}
   m_Children: []
   m_Father: {fileID: 2050328445}
-  m_RootOrder: 8
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &4050067319997991393
 MeshRenderer:
@@ -5575,7 +5575,7 @@ GameObject:
   - component: {fileID: 5338775514414501640}
   - component: {fileID: 5338775514414501639}
   - component: {fileID: 5338775514414501638}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Marco foto
   m_TagString: Foto
   m_Icon: {fileID: 0}
@@ -6508,7 +6508,7 @@ GameObject:
   - component: {fileID: 7474480798217454978}
   - component: {fileID: 7474480798217454977}
   - component: {fileID: 7474480798217454976}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Keyboard
   m_TagString: Laptop
   m_Icon: {fileID: 0}
@@ -7599,7 +7599,7 @@ GameObject:
   - component: {fileID: 8850796757405046040}
   - component: {fileID: 8850796757405046039}
   - component: {fileID: 8850796757405046038}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mug
   m_TagString: Taza
   m_Icon: {fileID: 0}
