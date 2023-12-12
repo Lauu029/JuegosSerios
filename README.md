@@ -92,8 +92,6 @@ El juego está pensado para jugarse en talleres sobre psicología que traten est
 
 #### 1.1. Relato breve y parcial de una partida típica  
 
-Antes de comenzar, el jugador tendrá que rellenar una encuesta acerca de diversos aspectos de la ansiedad. El jugador entonces podrá acceder al menú principal, desde el que podrá jugar a cualquiera de los niveles. Una vez el jugador cumpla el objetivo del nivel, se le dará una breve explicación de lo que acaba de vivir para, más tarde, que tenga que volver a rellenar la encuesta del principio.
-
 ## 2. Menús y modos de juego
 
 El juego consta de un menú inicial de configuración y uno final. No habrá menú de pausa.
