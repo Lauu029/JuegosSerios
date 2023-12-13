@@ -278,7 +278,7 @@
 	</object>
 	<object class="MultiSound" id="{eabf16fb-0986-46e9-880f-6166170e2ce5}">
 		<property name="start">
-			<value>3.5800000000000001</value>
+			<value>3.6400000000000001</value>
 		</property>
 		<property name="length">
 			<value>0.37999999999999978</value>
@@ -297,13 +297,13 @@
 	</object>
 	<object class="MultiSound" id="{781507b0-f7d5-46ab-a376-4838d07d719e}">
 		<property name="start">
-			<value>3.2810689655172416</value>
+			<value>3.2400000000000002</value>
 		</property>
 		<property name="length">
-			<value>0.37893103448275844</value>
+			<value>0.41999999999999982</value>
 		</property>
 		<property name="volume">
-			<value>-9</value>
+			<value>2</value>
 		</property>
 		<property name="pitch">
 			<value>0.600000024</value>
@@ -449,10 +449,10 @@
 	</object>
 	<object class="LoopRegion" id="{f7521476-f655-42fa-8d93-570b6b31b9af}">
 		<property name="position">
-			<value>3.2800000000000002</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="length">
-			<value>0.6799999999999996</value>
+			<value>0.81999999999999929</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{14e08604-f9d0-4bdf-998a-bc7119ffbb3a}</destination>
@@ -463,7 +463,7 @@
 	</object>
 	<object class="NamedMarker" id="{92aac0f5-cabc-4680-8a16-2b7021d95444}">
 		<property name="position">
-			<value>3.2800000000000002</value>
+			<value>3.2000000000000002</value>
 		</property>
 		<property name="name">
 			<value>Rapida</value>
@@ -477,7 +477,7 @@
 	</object>
 	<object class="TransitionMarker" id="{2af28882-6b1e-4306-ae1d-12155273fc0b}">
 		<property name="position">
-			<value>3.96</value>
+			<value>4.0199999999999996</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{14e08604-f9d0-4bdf-998a-bc7119ffbb3a}</destination>
@@ -494,7 +494,7 @@
 	</object>
 	<object class="TransitionMarker" id="{c9b1f21f-881b-47a3-ab16-28d449d16b56}">
 		<property name="position">
-			<value>3.96</value>
+			<value>4.0199999999999996</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{14e08604-f9d0-4bdf-998a-bc7119ffbb3a}</destination>
@@ -1026,7 +1026,7 @@
 	</object>
 	<object class="AutomationPoint" id="{32e0c68d-3a18-405b-8410-666b14999efd}">
 		<property name="position">
-			<value>3.5800000000000001</value>
+			<value>3.6400000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -1037,7 +1037,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4fb07142-4f83-4f92-96c6-add3d437aca2}">
 		<property name="position">
-			<value>3.9399999999999999</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -1051,7 +1051,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471887</value>
+			<value>1</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{f6deac78-2dee-45e2-a9c2-d7d250e690d1}">
