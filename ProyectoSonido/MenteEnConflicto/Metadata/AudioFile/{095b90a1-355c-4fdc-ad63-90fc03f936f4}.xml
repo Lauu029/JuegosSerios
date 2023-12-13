@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{91b70495-a8b8-4c68-b6ea-f6b3dcf56cc9}">
+	<object class="AudioFile" id="{095b90a1-355c-4fdc-ad63-90fc03f936f4}">
 		<property name="assetPath">
-			<value>AtaqueAnsiedad/Respiracion/Rapida/respiracionFuerte1.wav</value>
+			<value>AtaqueAnsiedad/Respiracion/Rapida/espiraMuyFuerte1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<property name="length">
-			<value>3.5861904761904762</value>
+			<value>0.37907029478458049</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
