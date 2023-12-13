@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e872e28b-48c0-432a-b7c0-29e1bc096116}">
+		<property name="assetPath">
+			<value>AtaqueAnsiedad/Corazon/principiolatido.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.27671201814058954</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
+		</relationship>
+	</object>
+</objects>
