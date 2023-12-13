@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{f42f203a-941f-40ac-bcd1-0f3f677cdb84}">
 		<property name="name">
-			<value>AmbientDistance</value>
+			<value>AnxietyLevel</value>
 		</property>
 		<relationship name="folder">
 			<destination>{b2312353-a088-471b-831d-f112e337c87d}</destination>
