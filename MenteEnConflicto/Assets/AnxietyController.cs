@@ -10,13 +10,13 @@ public class AnxietyController : MonoBehaviour
     public FMODUnity.EventReference fmodEvent;
     
     [SerializeField]
-    [Range(0, 3)]
-    private int anxiety;
+    [Range(0,100)]
+    private float anxiety;
 
     // Start is called before the first frame update
     void Start()
     {
-        anxiety = 0;
+       // anxiety = 0;
         instance = FMODUnity.RuntimeManager.CreateInstance(fmodEvent);
         instance.start();
     }
@@ -24,6 +24,6 @@ public class AnxietyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        instance.setParameterByName("Anxiety", anxiety);
+        instance.setParameterByName("AnxietyLevel", anxiety);
     }
 }

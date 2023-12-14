@@ -1677,7 +1677,7 @@ MonoBehaviour:
       Data3: -1885277527
       Data4: 903525134
     Path: event:/Corazon
-  anxiety: 3
+  anxiety: 0
 --- !u!1001 &8558783458805764084
 PrefabInstance:
   m_ObjectHideFlags: 0
