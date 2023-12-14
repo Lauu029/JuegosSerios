@@ -11,8 +11,6 @@ public class AnxietyController : MonoBehaviour
     public FMODUnity.EventReference fmodEventHeart;
     public FMODUnity.EventReference fmodEventBreathe;
     
-    [SerializeField]
-    [Range(0,100)]
     private float anxiety;
 
     // Start is called before the first frame update
@@ -30,5 +28,9 @@ public class AnxietyController : MonoBehaviour
     {
         heartInstance.setParameterByName("AnxietyLevel", anxiety);
         breethingInsance.setParameterByName("AnxietyLevel", anxiety);
+    }
+    public void setAnxiety(float newAnxiety)
+    {
+        anxiety = newAnxiety;
     }
 }
