@@ -918,7 +918,7 @@
 			<value>0.027154101077050536</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-5</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{8dd7b38d-0059-4cfe-845a-49cd1b68baf9}">
@@ -926,7 +926,7 @@
 			<value>1.5025269262634631</value>
 		</property>
 		<property name="value">
-			<value>-16</value>
+			<value>-6</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{7fd24aec-6003-4c90-9be3-626361329122}">
@@ -934,7 +934,7 @@
 			<value>1.8</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{a458513e-a328-4c75-a16d-06b356e9de70}">
@@ -942,7 +942,7 @@
 			<value>2.6792046396023195</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-2</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{987ee5a9-318e-4b8a-b854-611aa6abd9f6}">
@@ -958,7 +958,7 @@
 			<value>3.1000000000000001</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-2</value>
 		</property>
 		<property name="curveShape">
 			<value>0.22667706</value>
@@ -974,10 +974,10 @@
 	</object>
 	<object class="AutomationPoint" id="{3405acbd-f91c-4b30-b3b3-7e5322510434}">
 		<property name="position">
-			<value>6</value>
+			<value>5.4000000000000004</value>
 		</property>
 		<property name="value">
-			<value>1</value>
+			<value>3</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.0350096449</value>
@@ -993,10 +993,10 @@
 	</object>
 	<object class="AutomationPoint" id="{4e8304e8-17ef-4636-9460-05b3b934e094}">
 		<property name="position">
-			<value>12.100000000000001</value>
+			<value>12.200000000000001</value>
 		</property>
 		<property name="value">
-			<value>-1</value>
+			<value>4</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4d4f1d62-a35e-4974-a917-a7b05d8c890a}">
@@ -1004,7 +1004,7 @@
 			<value>14.844310519079231</value>
 		</property>
 		<property name="value">
-			<value>-8</value>
+			<value>-2</value>
 		</property>
 	</object>
 </objects>
