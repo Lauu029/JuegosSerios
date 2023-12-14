@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{9e959555-a074-4544-909a-0e8e2eff746e}">
+		<property name="assetPath">
+			<value>AtaqueAnsiedad/Respiracion/Lenta/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
+		</relationship>
+	</object>
+</objects>
