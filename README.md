@@ -230,6 +230,14 @@ En la habitación habrá también una llave, que el jugador tendrá que coger pa
 
 Se pide al jugador que salga de casa a un centro comercial. A medida que avanza el camino habrá cada vez más personas y más ruido, haciendo que el agobio se incremente en el tiempo. El jugador tendrá que coger un bus que está lleno de gente para acabar en un centro comercial medianamente lleno. El jugador tendrá que ir a una tienda y volver a la entrada del centro comercial, viendo el centro cada vez más lleno. El juego acaba cuando el jugador llega a la entrada del centro comercial.
 
+<p align="center">
+  <img src="./Imagenes/EsquemaCentroComercial.png" alt="vista"/>
+</p>
+
+La imagen muestra un esquema de como será el centro comercial.
+
+
+
 ### 5. Referencias
 
 - Celeste: [Steam - Celeste](https://store.steampowered.com/app/504230/Celeste/)
