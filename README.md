@@ -3,11 +3,11 @@
 Laura Gómez Bodego ( <lgomez25@ucm.es> ),
 Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@ucm.es> )
 
-| Resumen ||
-|--------------|--------------|
-| **Géneros**:</br> Simulación | **Modo**:</br> 1 jugador |
-| **Público Objetivo**:</br> Oyentes de un taller sobre ansiedad. Mayores de 16 años| **Plataformas**:</br> VR|
-**Hitos**:</br> 5/10/2023 - Presentación de la idea.</br> 7/11/2023 - Primera revisión del GDD| **Cantidades:** |
+| Resumen                                                                                        |                          |
+| ---------------------------------------------------------------------------------------------- | ------------------------ |
+| **Géneros**:</br> Simulación                                                                   | **Modo**:</br> 1 jugador |
+| **Público Objetivo**:</br> Oyentes de un taller sobre ansiedad. Mayores de 16 años             | **Plataformas**:</br> VR |
+| **Hitos**:</br> 5/10/2023 - Presentación de la idea.</br> 7/11/2023 - Primera revisión del GDD | **Cantidades:**          |
 
 ## Descripción
 
@@ -19,7 +19,7 @@ El juego está pensado para jugarse en talleres sobre psicología que traten est
 ## Logotipo y portada del juego
 
 <p align="center">
-  <img src="./Logo.png" alt="vista"/>
+  <img src="./Imagenes/Logo.png" alt="vista"/>
 </p>
 
 ## ÍNDICE
