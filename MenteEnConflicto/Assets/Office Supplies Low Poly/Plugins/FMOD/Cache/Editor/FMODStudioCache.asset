@@ -118,7 +118,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638381091413841276
+  lastModified: 638381129016442522
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -179,6 +179,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &-4169933587351449216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RespiracionesNiveles
+  m_EditorClassIdentifier: 
+  Path: event:/RespiracionesNiveles
+  Guid:
+    Data1: -1413915338
+    Data2: 1159952914
+    Data3: -1919549053
+    Data4: -1402521580
+  Banks:
+  - {fileID: 2156408755551129723}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8824432297174717047}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4020
 --- !u!114 &-3482272511219791420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -336,13 +364,13 @@ MonoBehaviour:
   - {fileID: 821158376650601642}
   - {fileID: 3121021884506907850}
   - {fileID: 7158432959538359494}
-  - {fileID: 5200798775931226966}
+  - {fileID: -4169933587351449216}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638381124085696986
+  cacheTime: 638381129017451039
   cacheVersion: 131609
 --- !u!114 &821158376650601642
 MonoBehaviour:
@@ -387,10 +415,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638381091414939335
+  lastModified: 638381129017451039
   FileSizes:
   - Name: Desktop
-    Value: 227904
+    Value: 146816
   Exists: 1
 --- !u!114 &2204809641603227938
 MonoBehaviour:
@@ -487,10 +515,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638381091413841276
+  lastModified: 638381129016442522
   FileSizes:
   - Name: Desktop
-    Value: 1702
+    Value: 1710
   Exists: 1
 --- !u!114 &3238203318736152436
 MonoBehaviour:
@@ -608,33 +636,6 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
---- !u!114 &5200798775931226966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Respiracion 2
-  m_EditorClassIdentifier: 
-  Path: event:/Respiracion 2
-  Guid:
-    Data1: -1413915338
-    Data2: 1159952914
-    Data3: -1919549053
-    Data4: -1402521580
-  Banks:
-  - {fileID: 2156408755551129723}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 3520
 --- !u!114 &6342503125180385939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -754,6 +755,30 @@ MonoBehaviour:
   FileSizes:
   - Name: Desktop
     Value: 2227872
+  Exists: 1
+--- !u!114 &8824432297174717047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/RespiracionesNiveles/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 0
+  Labels: []
   Exists: 1
 --- !u!114 &9131050825531530672
 MonoBehaviour:

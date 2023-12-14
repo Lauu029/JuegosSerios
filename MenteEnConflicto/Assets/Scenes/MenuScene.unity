@@ -1670,13 +1670,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dd1ede1782e5bb4590893f5078e4feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fmodEvent:
+  fmodEventHeart:
     Guid:
       Data1: -1460658428
       Data2: 1269014402
       Data3: -1885277527
       Data4: 903525134
     Path: event:/Corazon
+  fmodEventBreathe:
+    Guid:
+      Data1: -1413915338
+      Data2: 1159952914
+      Data3: -1919549053
+      Data4: -1402521580
+    Path: event:/RespiracionesNiveles
   anxiety: 0
 --- !u!1001 &8558783458805764084
 PrefabInstance:
