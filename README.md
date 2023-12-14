@@ -119,6 +119,7 @@ La interfaz se representa mediante objetos físicos en cada nivel. Esto es porqu
 
 - Tiempo de partida: En cada escena habrá un reloj físico a la vista, con el que el jugador no podrá interactuar, que lleve la cuenta del tiempo que lleva el jugador en la partida.
 - Objetivo del nivel: se representará como un cartel en algún punto que sea altamente visible de la sala.
+- Centro comercial: Para representar, en el centro comercial, el objetivo, el sitio hacia donde se tiene que dirigir el jugador, se dibujará en el suelo una flecha que indique la dirección a seguir.
 
 ## 3. Jugabilidad
 
@@ -135,7 +136,7 @@ La interfaz se representa mediante objetos físicos en cada nivel. Esto es porqu
 
 ##### 3.1.2.1. Fonofobia
 
-A lo largo de esta parte del juego, se irán reproduciendo aleatoriamente varios sonidos. Estos sonidos están divididos según su intensidad / volúmen y el efecto que pueden causar en el jugador. Al principio, se reproducirá los que menos afecten, para ir aumentando progresivamente la intensidad. Además, todos los sonidos sonarán más fuerte de lo normal para surtir más efecto. Los sonidos se dividen en:
+A lo largo de esta parte del juego, se irán reproduciendo aleatoriamente varios sonidos. Estos sonidos están divididos según su intensidad / volúmen y el efecto que pueden causar en el jugador. Al principio, se reproducirá los que menos afecten, para ir aumentando progresivamente la intensidad, es decir, los sonidos sonarán de forma aleatoria pero incremental. Además, todos los sonidos sonarán más fuerte de lo normal para surtir más efecto. Los sonidos se dividen en:
 
 - Poco intensos:
   - Gente hablando en la calle
@@ -166,9 +167,13 @@ Dependiendo del escenario, se distinguen varias dinámicas:
 
 El objetivo es recoger un cuarto desorganizado mientras suenan diferentes sonidos que no puede controlar, y que suenan exageradamente altos.
 
+En cuanto al objetivo educativo, se pretende que el jugador se sienta abrumado por los sonidos, y que se sienta incapaz de hacer nada para pararlos, de tal forma que se cumpla el objetivo de concienciación propuesto.
+
 #### 3.2.2. Agorafobia
 
 El objetivo de este escenario es ir a un centro comercial a comprar algo y volver a la salida de este. En el camino el jugador se irá encontrando cada vez más gente y le dará la sensación de pasar menos inadvertido.
+
+En cuanto al objetivo educativo, se pretende que el jugador se sienta abrumado por la cantidad de gente que hay a su alrededor, que se sienta observado, el centro de atención y que se sienta incapaz de hacer nada para pararlos, de tal forma que se cumpla el objetivo de concienciación propuesto. 
 
 ### 3.3. Estética
 
@@ -204,6 +209,22 @@ El juego se divide en dos partes, ambas poniendo el enfoque en una de las dos fo
 En esta escena se presenta al jugador en una sala completamente desorganizada.
 
 El objetivo de este nivel es recoger la habitación. A lo largo del nivel irán sonando ruidos de fondo (ambulancias, portazos, gritos, etc.), cada vez más altos. Cuanto más ruido se genera, más alto suenan las voces. Al final de esta parte, la cámara comienza a temblar, la visión se pone borrosa y comienza a oírse el timbre y la voz de la vecina constantemente a alto volumen. El jugador tendrá que mantenerse quieto y en silencio total hasta que pase el ruido,  además no se permitirá que el jugador interaccione con nada hasta que finalice esta situación unos segundos después. Se pretende con esto simular un ataque de pánico, y generar gran  ansiedad en el jugador. Esta parte del nivel terminará cuando acabe de recoger la habitación, dando lugar a la segunda parte.
+
+<p align="center">
+  <img src="./Imagenes/EsquemaHabitacion.png" alt="vista"/>
+</p>
+
+La habitación, una habitación de un piso de estudiante, estará llena de objetos que el jugador tendrá que recoger y colocar en su sitio. La imagen de arriba muestra un esquema de la habitación, con los objetos que habrá que recoger y colocar en su sitio. Entre estos objetos se encuentran:
+- Almohadas
+- Libros
+- Cuadros
+- Tazas
+- Componentes de ordenador (teclado...)
+- Sillas
+- Macetas
+
+En la habitación habrá también una llave, que el jugador tendrá que coger para poder abrir la puerta de la habitación y salir. No obstante, el jugador no podrá salir de la habitación hasta que no haya recogido todos los objetos.
+
 
 #### 4.1.2 Agorafobia
 
