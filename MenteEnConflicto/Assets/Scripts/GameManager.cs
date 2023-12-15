@@ -25,7 +25,10 @@ public class GameManager : MonoBehaviour
         if (instance_ != null && instance_ != this)
             Destroy(this);
         else
+        {
             instance_ = this;
+            DontDestroyOnLoad(gameObject);
+        }
     }
 
     public static GameManager Instance
@@ -58,8 +61,8 @@ public class GameManager : MonoBehaviour
             depthOfField_.active = true;
             depthOfField_.gaussianStart.SetValue(new UnityEngine.Rendering.FloatParameter(0.0f));
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1-(anxiety/100)));
-            if (!playerLocked)
-                lockPlayer();
+            //if (!playerLocked)
+            //    lockPlayer();
         }
         else
         {
@@ -69,8 +72,8 @@ public class GameManager : MonoBehaviour
             depthOfField_.active = false;
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1000));
             //volume.SetActive(false);
-            if (playerLocked)
-                unLockPlayer();
+            //if (playerLocked)
+            //    unLockPlayer();
         }
         if (playerLocked)
         {

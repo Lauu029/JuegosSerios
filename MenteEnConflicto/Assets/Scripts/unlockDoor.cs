@@ -19,6 +19,7 @@ public class unlockDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Key")
+            Debug.Log("Key Entered");
         { 
             door.changeLock(false);
         }
