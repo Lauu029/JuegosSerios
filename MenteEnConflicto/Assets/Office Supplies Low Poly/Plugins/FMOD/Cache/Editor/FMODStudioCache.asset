@@ -49,7 +49,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-8105644681223099181
@@ -73,7 +73,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-8038523354988454195
@@ -118,10 +118,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638376408300829267
+  lastModified: 638382797986031733
   FileSizes:
   - Name: Desktop
-    Value: 1036
+    Value: 1224
   Exists: 1
 --- !u!114 &-6239030372134967830
 MonoBehaviour:
@@ -179,6 +179,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
+--- !u!114 &-5153642208704248456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Reloj
+  m_EditorClassIdentifier: 
+  Path: event:/Reloj
+  Guid:
+    Data1: -147263451
+    Data2: 1161116761
+    Data3: 1568991415
+    Data4: -219641039
+  Banks:
+  - {fileID: 4159193931849171116}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 5299638682233276440}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-4169933587351449216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,7 +256,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-2573674746800047343
@@ -252,7 +280,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &-2081551309548944940
@@ -326,10 +354,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
   Name: Corazon
   StudioPath: bank:/Corazon
-  lastModified: 638381659479802621
+  lastModified: 638382797182834944
   FileSizes:
   - Name: Desktop
-    Value: 21664
+    Value: 21728
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -365,12 +393,14 @@ MonoBehaviour:
   - {fileID: 3121021884506907850}
   - {fileID: 7158432959538359494}
   - {fileID: -4169933587351449216}
-  EditorParameters: []
+  - {fileID: -5153642208704248456}
+  EditorParameters:
+  - {fileID: 6756030670212081389}
   MasterBanks:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638381659479872437
+  cacheTime: 638382809542838390
   cacheVersion: 131609
 --- !u!114 &821158376650601642
 MonoBehaviour:
@@ -415,10 +445,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638381659479872437
+  lastModified: 638382797184545041
   FileSizes:
   - Name: Desktop
-    Value: 146816
+    Value: 146880
   Exists: 1
 --- !u!114 &2204809641603227938
 MonoBehaviour:
@@ -441,7 +471,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &2856942504793517395
@@ -515,10 +545,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638381611295161122
+  lastModified: 638382797986041702
   FileSizes:
   - Name: Desktop
-    Value: 1710
+    Value: 1756
   Exists: 1
 --- !u!114 &3238203318736152436
 MonoBehaviour:
@@ -563,7 +593,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
   Name: SonidosMuyIntensos
   StudioPath: bank:/SonidosMuyIntensos
-  lastModified: 638379935784774015
+  lastModified: 638382797198008960
   FileSizes:
   - Name: Desktop
     Value: 13632
@@ -583,10 +613,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638381611295380784
+  lastModified: 638382809542838390
   FileSizes:
   - Name: Desktop
-    Value: 3082592
+    Value: 3086976
   Exists: 1
 --- !u!114 &4308211699013030345
 MonoBehaviour:
@@ -633,7 +663,31 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5299638682233276440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Reloj/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &6342503125180385939
@@ -657,7 +711,31 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6756030670212081389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: parameter:/AnxietyLevel
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &7158432959538359494
@@ -709,7 +787,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &7456287110900731439
@@ -733,7 +811,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &8351528506772194004
@@ -751,10 +829,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
   Name: SonidosIntensos
   StudioPath: bank:/SonidosIntensos
-  lastModified: 638381611295231245
+  lastModified: 638382797197608614
   FileSizes:
   - Name: Desktop
-    Value: 2227872
+    Value: 2227936
   Exists: 1
 --- !u!114 &8824432297174717047
 MonoBehaviour:
@@ -777,7 +855,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &9131050825531530672
@@ -801,7 +879,7 @@ MonoBehaviour:
     data1: 3449408337
     data2: 3049899629
   Type: 0
-  IsGlobal: 0
+  IsGlobal: 1
   Labels: []
   Exists: 1
 --- !u!114 &9159005743981665269

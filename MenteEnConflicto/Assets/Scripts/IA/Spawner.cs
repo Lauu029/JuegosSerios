@@ -38,7 +38,7 @@ public class Spawner : MonoBehaviour
                 spawnPoint += transform.position;
             } while (!NavMesh.SamplePosition(spawnPoint, out hit, spawnRadius, 1));
 
-            Instantiate(people[Random.Range(0, people.Length)], spawnPoint, Quaternion.identity, transform);
+            Instantiate(people[Random.Range(0, people.Length)], hit.position, Quaternion.identity, transform);
         }
 
         yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));

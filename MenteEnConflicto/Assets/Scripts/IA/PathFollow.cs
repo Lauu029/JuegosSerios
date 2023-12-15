@@ -20,7 +20,15 @@ public class PathFollow : MonoBehaviour
         if (!navMeshAgent.pathPending && navMeshAgent.remainingDistance < 0.5f)
         {
             Vector3 randomDirection = Random.insideUnitSphere * radius + transform.position;
-            navMeshAgent.SetDestination(randomDirection);
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(randomDirection, out hit, radius, 1))
+                navMeshAgent.SetDestination(hit.position);
+
         }
+    }
+
+    void LateUpdate()
+    {
+        transform.GetChild(1).GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(2).LookAt(new Vector3(0, 0, 0));
     }
 }
