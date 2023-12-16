@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{39167a4a-08b9-4370-8d4f-a734b3a44815}">
+		<property name="assetPath">
+			<value>CentroComercial/BebeLlorando/bebeLlorando3.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>39.887999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
+		</relationship>
+	</object>
+</objects>

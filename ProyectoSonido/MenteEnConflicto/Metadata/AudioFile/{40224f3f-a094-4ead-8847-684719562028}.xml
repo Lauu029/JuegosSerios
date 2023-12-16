@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{40224f3f-a094-4ead-8847-684719562028}">
+		<property name="assetPath">
+			<value>CentroComercial/Risas/risas5.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1519999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
+		</relationship>
+	</object>
+</objects>
