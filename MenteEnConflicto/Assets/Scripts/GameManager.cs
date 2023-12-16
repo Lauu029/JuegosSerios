@@ -55,10 +55,10 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         player.GetComponent<AnxietyController>().setAnxiety(anxiety);
-        if(SceneManager.GetActiveScene().name == "OutsideScene")
+        if (SceneManager.GetActiveScene().name == "RoomScene")
         {
             timerAddAnxiety += Time.deltaTime;
-            if(timerAddAnxiety >= 1)
+            if (timerAddAnxiety >= 1)
             {
                 timerAddAnxiety = 0;
                 if (anxiety <= 100) anxiety++;
@@ -70,12 +70,12 @@ public class GameManager : MonoBehaviour
         {
             //volume.SetActive(true);
             volume.TryGet<MotionBlur>(out motionBlur_);
-            motionBlur_.intensity.SetValue( new UnityEngine.Rendering.FloatParameter( anxiety / 100));
+            motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(anxiety / 100));
 
             volume.TryGet<DepthOfField>(out depthOfField_);
             depthOfField_.active = true;
             depthOfField_.gaussianStart.SetValue(new UnityEngine.Rendering.FloatParameter(0.0f));
-            depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1-(anxiety/100)));
+            depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1 - (anxiety / 100)));
             //if (!playerLocked)
             //    lockPlayer();
 
@@ -92,10 +92,10 @@ public class GameManager : MonoBehaviour
             //    unLockPlayer();
         }
 
-        if(characterController_.velocity == Vector3.zero && anxiety > 0)
+        if (characterController_.velocity == Vector3.zero && anxiety > 0)
         {
             timerRemoveAnxiety += Time.deltaTime;
-            if(timerRemoveAnxiety >= 1)
+            if (timerRemoveAnxiety >= 1)
             {
                 timerRemoveAnxiety = 0;
                 anxiety--;
