@@ -13,12 +13,22 @@ public class NPCBehaviour : MonoBehaviour
     private float radius = 40.0f;
 
     [SerializeField]
+    [Range(0, 100)]
     private float rangeVision = 10.0f;
+
+    [SerializeField]
+    [Range(0, 360)]
+    private float angleVision = 75.0f;
+
+    private Transform headTransform;
+
+    private float lookCont = 0.0f;
 
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
         player = GameObject.Find("XR Origin");
+        headTransform = transform.GetChild(1).GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(2).GetChild(0);
     }
 
     void Update()
@@ -35,8 +45,18 @@ public class NPCBehaviour : MonoBehaviour
 
     void LateUpdate()
     {
-        if (Vector3.Distance(player.transform.position, transform.position) < rangeVision && Vector3.Angle(transform.forward, player.transform.position - transform.position) < 45)
-            transform.GetChild(1).GetChild(0).GetChild(0).GetChild(0).GetChild(0).GetChild(2).rotation = Quaternion.LookRotation(player.transform.position - transform.position, Vector3.up);
+        if (Vector3.Distance(player.transform.position, transform.position) > rangeVision) return;
+        if (Vector3.Angle(transform.forward, player.transform.position - transform.position) > angleVision) return;
+
+        headTransform.LookAt(new Vector3(player.transform.position.x, headTransform.position.y, player.transform.position.z));
+
+        lookCont += Time.deltaTime;
+
+        if (lookCont > 1.0f)
+        {
+            lookCont = 0.0f;
+            GameManager.Instance.addAnxiety();
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
