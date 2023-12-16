@@ -19,6 +19,7 @@ TagManager:
   - Foto
   - Silla
   - Maraca
+  - Comprar
   layers:
   - Default
   - TransparentFX

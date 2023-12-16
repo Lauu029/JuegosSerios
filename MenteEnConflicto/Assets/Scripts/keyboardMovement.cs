@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.XR.CoreUtils;
 using UnityEngine;
 
 public class keyboardMovement : MonoBehaviour
@@ -9,7 +10,7 @@ public class keyboardMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _myCharacterController = GetComponent<CharacterController>();
+        _myCharacterController = gameObject.GetNamedChild("Complete XR Origin Set Up").GetNamedChild("XR Origin").GetComponent<CharacterController>(); 
     }
 
     // Update is called once per frame

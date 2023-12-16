@@ -45,6 +45,13 @@ public class LevelManager : MonoBehaviour
     public void addObjectSelected()
     {
         objectsCollected++;
+
+        PathManager pathManager;
+        if(TryGetComponent<PathManager>(out pathManager))
+        {
+            pathManager.ChangeActualPath();
+        }
+
         Debug.Log("Objects Collected: " + objectsCollected);
         if (objectsCollected == objectsToCollect.Length)
         {
@@ -66,5 +73,10 @@ public class LevelManager : MonoBehaviour
         {
             Debug.Log("Player has not collected all objects");
         }
+    }
+
+    public int getObjectsCollected()
+    {
+        return objectsCollected;
     }
 }

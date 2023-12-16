@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.SceneManagement;
 public class XrSocketTagInteractor : XRSocketInteractor
 {
     public string tagToCollect;
@@ -22,5 +23,9 @@ public class XrSocketTagInteractor : XRSocketInteractor
     {
         base.OnSelectEntered(interactable);
         levelManager.addObjectSelected();
+        if (SceneManager.GetActiveScene().name == "CentroCocotero")
+        {
+            interactable.gameObject.active = false;
+        }
     }
 }
