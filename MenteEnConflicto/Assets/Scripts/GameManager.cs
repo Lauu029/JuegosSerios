@@ -129,4 +129,8 @@ public class GameManager : MonoBehaviour
     {
         anxiety++;
     }
+    public void stopGame()
+    {
+        Application.Quit();
+    }
 }

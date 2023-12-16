@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Content.Interaction;
 
 public class LevelManager : MonoBehaviour
@@ -29,31 +30,27 @@ public class LevelManager : MonoBehaviour
             return instance_;
         }
     }
-    // Start is called before the first frame update
     void Start()
     {
         gameManager = GameManager.Instance;
         objectsCollected = 0;
         canChangeScene = false;
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
+        if (SceneManager.GetActiveScene().name == "CentroCocotero") return;
 
     }
+
     public void addObjectSelected()
     {
         objectsCollected++;
+        Debug.Log("Objects Collected: " + objectsCollected);
 
         PathManager pathManager;
-        if(TryGetComponent<PathManager>(out pathManager))
+        if (TryGetComponent<PathManager>(out pathManager))
         {
             pathManager.ChangeActualPath();
         }
-
-        Debug.Log("Objects Collected: " + objectsCollected);
-        if (objectsCollected == objectsToCollect.Length)
+        else if (objectsCollected == objectsToCollect.Length)
         {
             canChangeScene = true;
         }
@@ -65,8 +62,10 @@ public class LevelManager : MonoBehaviour
     }
     public void tryLeaveRoom()
     {
+        if (SceneManager.GetActiveScene().name == "CentroCocotero") return;
+
         if (canChangeScene && !door.isLocked())
-        { 
+        {
             gameManager.changeScene("CentroCocotero");
         }
         else

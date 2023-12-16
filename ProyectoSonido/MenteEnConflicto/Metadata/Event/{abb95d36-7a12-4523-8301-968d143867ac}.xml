@@ -1098,7 +1098,7 @@
 			<value>45</value>
 		</property>
 		<property name="maximum">
-			<value>80</value>
+			<value>100</value>
 		</property>
 		<relationship name="parameter">
 			<destination>{96d6705d-ec36-4e46-913d-61ab03faa744}</destination>
@@ -1141,7 +1141,7 @@
 	</object>
 	<object class="ParameterCondition" id="{b814f0fa-5311-4453-b596-ab79c9785bdb}">
 		<property name="minimum">
-			<value>20</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>44</value>
@@ -1164,7 +1164,7 @@
 	</object>
 	<object class="ParameterCondition" id="{07d5dd99-574a-47f0-bfe5-d91c681af3dc}">
 		<property name="minimum">
-			<value>45</value>
+			<value>0</value>
 		</property>
 		<property name="maximum">
 			<value>80</value>
