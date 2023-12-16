@@ -8,8 +8,6 @@ public class ShowPath : MonoBehaviour
 {
 
     private List<GameObject> spherePath;
-
-    [SerializeField]
     private Transform src;
     private Transform dest;
 
@@ -19,6 +17,7 @@ public class ShowPath : MonoBehaviour
     void Start()
     {
         spherePath = new List<GameObject>();
+        src = playerController.Instance.transform;
         dest = transform;
     }
 
