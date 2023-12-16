@@ -91,7 +91,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638383404681838448
+  lastModified: 638383262194041807
   FileSizes:
   - Name: Desktop
     Value: 1224
@@ -299,7 +299,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
   Name: Corazon
   StudioPath: bank:/Corazon
-  lastModified: 638382797182834944
+  lastModified: 638383262194041807
   FileSizes:
   - Name: Desktop
     Value: 21728
@@ -344,7 +344,7 @@ MonoBehaviour:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638383404690212958
+  cacheTime: 638383435579251539
   cacheVersion: 131609
 --- !u!114 &821158376650601642
 MonoBehaviour:
@@ -389,7 +389,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638383404683988032
+  lastModified: 638383435578943791
   FileSizes:
   - Name: Desktop
     Value: 288128
@@ -489,7 +489,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638383404681858395
+  lastModified: 638383435578903589
   FileSizes:
   - Name: Desktop
     Value: 1616
@@ -537,7 +537,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
   Name: SonidosMuyIntensos
   StudioPath: bank:/SonidosMuyIntensos
-  lastModified: 638383404688992236
+  lastModified: 638383435579095245
   FileSizes:
   - Name: Desktop
     Value: 13120
@@ -557,7 +557,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638383404690212958
+  lastModified: 638383435579251539
   FileSizes:
   - Name: Desktop
     Value: 3087360
@@ -749,7 +749,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
   Name: SonidosIntensos
   StudioPath: bank:/SonidosIntensos
-  lastModified: 638383404688722950
+  lastModified: 638383435579070073
   FileSizes:
   - Name: Desktop
     Value: 2610976
