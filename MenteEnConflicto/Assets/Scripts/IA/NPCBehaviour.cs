@@ -18,7 +18,7 @@ public class NPCBehaviour : MonoBehaviour
     void Start()
     {
         navMeshAgent = GetComponent<NavMeshAgent>();
-        player = playerController.Instance.gameObject;
+        player = GameObject.Find("XR Origin");
     }
 
     void Update()
