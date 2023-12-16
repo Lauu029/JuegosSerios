@@ -7,27 +7,51 @@ using UnityEngine.AI;
 public class ShowPath : MonoBehaviour
 {
 
-    private TrailRenderer trailRenderer;
+    private List<GameObject> spherePath;
 
     [SerializeField]
-    private Transform target;
+    private Transform src;
+    private Transform dest;
+
+    [SerializeField]
+    private GameObject dotPrefab;
+
     void Start()
     {
-        trailRenderer = gameObject.GetComponent<TrailRenderer>();
+        spherePath = new List<GameObject>();
+        dest = transform;
     }
-
 
     void Update()
     {
         NavMeshPath path = new NavMeshPath();
 
-        if (NavMesh.CalculatePath(target.position, transform.position, 1, path))
+        if (NavMesh.CalculatePath(src.position, dest.position, 1, path))
         {
-            trailRenderer.Clear();
+            spherePath.ForEach(Destroy);
+            spherePath.Clear();
 
             for (int i = 0; i < path.corners.Length - 1; i++)
             {
-                trailRenderer.AddPosition(path.corners[i]);
+                Vector3 currentCorner = path.corners[i];
+                Vector3 nextCorner = path.corners[i + 1];
+
+                float distance = Vector3.Distance(currentCorner, nextCorner);
+
+                if (distance > 1)
+                {
+                    int extraSpheres = (int)(distance / 1);
+
+                    for (int j = 0; j < extraSpheres; j++)
+                    {
+                        Vector3 pos = Vector3.Lerp(currentCorner, nextCorner, j / (float)extraSpheres);
+                        spherePath.Add(Instantiate(dotPrefab, new Vector3(pos.x, pos.y + 0.5f, pos.z), Quaternion.identity));
+                    }
+                }
+                else
+                {
+                    spherePath.Add(Instantiate(dotPrefab, new Vector3(currentCorner.x, currentCorner.y + 0.5f, currentCorner.z), Quaternion.identity));
+                }
             }
         }
 

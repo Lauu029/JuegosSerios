@@ -3,11 +3,11 @@
 Laura Gómez Bodego ( <lgomez25@ucm.es> ),
 Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@ucm.es> )
 
-| Resumen                                                                                        |                          |
-| ---------------------------------------------------------------------------------------------- | ------------------------ |
-| **Géneros**:</br> Simulación                                                                   | **Modo**:</br> 1 jugador |
-| **Público Objetivo**:</br> Oyentes de un taller sobre ansiedad. Mayores de 16 años             | **Plataformas**:</br> VR |
-| **Hitos**:</br> 5/10/2023 - Presentación de la idea.</br> 7/11/2023 - Primera revisión del GDD | **Cantidades:**          |
+| Resumen                                                                                                                                                            |                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------ |
+| **Géneros**:</br> Simulación                                                                                                                                       | **Modo**:</br> 1 jugador |
+| **Público Objetivo**:</br> Oyentes de un taller sobre ansiedad. Mayores de 16 años                                                                                 | **Plataformas**:</br> VR |
+| **Hitos**:</br> 5/10/2023 - Presentación de la idea.</br> 7/11/2023 - Primera revisión del GDD</br> 23/11/2023 - Segunda revisión del GDD</br> 19/12/2023 - Hito 4 |                          |
 
 ## Descripción
 
@@ -81,16 +81,23 @@ El juego está pensado para jugarse en talleres sobre psicología que traten est
 ## 1. Aspectos generales
 
 ### Vista general
+<p align="center">
+  <img src="./Imagenes/VistaGeneralMenu.png" alt="vista"/>
+</p>
 
 <p align="center">
   <img src="./Imagenes/VistaGEneralHabitacion.png" alt="vista"/>
 </p>
 
 <p align="center">
-  <img src="./Imagenes/VistaGeneralMenu.png" alt="vista"/>
+  <img src="./Imagenes/VistaGeneralCentroComerciala.png" alt="vista"/>
 </p>
 
+
 #### 1.1. Relato breve y parcial de una partida típica  
+
+El jugador comienza la partida en una escena de menú que tiene una puerta, 
+al abrira pasa a una habitación desordenada que debe ordenar, colocando cada objeto en su sitio 
 
 ## 2. Menús y modos de juego
 
