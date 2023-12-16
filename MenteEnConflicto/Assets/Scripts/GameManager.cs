@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     private static GameManager instance_;
 
     public GameObject player;
+    private CharacterController characterController_;
     bool playerLocked = false;
     private MotionBlur motionBlur_;
     private DepthOfField depthOfField_;
@@ -18,6 +19,8 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     [Range(0, 100)]
     private float anxiety;
+    private float timerAddAnxiety;
+    private float timerRemoveAnxiety;
 
     public VolumeProfile volume;
     private void Awake()
@@ -43,13 +46,25 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        timerAddAnxiety = 0;
+        timerRemoveAnxiety = 0;
+        characterController_ = player.GetNamedChild("Complete XR Origin Set Up").GetNamedChild("XR Origin").GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
         player.GetComponent<AnxietyController>().setAnxiety(anxiety);
+        if(SceneManager.GetActiveScene().name == "OutsideScene")
+        {
+            timerAddAnxiety += Time.deltaTime;
+            if(timerAddAnxiety >= 1)
+            {
+                timerAddAnxiety = 0;
+                if (anxiety <= 100) anxiety++;
+            }
+        }
+
 
         if (anxiety >= 70)
         {
@@ -63,6 +78,7 @@ public class GameManager : MonoBehaviour
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1-(anxiety/100)));
             //if (!playerLocked)
             //    lockPlayer();
+
         }
         else
         {
@@ -75,6 +91,17 @@ public class GameManager : MonoBehaviour
             //if (playerLocked)
             //    unLockPlayer();
         }
+
+        if(characterController_.velocity == Vector3.zero && anxiety > 0)
+        {
+            timerRemoveAnxiety += Time.deltaTime;
+            if(timerRemoveAnxiety >= 1)
+            {
+                timerRemoveAnxiety = 0;
+                anxiety--;
+            }
+        }
+
         if (playerLocked)
         {
             player.transform.position = dest.position;
@@ -96,5 +123,10 @@ public class GameManager : MonoBehaviour
     {
         //dest = player.transform;
         playerLocked = false;
+    }
+
+    public void addAnxiety()
+    {
+        anxiety++;
     }
 }

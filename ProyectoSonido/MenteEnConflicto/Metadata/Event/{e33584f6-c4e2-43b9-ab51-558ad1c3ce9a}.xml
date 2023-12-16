@@ -59,9 +59,6 @@
 	<object class="EventAutomatableProperties" id="{bc1ece68-39c5-4e75-ab1a-8649cb85a487}" />
 	<object class="MarkerTrack" id="{2eb39936-5706-42fe-91aa-39e3acec5273}" />
 	<object class="GroupTrack" id="{d8eafda4-a99f-4e32-85e5-cc9865001a55}">
-		<relationship name="automationTracks">
-			<destination>{9c5d4017-be1a-4d36-a1d5-ccb0eb390847}</destination>
-		</relationship>
 		<relationship name="modules">
 			<destination>{cb810f8b-9a1e-4826-95af-c80e014d1fd2}</destination>
 		</relationship>
@@ -94,30 +91,31 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{87f5ca9b-28a2-46e7-a4a9-24220dbfe817}" />
-	<object class="AutomationTrack" id="{9c5d4017-be1a-4d36-a1d5-ccb0eb390847}">
-		<relationship name="automator">
-			<destination>{26c49e2f-90d8-484e-9bb9-1a6bfd6d4950}</destination>
-		</relationship>
-	</object>
 	<object class="SoundScatterer" id="{cb810f8b-9a1e-4826-95af-c80e014d1fd2}">
 		<property name="length">
 			<value>2</value>
+		</property>
+		<property name="volume">
+			<value>1.5</value>
 		</property>
 		<property name="polyphony">
 			<value>1</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
-			<value>350</value>
+			<value>450</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>650</value>
+			<value>800</value>
+		</property>
+		<property name="spawnRate">
+			<value>56</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
 		</property>
-		<relationship name="automators">
-			<destination>{26c49e2f-90d8-484e-9bb9-1a6bfd6d4950}</destination>
-		</relationship>
+		<property name="maximumScatterDistance">
+			<value>5.20000029</value>
+		</property>
 		<relationship name="sound">
 			<destination>{15fe644a-3d4b-4503-9e38-87f66db37471}</destination>
 		</relationship>
@@ -161,14 +159,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{4d6d06e0-64ea-4169-b148-a7a5a0b127d4}" />
-	<object class="Automator" id="{26c49e2f-90d8-484e-9bb9-1a6bfd6d4950}">
-		<property name="nameOfPropertyBeingAutomated">
-			<value>pitch</value>
-		</property>
-		<relationship name="automationCurves">
-			<destination>{fd1a5f55-d134-48dd-b8da-b8927837ab29}</destination>
-		</relationship>
-	</object>
 	<object class="MultiSound" id="{15fe644a-3d4b-4503-9e38-87f66db37471}">
 		<relationship name="sounds">
 			<destination>{e9ca887e-4ec2-4670-8bf8-206e020a0352}</destination>
@@ -186,15 +176,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{97108c79-c317-4f31-b1de-3ab77fa789b1}" />
 	<object class="MixerBusFader" id="{5f5e7b62-9a90-43f0-9ed9-24f4edf40aac}" />
-	<object class="AutomationCurve" id="{fd1a5f55-d134-48dd-b8da-b8927837ab29}">
-		<relationship name="parameter">
-			<destination>{7f7ea645-9240-414b-86ea-9d05a78e2c02}</destination>
-		</relationship>
-		<relationship name="automationPoints">
-			<destination>{3d3274c3-1a4c-40a9-a488-15b0e3b39e7a}</destination>
-			<destination>{d96ad58a-68b1-47a4-b3b2-49772669708b}</destination>
-		</relationship>
-	</object>
 	<object class="SingleSound" id="{e9ca887e-4ec2-4670-8bf8-206e020a0352}">
 		<relationship name="audioFile">
 			<destination>{42b9d847-89f2-4b91-a747-8980227fb910}</destination>
@@ -219,20 +200,4 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{63aec1c4-4728-499f-bbad-e06c08dcd3c1}" />
-	<object class="AutomationPoint" id="{3d3274c3-1a4c-40a9-a488-15b0e3b39e7a}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="value">
-			<value>-7</value>
-		</property>
-	</object>
-	<object class="AutomationPoint" id="{d96ad58a-68b1-47a4-b3b2-49772669708b}">
-		<property name="position">
-			<value>1</value>
-		</property>
-		<property name="value">
-			<value>-3</value>
-		</property>
-	</object>
 </objects>
