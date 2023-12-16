@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{bf46bea6-4aa0-4b19-b9d3-52a9d350b33b}">
+		<property name="name">
+			<value>EstadoTienda</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b2312353-a088-471b-831d-f112e337c87d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{847c20d5-ed9b-4802-bafd-8eeb388894fd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{847c20d5-ed9b-4802-bafd-8eeb388894fd}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Abierta</value>
+			<value>Cierre</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

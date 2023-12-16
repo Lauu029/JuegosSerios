@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{d19ffc84-5084-4fae-98cc-7924d318c522}">
+		<property name="assetPath">
+			<value>CentroComercial/Susurros/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{8ac0e3d8-5c7d-48cd-beb5-44bb22963610}</destination>
+		</relationship>
+	</object>
+</objects>
