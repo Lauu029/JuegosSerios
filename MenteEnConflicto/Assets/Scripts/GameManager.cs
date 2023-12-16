@@ -97,4 +97,9 @@ public class GameManager : MonoBehaviour
         //dest = player.transform;
         playerLocked = false;
     }
+
+    public void addAnxiety()
+    {
+        anxiety++;
+    }
 }
