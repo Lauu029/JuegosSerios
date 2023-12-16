@@ -1,58 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8725165389690200358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambulancia
-  m_EditorClassIdentifier: 
-  Path: event:/Ambulancia
-  Guid:
-    Data1: -1734253250
-    Data2: 1126776452
-    Data3: -1308589922
-    Data4: 209413193
-  Banks:
-  - {fileID: 8351528506772194004}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 7456287110900731439}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
---- !u!114 &-8123977509225161607
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/ObjetosCaen/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-8105644681223099181
+--- !u!114 &-9068753806104220149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -76,214 +24,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-7403107556177430093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Narrador1
-  m_EditorClassIdentifier: 
-  Path: event:/Narrador1
-  Guid:
-    Data1: -13053457
-    Data2: 1091846857
-    Data3: -75781755
-    Data4: 906190116
-  Banks:
-  - {fileID: 5001490596515695872}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 73602
---- !u!114 &-6380818880355175297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638383487199334811
-  FileSizes:
-  - Name: Desktop
-    Value: 1224
-  Exists: 1
---- !u!114 &-5469993449732067438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AlarmaCoche
-  m_EditorClassIdentifier: 
-  Path: event:/AlarmaCoche
-  Guid:
-    Data1: 1576363030
-    Data2: 1326660069
-    Data3: -647658321
-    Data4: 908979368
-  Banks:
-  - {fileID: 8351528506772194004}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 7168206009143672095}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
---- !u!114 &-5153642208704248456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Reloj
-  m_EditorClassIdentifier: 
-  Path: event:/Reloj
-  Guid:
-    Data1: -147263451
-    Data2: 1161116761
-    Data3: 1568991415
-    Data4: -219641039
-  Banks:
-  - {fileID: 4159193931849171116}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 5299638682233276440}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1000
---- !u!114 &-4169933587351449216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/RespiracionesNiveles
-  m_EditorClassIdentifier: 
-  Path: event:/RespiracionesNiveles
-  Guid:
-    Data1: -1413915338
-    Data2: 1159952914
-    Data3: -1919549053
-    Data4: -1402521580
-  Banks:
-  - {fileID: 2156408755551129723}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: 8824432297174717047}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6346
---- !u!114 &-3482272511219791420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GenteHablando/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-2573674746800047343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/GolpesPared/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &-2081551309548944940
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Trafico
-  m_EditorClassIdentifier: 
-  Path: event:/Trafico
-  Guid:
-    Data1: 2047026064
-    Data2: 1173477844
-    Data3: -970228053
-    Data4: -1698038736
-  Banks:
-  - {fileID: 4159193931849171116}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -8105644681223099181}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 62500
---- !u!114 &-440794419126899796
+--- !u!114 &-8231024548791871513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -302,81 +43,16 @@ MonoBehaviour:
     Data3: 980009143
     Data4: -1815654930
   Banks:
-  - {fileID: 4159193931849171116}
+  - {fileID: 7678635685218343191}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 6342503125180385939}
+  - {fileID: 5564688314564440558}
   MinDistance: 1
   MaxDistance: 20
   Length: 5000
---- !u!114 &-260026306314242424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Corazon.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
-  Name: Corazon
-  StudioPath: bank:/Corazon
-  lastModified: 638383487199304506
-  FileSizes:
-  - Name: Desktop
-    Value: 21728
-  Exists: 1
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: 3230230705695538216}
-  - {fileID: -6380818880355175297}
-  - {fileID: 4159193931849171116}
-  - {fileID: 8351528506772194004}
-  - {fileID: 2156408755551129723}
-  - {fileID: -260026306314242424}
-  - {fileID: 3963521199666426544}
-  - {fileID: 5001490596515695872}
-  EditorEvents:
-  - {fileID: -8725165389690200358}
-  - {fileID: -2081551309548944940}
-  - {fileID: -440794419126899796}
-  - {fileID: 9189095436266695510}
-  - {fileID: 9159005743981665269}
-  - {fileID: 3238203318736152436}
-  - {fileID: -5469993449732067438}
-  - {fileID: 2856942504793517395}
-  - {fileID: 821158376650601642}
-  - {fileID: 3121021884506907850}
-  - {fileID: 7158432959538359494}
-  - {fileID: -4169933587351449216}
-  - {fileID: -5153642208704248456}
-  - {fileID: 6204975835072217908}
-  - {fileID: -7403107556177430093}
-  EditorParameters:
-  - {fileID: 6756030670212081389}
-  MasterBanks:
-  - {fileID: -6380818880355175297}
-  StringsBanks:
-  - {fileID: 3230230705695538216}
-  cacheTime: 638383487207795323
-  cacheVersion: 131609
---- !u!114 &821158376650601642
+--- !u!114 &-7788148548194223768
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,25 +62,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/AmbienteObras
+  m_Name: event:/GritosVecinos
   m_EditorClassIdentifier: 
-  Path: event:/AmbienteObras
+  Path: event:/GritosVecinos
   Guid:
-    Data1: -515135861
-    Data2: 1094080433
-    Data3: -692168044
-    Data4: -964950335
+    Data1: -370795909
+    Data2: 1257570627
+    Data3: -358252103
+    Data4: 279861154
   Banks:
-  - {fileID: 8351528506772194004}
+  - {fileID: 4291919095886383419}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 5137363245341900176}
+  - {fileID: 5559348134431958856}
   MinDistance: 1
   MaxDistance: 20
-  Length: 62000
---- !u!114 &2156408755551129723
+  Length: 5000
+--- !u!114 &-6964200502428021905
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -413,18 +89,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Respiracion.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/RespiracionesNiveles
   m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
-  Name: Respiracion
-  StudioPath: bank:/Respiracion
-  lastModified: 638383487200730775
-  FileSizes:
-  - Name: Desktop
-    Value: 288224
-  Exists: 1
---- !u!114 &2204809641603227938
+  Path: event:/RespiracionesNiveles
+  Guid:
+    Data1: -1413915338
+    Data2: 1159952914
+    Data3: -1919549053
+    Data4: -1402521580
+  Banks:
+  - {fileID: -877509181507842654}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -306576760793210878}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6346
+--- !u!114 &-6810380136031867851
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -448,7 +132,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &2856942504793517395
+--- !u!114 &-6251945652565874531
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,25 +142,44 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Portazos
+  m_Name: event:/MartilloMetal
   m_EditorClassIdentifier: 
-  Path: event:/Portazos
+  Path: event:/MartilloMetal
   Guid:
-    Data1: -1003451023
-    Data2: 1290611795
-    Data3: 1543686818
-    Data4: 335231834
+    Data1: -483031818
+    Data2: 1136248034
+    Data3: -1974120021
+    Data4: -1697725487
   Banks:
-  - {fileID: 8351528506772194004}
+  - {fileID: 4291919095886383419}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: 9131050825531530672}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 5000
---- !u!114 &3121021884506907850
+  Length: 2000
+--- !u!114 &-4380658136525482496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638383546440457146
+  FileSizes:
+  - Name: Desktop
+    Value: 1224
+  Exists: 1
+--- !u!114 &-4187305086580535201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -486,133 +189,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/ObjetosCaen
+  m_Name: event:/Trafico
   m_EditorClassIdentifier: 
-  Path: event:/ObjetosCaen
+  Path: event:/Trafico
   Guid:
-    Data1: 1166512090
-    Data2: 1229714884
-    Data3: 556665742
-    Data4: 2064121922
+    Data1: 2047026064
+    Data2: 1173477844
+    Data3: -970228053
+    Data4: -1698038736
   Banks:
-  - {fileID: 8351528506772194004}
+  - {fileID: 7678635685218343191}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -8123977509225161607}
+  - {fileID: -9068753806104220149}
   MinDistance: 1
   MaxDistance: 20
-  Length: 5000
---- !u!114 &3230230705695538216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638383487199344863
-  FileSizes:
-  - Name: Desktop
-    Value: 1790
-  Exists: 1
---- !u!114 &3238203318736152436
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/GolpesPared
-  m_EditorClassIdentifier: 
-  Path: event:/GolpesPared
-  Guid:
-    Data1: -1561672953
-    Data2: 1301496408
-    Data3: 851594163
-    Data4: -1281545790
-  Banks:
-  - {fileID: 8351528506772194004}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -2573674746800047343}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
---- !u!114 &3963521199666426544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SonidosMuyIntensos.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
-  Name: SonidosMuyIntensos
-  StudioPath: bank:/SonidosMuyIntensos
-  lastModified: 638383487204102594
-  FileSizes:
-  - Name: Desktop
-    Value: 13120
-  Exists: 1
---- !u!114 &4159193931849171116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SonidosPocoIntensos.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
-  Name: SonidosPocoIntensos
-  StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638383487204836533
-  FileSizes:
-  - Name: Desktop
-    Value: 3087360
-  Exists: 1
---- !u!114 &5001490596515695872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Narrador.bank
-  m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Narrador.bank
-  Name: Narrador
-  StudioPath: bank:/Narrador
-  lastModified: 638383487207795323
-  FileSizes:
-  - Name: Desktop
-    Value: 845408
-  Exists: 1
---- !u!114 &5137363245341900176
+  Length: 62500
+--- !u!114 &-2733043758762107421
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -622,7 +217,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AmbienteObras/AnxietyLevel
+  m_Name: parameter:/ObjetosCaen/AnxietyLevel
   m_EditorClassIdentifier: 
   Name: AnxietyLevel
   StudioPath: 
@@ -636,7 +231,27 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &5299638682233276440
+--- !u!114 &-2591008224413473654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/CentroComercial.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank
+  Name: CentroComercial
+  StudioPath: bank:/CentroComercial
+  lastModified: 638383545611123608
+  FileSizes:
+  - Name: Desktop
+    Value: 3044608
+  Exists: 1
+--- !u!114 &-2149291699043794834
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -660,158 +275,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &6204975835072217908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Narrador2
-  m_EditorClassIdentifier: 
-  Path: event:/Narrador2
-  Guid:
-    Data1: -941302132
-    Data2: 1090316544
-    Data3: -778143071
-    Data4: -1325529118
-  Banks:
-  - {fileID: 5001490596515695872}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 40156
---- !u!114 &6342503125180385939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/CamionBasura/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &6756030670212081389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: parameter:/AnxietyLevel
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &7158432959538359494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/MartilloMetal
-  m_EditorClassIdentifier: 
-  Path: event:/MartilloMetal
-  Guid:
-    Data1: -483031818
-    Data2: 1136248034
-    Data3: -1974120021
-    Data4: -1697725487
-  Banks:
-  - {fileID: 8351528506772194004}
-  - {fileID: 3963521199666426544}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2000
---- !u!114 &7168206009143672095
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/AlarmaCoche/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &7456287110900731439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Ambulancia/AnxietyLevel
-  m_EditorClassIdentifier: 
-  Name: AnxietyLevel
-  StudioPath: 
-  Min: 0
-  Max: 100
-  Default: 0
-  ID:
-    data1: 3449408337
-    data2: 3049899629
-  Type: 0
-  IsGlobal: 1
-  Labels: []
-  Exists: 1
---- !u!114 &8351528506772194004
+--- !u!114 &-1739948367469552228
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -821,17 +285,117 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/SonidosIntensos.bank
+  m_Name: bank:/Corazon.bank
   m_EditorClassIdentifier: 
-  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
-  Name: SonidosIntensos
-  StudioPath: bank:/SonidosIntensos
-  lastModified: 638383487203930246
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
+  Name: Corazon
+  StudioPath: bank:/Corazon
+  lastModified: 638383545611377143
   FileSizes:
   - Name: Desktop
-    Value: 2610976
+    Value: 21728
   Exists: 1
---- !u!114 &8824432297174717047
+--- !u!114 &-1712546995615721284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteCentroComercial/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-1667954329343400351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Reloj
+  m_EditorClassIdentifier: 
+  Path: event:/Reloj
+  Guid:
+    Data1: -147263451
+    Data2: 1161116761
+    Data3: 1568991415
+    Data4: -219641039
+  Banks:
+  - {fileID: 7678635685218343191}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2149291699043794834}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-1412507290377263134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TimbreCasa
+  m_EditorClassIdentifier: 
+  Path: event:/TimbreCasa
+  Guid:
+    Data1: -680985566
+    Data2: 1097349002
+    Data3: -1539453308
+    Data4: 1909083320
+  Banks:
+  - {fileID: 4291919095886383419}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 119873559319080382}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &-877509181507842654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Respiracion.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
+  Name: Respiracion
+  StudioPath: bank:/Respiracion
+  lastModified: 638383545616100296
+  FileSizes:
+  - Name: Desktop
+    Value: 288320
+  Exists: 1
+--- !u!114 &-306576760793210878
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -855,7 +419,531 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &9131050825531530672
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2741899641218454514}
+  - {fileID: -1739948367469552228}
+  - {fileID: -4380658136525482496}
+  - {fileID: 3062872322542494879}
+  - {fileID: -877509181507842654}
+  - {fileID: 8777912572070777763}
+  - {fileID: 4291919095886383419}
+  - {fileID: 7678635685218343191}
+  - {fileID: -2591008224413473654}
+  EditorEvents:
+  - {fileID: 2432076584965881399}
+  - {fileID: 4965693343288604756}
+  - {fileID: 3224298896026950099}
+  - {fileID: -6964200502428021905}
+  - {fileID: 8856162679061670859}
+  - {fileID: 5033314294733946504}
+  - {fileID: 6308620390440551519}
+  - {fileID: 2542390011591997180}
+  - {fileID: 2352991794480503542}
+  - {fileID: 4017739909899231093}
+  - {fileID: -6251945652565874531}
+  - {fileID: -1667954329343400351}
+  - {fileID: -8231024548791871513}
+  - {fileID: -4187305086580535201}
+  - {fileID: 8572809918295650806}
+  - {fileID: 7600328873971780797}
+  - {fileID: -7788148548194223768}
+  - {fileID: 4502445779412362213}
+  - {fileID: -1412507290377263134}
+  EditorParameters:
+  - {fileID: 629045732297630244}
+  MasterBanks:
+  - {fileID: -4380658136525482496}
+  StringsBanks:
+  - {fileID: 2741899641218454514}
+  cacheTime: 638383546442312461
+  cacheVersion: 131609
+--- !u!114 &119873559319080382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TimbreCasa/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &303242382006508217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GolpesPared/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &499204222778184789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TV/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &629045732297630244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: parameter:/AnxietyLevel
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2352991794480503542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbienteObras
+  m_EditorClassIdentifier: 
+  Path: event:/AmbienteObras
+  Guid:
+    Data1: -515135861
+    Data2: 1094080433
+    Data3: -692168044
+    Data4: -964950335
+  Banks:
+  - {fileID: 4291919095886383419}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2472694971978343164}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 62000
+--- !u!114 &2432076584965881399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Corazon
+  m_EditorClassIdentifier: 
+  Path: event:/Corazon
+  Guid:
+    Data1: -1460658428
+    Data2: 1269014402
+    Data3: -1885277527
+    Data4: 903525134
+  Banks:
+  - {fileID: -1739948367469552228}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6810380136031867851}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14840
+--- !u!114 &2472694971978343164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteObras/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2542390011591997180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Portazos
+  m_EditorClassIdentifier: 
+  Path: event:/Portazos
+  Guid:
+    Data1: -1003451023
+    Data2: 1290611795
+    Data3: 1543686818
+    Data4: 335231834
+  Banks:
+  - {fileID: 8777912572070777763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6299713950096371595}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &2741899641218454514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638383546440477347
+  FileSizes:
+  - Name: Desktop
+    Value: 2074
+  Exists: 1
+--- !u!114 &3062872322542494879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Narrador.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Narrador.bank
+  Name: Narrador
+  StudioPath: bank:/Narrador
+  lastModified: 638383545615831011
+  FileSizes:
+  - Name: Desktop
+    Value: 845408
+  Exists: 1
+--- !u!114 &3224298896026950099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrador1
+  m_EditorClassIdentifier: 
+  Path: event:/Narrador1
+  Guid:
+    Data1: -13053457
+    Data2: 1091846857
+    Data3: -75781755
+    Data4: 906190116
+  Banks:
+  - {fileID: 3062872322542494879}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 73602
+--- !u!114 &4017739909899231093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/ObjetosCaen
+  m_EditorClassIdentifier: 
+  Path: event:/ObjetosCaen
+  Guid:
+    Data1: 1166512090
+    Data2: 1229714884
+    Data3: 556665742
+    Data4: 2064121922
+  Banks:
+  - {fileID: 8777912572070777763}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2733043758762107421}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &4175451428232188781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AlarmaCoche/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4291919095886383419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SonidosMuyIntensos.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
+  Name: SonidosMuyIntensos
+  StudioPath: bank:/SonidosMuyIntensos
+  lastModified: 638383546442312461
+  FileSizes:
+  - Name: Desktop
+    Value: 2990080
+  Exists: 1
+--- !u!114 &4502445779412362213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TV
+  m_EditorClassIdentifier: 
+  Path: event:/TV
+  Guid:
+    Data1: -1289882440
+    Data2: 1312315548
+    Data3: -1691486050
+    Data4: 1777598749
+  Banks:
+  - {fileID: 4291919095886383419}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 499204222778184789}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &4965693343288604756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Narrador2
+  m_EditorClassIdentifier: 
+  Path: event:/Narrador2
+  Guid:
+    Data1: -941302132
+    Data2: 1090316544
+    Data3: -778143071
+    Data4: -1325529118
+  Banks:
+  - {fileID: 3062872322542494879}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 40156
+--- !u!114 &5033314294733946504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AlarmaCoche
+  m_EditorClassIdentifier: 
+  Path: event:/AlarmaCoche
+  Guid:
+    Data1: 1576363030
+    Data2: 1326660069
+    Data3: -647658321
+    Data4: 908979368
+  Banks:
+  - {fileID: 8777912572070777763}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4175451428232188781}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &5559348134431958856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GritosVecinos/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5564688314564440558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CamionBasura/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6299713950096371595
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -879,7 +967,7 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &9159005743981665269
+--- !u!114 &6308620390440551519
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -889,25 +977,148 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Corazon
+  m_Name: event:/Ambulancia
   m_EditorClassIdentifier: 
-  Path: event:/Corazon
+  Path: event:/Ambulancia
   Guid:
-    Data1: -1460658428
-    Data2: 1269014402
-    Data3: -1885277527
-    Data4: 903525134
+    Data1: -1734253250
+    Data2: 1126776452
+    Data3: -1308589922
+    Data4: 209413193
   Banks:
-  - {fileID: -260026306314242424}
+  - {fileID: 8777912572070777763}
   IsStream: 0
-  Is3D: 0
+  Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 2204809641603227938}
+  - {fileID: 7073989330423550714}
   MinDistance: 1
   MaxDistance: 20
-  Length: 14840
---- !u!114 &9189095436266695510
+  Length: 5000
+--- !u!114 &6949028066986235601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/GenteHablando/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7073989330423550714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambulancia/AnxietyLevel
+  m_EditorClassIdentifier: 
+  Name: AnxietyLevel
+  StudioPath: 
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 3449408337
+    data2: 3049899629
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &7600328873971780797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/AmbienteCentroComercial
+  m_EditorClassIdentifier: 
+  Path: event:/AmbienteCentroComercial
+  Guid:
+    Data1: 988033885
+    Data2: 1313960915
+    Data3: -1413566310
+    Data4: 460864898
+  Banks:
+  - {fileID: -2591008224413473654}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1712546995615721284}
+  - {fileID: 7781242052718137916}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 55576
+--- !u!114 &7678635685218343191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SonidosPocoIntensos.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
+  Name: SonidosPocoIntensos
+  StudioPath: bank:/SonidosPocoIntensos
+  lastModified: 638383545636293669
+  FileSizes:
+  - Name: Desktop
+    Value: 3087360
+  Exists: 1
+--- !u!114 &7781242052718137916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/AmbienteCentroComercial/EstadoTienda
+  m_EditorClassIdentifier: 
+  Name: EstadoTienda
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 4107509377
+    data2: 3784288102
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Abierta
+  - Cierre
+  Exists: 1
+--- !u!114 &8572809918295650806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -926,12 +1137,60 @@ MonoBehaviour:
     Data3: 1660155836
     Data4: 667778119
   Banks:
-  - {fileID: 4159193931849171116}
+  - {fileID: 7678635685218343191}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3482272511219791420}
+  - {fileID: 6949028066986235601}
   MinDistance: 1
   MaxDistance: 20
   Length: 62500
+--- !u!114 &8777912572070777763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SonidosIntensos.bank
+  m_EditorClassIdentifier: 
+  Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
+  Name: SonidosIntensos
+  StudioPath: bank:/SonidosIntensos
+  lastModified: 638383545616454148
+  FileSizes:
+  - Name: Desktop
+    Value: 1423296
+  Exists: 1
+--- !u!114 &8856162679061670859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/GolpesPared
+  m_EditorClassIdentifier: 
+  Path: event:/GolpesPared
+  Guid:
+    Data1: -1561672953
+    Data2: 1301496408
+    Data3: 851594163
+    Data4: -1281545790
+  Banks:
+  - {fileID: 8777912572070777763}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 303242382006508217}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
