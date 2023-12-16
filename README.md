@@ -11,10 +11,22 @@ Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@
 
 ## Descripción
 
-Juego de realidad virtual que aborda la sensibilización acerca de la ansiedad. Para alcanzar este objetivo de forma concisa,  se relaciona con fobias específicas y se centrará en la ansiedad que estas producen. Este proyecto inmersivo transporta al jugador a través de un nivel dividido en 2 escenarios, cada uno de los cuales representa una experiencia exagerada que simula situaciones comunes desencadenantes de ansiedad, tales como el miedo a los sonidos fuertes y ansiedad social.
+<p style="text-align: justify;">Este proyecto inmersivo transporta al jugador a través de un nivel dividido en 2 escenarios, cada uno de los cuales representa una experiencia exagerada que simula situaciones comunes desencadenantes de ansiedad. La primera escena se centra en la fonofobia, el jugador tendrá que recoger una habitación mientras escucha sonidos fuertes que desencadenarán un ataque de ansiedad. La segunda escena es un centro comercial que tendrá que recorrer, y en el que cada vez habrá más gente como desencadenante de ansiedad social.
+<p style= "text-align: justify;">Para conseguir desencadenar emociones similares a la ansiedad en los participantes del proyecto hemos recurrido a diferentes técnicas: 
+<ul>
+<li>Efectos ópticos como desenfoque de la cámara por movimiento, cambio de color del entorno, cambio visual del tamaño de los objetos.</li>
+<li>Efectos sonoros: latidos del corazón y respiraciones que aumentan su velocidad e intensidad a medida que sube el nivel de ansiedad.</li>
+<li>Aumento progresivo de la cantidad de npcs para aumentar la sensación de agobio al haber cada vez más gente.</li>
+<li>Sonidos constantes y a volumen exagerado en la escena de la habitación, como tráfico, obras y el tic tac de un reloj </li>
+</ul>
 
-Tratamos de desarrollar una plataforma de aprendizaje única que pretende informar, educar y generar una comprensión más completa de la ansiedad, lo que lo convierte en una herramienta valiosa tanto para el entretenimiento como para la concienciación sobre la salud mental.
-El juego está pensado para jugarse en talleres sobre psicología que traten estos temas.
+<p style="text-align: justify;">Este juego de realidad virtual tiene como objetivo la sensibilización acerca de la ansiedad. Para esto, se va a centrar en dos fobias específicas: la fonofobia y la agorafobia, ambas relacionadas con la ansiedad social; centrandose en las consecuencias de la ansiedad que producen a las personas afectadas.
+
+<p style="text-align: justify;">Tratamos de desarrollar una plataforma de aprendizaje única que pretende informar, educar y generar una comprensión más completa de la ansiedad social, con el objetivo de concienciar sobre la salud mental a personas ajenas a estas emociones. El juego está pensado para jugarse en talleres sobre psicología que traten estos temas.
+<p style="color: red; text-align: justify;"><span style="font-weight: bold;">DISCLAIMER: </span>Este es un juego que contiene flashes, desenfoque fuerte y movimientos bruscos de cámara, además de sonidos fuertes y agobiantes. Si el sujeto tiene un problema de epilepsia o ansiedad severa no recomendamos participar en la actividad.</p>
+
+## Requisitos de la actividad
+Para poder llevar a cabo esta actividad en talleres, serán necesarias al menos unas gafas de realidad virtual: Oculus Quest 2, un ordenador compatible con estas gafas que contenga además el juego en su versión más actualizada. Además tambien es necesario un cable de conexión entre las gafas y el ordenador o conexión por wifi AirLink.
 
 ## Logotipo y portada del juego
 
@@ -96,8 +108,7 @@ El juego está pensado para jugarse en talleres sobre psicología que traten est
 
 #### 1.1. Relato breve y parcial de una partida típica  
 
-El jugador comienza la partida en una escena de menú que tiene una puerta, 
-al abrira pasa a una habitación desordenada que debe ordenar, colocando cada objeto en su sitio 
+El jugador comienza la partida en una escena de menú que tiene una puerta bloqueada, en esta un narrador le introduce al juego y le explica lo que está a punto de experimentar. Una vez el narrador acabe de hablar, se desbloquea la puerta. Al abrira pasa a una habitación desordenada que debe ordenar, colocando cada objeto en su sitio. Mientras tanto, escuchará distintos sonidos que vienen de dentro y fuera de la habitación, a medida que pasa el tiempo, estos sonidos se iran volviendo más intensos y la ansiedad irá subiendo, hasta provocar un ataque de ansiedad. Una vez haya recogido la habitación, el jugador abre la puerta con la llave y pasa a la escena del centro comercial. En esta escena tendrá que ir de tienda en tienda recogiendo los objetos marcados, evitando chocarse con los npc para no desatar un ataque de ansiedad. Una vez recogidos los objetos, el jugador se traslada a una escena en la que un narrador le explica lo que acaba de suceder y los efectos de la ansiedad social. 
 
 ## 2. Menús y modos de juego
 
