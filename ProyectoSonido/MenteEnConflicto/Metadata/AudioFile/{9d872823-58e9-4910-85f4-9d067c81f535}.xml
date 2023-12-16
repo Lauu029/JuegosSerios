@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="AudioFile" id="{9d872823-58e9-4910-85f4-9d067c81f535}">
 		<property name="assetPath">
-			<value>CentroComercial/vozCierreCortada.wav</value>
+			<value>CentroComercial/AnuncioFinal/vozCierreCortada.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
