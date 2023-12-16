@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Content.Interaction;
-using static UnityEngine.ParticleSystem;
 
 public class narratorController : MonoBehaviour
 {
@@ -10,13 +9,17 @@ public class narratorController : MonoBehaviour
     private FMOD.Studio.EventInstance narratorEventInstance;
     [SerializeField]
     private Door door;
+    private bool hasStarted = false;
+    public GameObject botonPanico;
     // Start is called before the first frame update
     void Start()
     {
+        botonPanico.SetActive(false);
         door.changeLock(true);
         narratorEventInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEventNarrator);
         narratorEventInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         Invoke("PlayAudioWithDelay", 3f);
+        Invoke("startBotonPanico", 70f);
     }
 
     // Update is called once per frame
@@ -25,7 +28,7 @@ public class narratorController : MonoBehaviour
         FMOD.Studio.PLAYBACK_STATE playbackState;
         narratorEventInstance.getPlaybackState(out playbackState);
 
-        if (playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
+        if (hasStarted && playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
         {
             door.changeLock(false);
         }
@@ -33,8 +36,11 @@ public class narratorController : MonoBehaviour
     }
     private void PlayAudioWithDelay()
     {
-        // Reproduce el evento
-        Debug.Log("Reproduciendo audio");
         narratorEventInstance.start();
+        hasStarted = true;
+    }
+    private void startBotonPanico()
+    {
+        botonPanico.SetActive(true);
     }
 }

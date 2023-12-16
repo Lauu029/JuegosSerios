@@ -375,7 +375,6 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
-  - CentroComercial
   - Corazon
   - Narrador
   - Respiracion
