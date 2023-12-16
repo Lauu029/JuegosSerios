@@ -376,6 +376,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Corazon
+  - Narrador
   - Respiracion
   - SonidosIntensos
   - SonidosMuyIntensos
