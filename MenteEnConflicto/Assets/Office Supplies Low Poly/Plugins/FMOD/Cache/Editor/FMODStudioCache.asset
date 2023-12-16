@@ -76,33 +76,6 @@ MonoBehaviour:
   IsGlobal: 1
   Labels: []
   Exists: 1
---- !u!114 &-8038523354988454195
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/Respiracion/Anxiety
-  m_EditorClassIdentifier: 
-  Name: Anxiety
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 144667361
-    data2: 2902182771
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - Low
-  - Medium
-  - High
-  Exists: 1
 --- !u!114 &-6380818880355175297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118,39 +91,11 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638383264585015604
+  lastModified: 638383262194041807
   FileSizes:
   - Name: Desktop
     Value: 1224
   Exists: 1
---- !u!114 &-6239030372134967830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Respiracion
-  m_EditorClassIdentifier: 
-  Path: event:/Respiracion
-  Guid:
-    Data1: -371382916
-    Data2: 1327340863
-    Data3: 1124151733
-    Data4: 1004933694
-  Banks:
-  - {fileID: 2156408755551129723}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -8038523354988454195}
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 11573
 --- !u!114 &-5469993449732067438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -234,7 +179,7 @@ MonoBehaviour:
   - {fileID: 8824432297174717047}
   MinDistance: 1
   MaxDistance: 20
-  Length: 4020
+  Length: 6346
 --- !u!114 &-3482272511219791420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -354,7 +299,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
   Name: Corazon
   StudioPath: bank:/Corazon
-  lastModified: 638383264584892413
+  lastModified: 638383262194041807
   FileSizes:
   - Name: Desktop
     Value: 21728
@@ -384,7 +329,6 @@ MonoBehaviour:
   - {fileID: -2081551309548944940}
   - {fileID: -440794419126899796}
   - {fileID: 9189095436266695510}
-  - {fileID: -6239030372134967830}
   - {fileID: 9159005743981665269}
   - {fileID: 3238203318736152436}
   - {fileID: -5469993449732067438}
@@ -400,7 +344,7 @@ MonoBehaviour:
   - {fileID: -6380818880355175297}
   StringsBanks:
   - {fileID: 3230230705695538216}
-  cacheTime: 638383264586058200
+  cacheTime: 638383435579251539
   cacheVersion: 131609
 --- !u!114 &821158376650601642
 MonoBehaviour:
@@ -445,10 +389,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638383264585079695
+  lastModified: 638383435578943791
   FileSizes:
   - Name: Desktop
-    Value: 146880
+    Value: 288128
   Exists: 1
 --- !u!114 &2204809641603227938
 MonoBehaviour:
@@ -545,10 +489,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638383264585033276
+  lastModified: 638383435578903589
   FileSizes:
   - Name: Desktop
-    Value: 1756
+    Value: 1616
   Exists: 1
 --- !u!114 &3238203318736152436
 MonoBehaviour:
@@ -593,10 +537,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
   Name: SonidosMuyIntensos
   StudioPath: bank:/SonidosMuyIntensos
-  lastModified: 638379925701525628
+  lastModified: 638383435579095245
   FileSizes:
   - Name: Desktop
-    Value: 13632
+    Value: 13120
   Exists: 1
 --- !u!114 &4159193931849171116
 MonoBehaviour:
@@ -613,34 +557,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638383264586058200
+  lastModified: 638383435579251539
   FileSizes:
   - Name: Desktop
-    Value: 3086976
-  Exists: 1
---- !u!114 &4308211699013030345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MartilloMetal/PitchMartillo
-  m_EditorClassIdentifier: 
-  Name: PitchMartillo
-  StudioPath: 
-  Min: 0
-  Max: 1
-  Default: 0
-  ID:
-    data1: 3266228057
-    data2: 1202309308
-  Type: 0
-  IsGlobal: 0
-  Labels: []
+    Value: 3087360
   Exists: 1
 --- !u!114 &5137363245341900176
 MonoBehaviour:
@@ -757,12 +677,12 @@ MonoBehaviour:
     Data3: -1974120021
     Data4: -1697725487
   Banks:
+  - {fileID: 8351528506772194004}
   - {fileID: 3963521199666426544}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
-  Parameters:
-  - {fileID: 4308211699013030345}
+  Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
@@ -829,10 +749,10 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
   Name: SonidosIntensos
   StudioPath: bank:/SonidosIntensos
-  lastModified: 638383264585554599
+  lastModified: 638383435579070073
   FileSizes:
   - Name: Desktop
-    Value: 2227936
+    Value: 2610976
   Exists: 1
 --- !u!114 &8824432297174717047
 MonoBehaviour:

@@ -6,10 +6,7 @@ using UnityEngine.AI;
 
 public class ShowPath : MonoBehaviour
 {
-
     private List<GameObject> spherePath;
-
-    [SerializeField]
     private Transform src;
     private Transform dest;
 
@@ -19,6 +16,7 @@ public class ShowPath : MonoBehaviour
     void Start()
     {
         spherePath = new List<GameObject>();
+        src = GameObject.Find("XR Origin").transform;
         dest = transform;
     }
 
@@ -30,7 +28,6 @@ public class ShowPath : MonoBehaviour
         {
             spherePath.ForEach(Destroy);
             spherePath.Clear();
-
             for (int i = 0; i < path.corners.Length - 1; i++)
             {
                 Vector3 currentCorner = path.corners[i];
@@ -54,6 +51,10 @@ public class ShowPath : MonoBehaviour
                 }
             }
         }
+    }
 
+    private void Awake()
+    {
+        this.enabled = false;
     }
 }
