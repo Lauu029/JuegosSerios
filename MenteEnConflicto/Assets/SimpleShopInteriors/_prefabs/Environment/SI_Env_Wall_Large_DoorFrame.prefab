@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 475388}
   - component: {fileID: 3363072}
   - component: {fileID: 2390946}
-  - component: {fileID: 5090098621048662326}
+  - component: {fileID: 8371772324315396177}
   m_Layer: 0
   m_Name: SI_Env_Wall_Large_DoorFrame
   m_TagString: Untagged
@@ -82,8 +82,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5090098621048662326
-BoxCollider:
+--- !u!64 &8371772324315396177
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -92,6 +92,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.8685493, y: 3.768014, z: 0.04640627}
-  m_Center: {x: -0.9342737, y: 1.884007, z: 0.023204565}
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 66175b0938d5add45ab5c42a5091b2f3, type: 3}
