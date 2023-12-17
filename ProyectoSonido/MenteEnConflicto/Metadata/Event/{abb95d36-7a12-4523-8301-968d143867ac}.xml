@@ -362,7 +362,7 @@
 			<destination>{35c5d4c6-f000-4d12-9bf5-314e0e4f27a4}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{bde23c42-1a43-4c26-8996-21bcfd589ff5}</destination>
+			<destination>{3905da07-3922-4989-936a-57e7ef27993e}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{b6983427-d7aa-4cdb-aed1-c3dc6814b753}">
@@ -847,7 +847,7 @@
 			<value>1</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7237025d-b7c5-41dc-988e-70c4a43952dc}</destination>
+			<destination>{b1df65c6-da3d-4d18-8853-fa174fd05a35}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceFadeOutCurve" id="{b231ab0d-0220-4d50-ab90-ebbb022fe24f}">

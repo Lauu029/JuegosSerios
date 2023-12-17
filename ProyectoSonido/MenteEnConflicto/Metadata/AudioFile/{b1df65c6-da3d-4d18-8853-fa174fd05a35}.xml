@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{7237025d-b7c5-41dc-988e-70c4a43952dc}">
+	<object class="AudioFile" id="{b1df65c6-da3d-4d18-8853-fa174fd05a35}">
 		<property name="assetPath">
-			<value>espiraFuerte3.wav</value>
+			<value>AtaqueAnsiedad/Respiracion/Media/espiraFuerte3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
