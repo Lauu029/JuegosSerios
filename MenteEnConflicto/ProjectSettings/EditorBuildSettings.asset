@@ -5,15 +5,6 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/MenuScene.unity
     guid: f93cc3994010f0a428da483c97793f8b
@@ -22,10 +13,22 @@ EditorBuildSettings:
     guid: 46e56c5710aeac24a860e1f1fa4c24cd
   - enabled: 1
     path: Assets/Scenes/RoomScene.unity
-    guid: f4e466ad49925ec4ea5aa4245d832949
+    guid: db92e71010a645747ac24b545bf7ff36
   - enabled: 1
     path: Assets/Scenes/CentroCocotero.unity
     guid: ab8f383ecc3f4e246870f9f21d4988c3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

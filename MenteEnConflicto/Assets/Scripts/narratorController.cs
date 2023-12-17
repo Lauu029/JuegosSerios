@@ -8,9 +8,10 @@ public class narratorController : MonoBehaviour
     public FMODUnity.EventReference fmodEventNarrator;
     private FMOD.Studio.EventInstance narratorEventInstance;
     [SerializeField]
-    private Door door;
+    private Door door = null;
     private bool hasStarted = false;
-    public GameObject botonPanico;
+    [SerializeField]
+    private GameObject botonPanico = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,12 +28,13 @@ public class narratorController : MonoBehaviour
     {
         FMOD.Studio.PLAYBACK_STATE playbackState;
         narratorEventInstance.getPlaybackState(out playbackState);
-
-        if (hasStarted && playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
+        if (door != null)
         {
-            door.changeLock(false);
+            if (hasStarted && playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
+            {
+                door.changeLock(false);
+            }
         }
-        Debug.Log("Estado de reproducci�n: " + playbackState);
     }
     private void PlayAudioWithDelay()
     {
@@ -41,6 +43,7 @@ public class narratorController : MonoBehaviour
     }
     private void startBotonPanico()
     {
-        botonPanico.SetActive(true);
+        if (botonPanico != null)
+            botonPanico.SetActive(true);
     }
 }

@@ -1836,7 +1836,7 @@ MonoBehaviour:
       Data4: 906190116
     Path: event:/Narrador1
   door: {fileID: 2027693144}
-  botonPanico: {fileID: 0}
+  botonPanico: {fileID: 1256577530}
 --- !u!4 &1478188697
 Transform:
   m_ObjectHideFlags: 0

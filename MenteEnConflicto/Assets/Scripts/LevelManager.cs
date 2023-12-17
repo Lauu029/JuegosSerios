@@ -122,7 +122,10 @@ public class LevelManager : MonoBehaviour
     {
         return objectsCollected;
     }
-
+    public bool hasCollectedAllObjects()
+    {
+        return objectsCollected == objectsToCollect.Length;
+    }
     public bool everyObjectCollected()
     {
         return objectsCollected == objectsToCollect.Length;
