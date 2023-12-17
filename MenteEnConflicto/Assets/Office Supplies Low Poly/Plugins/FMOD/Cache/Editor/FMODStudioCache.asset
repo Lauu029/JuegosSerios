@@ -43,8 +43,8 @@ MonoBehaviour:
     Data3: 269436604
     Data4: 519190422
   Banks:
-  - {fileID: 3062872322542494879}
   - {fileID: -4380658136525482496}
+  - {fileID: 3062872322542494879}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -251,7 +251,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638384062787898884
+  lastModified: 638384113229020372
   FileSizes:
   - Name: Desktop
     Value: 6304
@@ -352,7 +352,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank
   Name: CentroComercial
   StudioPath: bank:/CentroComercial
-  lastModified: 638384062786272965
+  lastModified: 638384113229020372
   FileSizes:
   - Name: Desktop
     Value: 3044608
@@ -476,7 +476,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Corazon.bank
   Name: Corazon
   StudioPath: bank:/Corazon
-  lastModified: 638384062786891317
+  lastModified: 638383667546468851
   FileSizes:
   - Name: Desktop
     Value: 21728
@@ -548,7 +548,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Respiracion.bank
   Name: Respiracion
   StudioPath: bank:/Respiracion
-  lastModified: 638384164165565156
+  lastModified: 638384172914299610
   FileSizes:
   - Name: Desktop
     Value: 288320
@@ -627,7 +627,7 @@ MonoBehaviour:
   - {fileID: -4380658136525482496}
   StringsBanks:
   - {fileID: 2741899641218454514}
-  cacheTime: 638384172160084252
+  cacheTime: 638384172914587785
   cacheVersion: 131609
 --- !u!114 &303242382006508217
 MonoBehaviour:
@@ -824,7 +824,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638384062787908863
+  lastModified: 638384113229020372
   FileSizes:
   - Name: Desktop
     Value: 2166
@@ -844,7 +844,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/Narrador.bank
   Name: Narrador
   StudioPath: bank:/Narrador
-  lastModified: 638384062789121782
+  lastModified: 638384113229065414
   FileSizes:
   - Name: Desktop
     Value: 869824
@@ -943,7 +943,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosMuyIntensos.bank
   Name: SonidosMuyIntensos
   StudioPath: bank:/SonidosMuyIntensos
-  lastModified: 638384172160084252
+  lastModified: 638384172914470427
   FileSizes:
   - Name: Desktop
     Value: 2991776
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosPocoIntensos.bank
   Name: SonidosPocoIntensos
   StudioPath: bank:/SonidosPocoIntensos
-  lastModified: 638384164166552516
+  lastModified: 638384172914587785
   FileSizes:
   - Name: Desktop
     Value: 3087072
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   Path: ../ProyectoSonido/MenteEnConflicto/Build/Desktop/SonidosIntensos.bank
   Name: SonidosIntensos
   StudioPath: bank:/SonidosIntensos
-  lastModified: 638384172159487767
+  lastModified: 638384172914365005
   FileSizes:
   - Name: Desktop
     Value: 1423296

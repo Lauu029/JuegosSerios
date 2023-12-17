@@ -43,8 +43,11 @@ public class LevelManager : MonoBehaviour
             outline.OutlineColor = new Color(0.0f, 0.7f, 1.0f);
             outline.OutlineWidth = 5f;
         }
-        else
+        else if (SceneManager.GetActiveScene().name == "RoomScene")
         {
+            door.changeLock(true);
+            Debug.Log("HE cerrado la puerta");
+
             foreach (GameObject obj in objectsToCollect)
             {
                 Outline outline = obj.AddComponent<Outline>();
@@ -53,7 +56,6 @@ public class LevelManager : MonoBehaviour
                 outline.OutlineWidth = 5f;
             }
         }
-
     }
 
     public void addObjectSelected()
@@ -77,7 +79,7 @@ public class LevelManager : MonoBehaviour
                 outline.OutlineWidth = 5f;
             }
         }
-        else
+        else if (SceneManager.GetActiveScene().name == "RoomScene")
         {
             if (objectsCollected == objectsToCollect.Length)
             {
