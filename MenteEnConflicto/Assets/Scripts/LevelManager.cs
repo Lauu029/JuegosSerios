@@ -13,11 +13,12 @@ public class LevelManager : MonoBehaviour
     private static LevelManager instance_;
     private GameManager gameManager;
     [SerializeField]
-    private GameObject pickUpText;
+    private GameObject pickUpText= null;
     [SerializeField]
-    private GameObject keyText;
+    private GameObject keyText = null;
     [SerializeField]
-    private GameObject key;
+    private GameObject key = null;
+
     private void Awake()
     {
         if (instance_ != null && instance_ != this)
@@ -40,10 +41,13 @@ public class LevelManager : MonoBehaviour
         gameManager = GameManager.Instance;
         objectsCollected = 0;
         canChangeScene = false;
-        key.AddComponent<Outline>();
-        key.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
-        key.GetComponent<Outline>().OutlineColor = new Color(1.0f, 1.0f, 0.0f);
-        key.GetComponent<Outline>().OutlineWidth = 5f;
+        if (key != null)
+        {
+            key.AddComponent<Outline>();
+            key.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
+            key.GetComponent<Outline>().OutlineColor = new Color(1.0f, 1.0f, 0.0f);
+            key.GetComponent<Outline>().OutlineWidth = 5f;
+        }
         if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
             Outline outline = objectsToCollect[objectsCollected].AddComponent<Outline>();

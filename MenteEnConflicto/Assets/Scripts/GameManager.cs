@@ -103,7 +103,7 @@ public class GameManager : MonoBehaviour
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1 - (anxiety / 100)));
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(1 + (anxiety / 100)));
         }
-        else if (anxiety >= 85)
+        if (anxiety >= 85)
         {
             if (!lensDistortion.active)
             {
@@ -146,6 +146,8 @@ public class GameManager : MonoBehaviour
     public void changeScene(string SceneName)
     {
         anxiety = 0;
+        //SceneManager.LoadScene(SceneName);
+
         StartCoroutine(changeSceneRoutine(SceneName));
     }
 
