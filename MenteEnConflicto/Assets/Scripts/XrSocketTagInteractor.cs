@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class XrSocketTagInteractor : XRSocketInteractor
 {
     public string tagToCollect;
-    public LevelManager levelManager;
+    private LevelManager levelManager;
     void Start()
     {
         levelManager = LevelManager.Instance;
