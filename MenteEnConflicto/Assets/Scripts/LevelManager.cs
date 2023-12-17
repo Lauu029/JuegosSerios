@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour
         get
         {
             if (instance_ == null)
-                Debug.Log("Game Manager is Null");
+                Debug.Log("Level Manager is Null");
             return instance_;
         }
     }

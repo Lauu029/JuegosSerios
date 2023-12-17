@@ -35,10 +35,10 @@ public class XrSocketTagInteractor : XRSocketInteractor
     protected override void OnSelectExited(XRBaseInteractable interactable)
     {
         base.OnSelectExited(interactable);
-        levelManager.removeObjectSelected();
 
         if (SceneManager.GetActiveScene().name == "RoomScene")
         {
+            levelManager.removeObjectSelected();
             interactable.gameObject.GetComponent<Outline>().enabled = true;
         }
     }
