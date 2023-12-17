@@ -79,4 +79,9 @@ public class LevelManager : MonoBehaviour
     {
         return objectsCollected;
     }
+
+    public bool everyObjectCollected()
+    {
+        return objectsCollected == objectsToCollect.Length;
+    }
 }
