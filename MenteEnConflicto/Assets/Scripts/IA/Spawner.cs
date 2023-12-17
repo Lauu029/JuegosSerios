@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Android;
+using UnityEngine.XR.Content.Interaction;
 
 public class Spawner : MonoBehaviour
 {
     [SerializeField]
     private GameObject[] people;
     [SerializeField]
-    private int maxPeople = 10;
+    private int minPepole = 10;
+    private int maxPeople;
 
     [SerializeField]
     [Range(0.0f, 100.0f)]
@@ -28,7 +31,15 @@ public class Spawner : MonoBehaviour
 
     private IEnumerator Spawn()
     {
-        if (transform.childCount < maxPeople)
+        maxPeople = GameManager.Instance.getAnxiety() + minPepole;
+
+        if (transform.childCount > maxPeople)
+        {
+            for (int i = transform.childCount - 1; i >= maxPeople; i--)
+                Destroy(transform.GetChild(i).gameObject);
+
+        }
+        else if (transform.childCount < maxPeople)
         {
             NavMeshHit hit;
             Vector3 spawnPoint;
