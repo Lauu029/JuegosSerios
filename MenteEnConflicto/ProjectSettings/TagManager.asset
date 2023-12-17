@@ -20,6 +20,9 @@ TagManager:
   - Silla
   - Maraca
   - Comprar
+  - Libro
+  - Corcho
+  - pantalla
   layers:
   - Default
   - TransparentFX

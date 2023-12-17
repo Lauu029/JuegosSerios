@@ -12,7 +12,12 @@ public class LevelManager : MonoBehaviour
     public Door door;
     private static LevelManager instance_;
     private GameManager gameManager;
-
+    [SerializeField]
+    private GameObject pickUpText;
+    [SerializeField]
+    private GameObject keyText;
+    [SerializeField]
+    private GameObject key;
     private void Awake()
     {
         if (instance_ != null && instance_ != this)
@@ -35,7 +40,10 @@ public class LevelManager : MonoBehaviour
         gameManager = GameManager.Instance;
         objectsCollected = 0;
         canChangeScene = false;
-
+        key.AddComponent<Outline>();
+        key.GetComponent<Outline>().OutlineMode = Outline.Mode.OutlineAll;
+        key.GetComponent<Outline>().OutlineColor = new Color(1.0f, 1.0f, 0.0f);
+        key.GetComponent<Outline>().OutlineWidth = 5f;
         if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
             Outline outline = objectsToCollect[objectsCollected].AddComponent<Outline>();
@@ -46,7 +54,6 @@ public class LevelManager : MonoBehaviour
         else if (SceneManager.GetActiveScene().name == "RoomScene")
         {
             door.changeLock(true);
-            Debug.Log("HE cerrado la puerta");
 
             foreach (GameObject obj in objectsToCollect)
             {
@@ -103,7 +110,11 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("Player has not collected all objects");
+            if (!canChangeScene)
+                pickUpText.SetActive(true);
+            else
+                keyText.SetActive(true);
+            //Debug.Log("Player has not collected all objects");
         }
     }
 
