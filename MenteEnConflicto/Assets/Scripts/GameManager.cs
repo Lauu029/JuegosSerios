@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
         volume.TryGet<DepthOfField>(out depthOfField_);
         volume.TryGet<LensDistortion>(out lensDistortion);
         player.GetComponent<AnxietyController>().setAnxiety(anxiety);
-        if (SceneManager.GetActiveScene().name == "RoomScene")
+        if (SceneManager.GetActiveScene().name == "RoomScene" && characterController_.velocity != Vector3.zero)
         {
             timerAddAnxiety += Time.deltaTime;
             if (timerAddAnxiety >= 1)
@@ -102,7 +102,7 @@ public class GameManager : MonoBehaviour
             {
                 currentScale += 0.1f;
             }
-            else if(currentScale >= maxscale)
+            else if (currentScale >= maxscale)
             {
                 hasMaxScale = true;
             }
@@ -152,6 +152,7 @@ public class GameManager : MonoBehaviour
 
     public void changeScene(string SceneName)
     {
+        anxiety = 0;
         SceneManager.LoadScene(SceneName);
     }
     private void lockPlayer()
