@@ -6717,34 +6717,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1638344616}
     m_Modifications:
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 7293731753796419061, guid: c3303131bac8fbd4eb8f9dda27330a98, type: 3}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: stopGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 885910312853904261, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
-      propertyPath: m_OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3263384288591235815, guid: 83f380d18b1cec446a412b971ef53a58, type: 3}
       propertyPath: m_IsActive
       value: 0

@@ -174,7 +174,9 @@ namespace UnityEngine.XR.Content.Interaction
         public void changeLock(bool locked)
         {
             m_Locked = locked;
+            Debug.Log("Puerta cerrada");
             if (!m_Locked && !soundPlayed){
+                Debug.Log("Puerta abierta");
                 openDoorScript.playSound(); 
                 soundPlayed = true;
             }

@@ -35,8 +35,9 @@ public class LevelManager : MonoBehaviour
         gameManager = GameManager.Instance;
         objectsCollected = 0;
         canChangeScene = false;
-
         if (SceneManager.GetActiveScene().name == "CentroCocotero") return;
+        door.changeLock(true);
+        Debug.Log("HE cerrado la puerta");
 
     }
 

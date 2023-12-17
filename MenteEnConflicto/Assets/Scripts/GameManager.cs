@@ -79,13 +79,6 @@ public class GameManager : MonoBehaviour
 
         if (anxiety >= 70)
         {
-            if (!lensDistortion.active)
-            {
-                lensDistortion.active = true;
-                lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(2.0f));
-                currentScale = 2.0f;
-                hasMaxScale = false;
-            }
             //volume.SetActive(true);
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(anxiety / 100));
 
@@ -98,6 +91,13 @@ public class GameManager : MonoBehaviour
         }
         if (anxiety >= 85)
         {
+            if (!lensDistortion.active)
+            {
+                lensDistortion.active = true;
+                lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(2.0f));
+                currentScale = 2.0f;
+                hasMaxScale = false;
+            }
             if (!hasMaxScale && currentScale <= maxscale)
             {
                 currentScale += 0.1f;
@@ -117,14 +117,13 @@ public class GameManager : MonoBehaviour
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(0));
             depthOfField_.active = false;
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1000));
-            if (currentScale < maxscale)
+            if (lensDistortion.active && currentScale < 2.4)
             {
                 currentScale += 0.01f;
             }
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
-            if (currentScale >= maxscale)
+            if (lensDistortion.active && currentScale >=2.4)
             {
-
                 lensDistortion.active = false;
             }
             //volume.SetActive(false);
