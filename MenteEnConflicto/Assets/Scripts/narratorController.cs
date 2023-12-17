@@ -15,7 +15,7 @@ public class narratorController : MonoBehaviour
     void Start()
     {
         botonPanico.SetActive(false);
-        door.changeLock(true);
+        door.changeLock(false);
         narratorEventInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEventNarrator);
         narratorEventInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         Invoke("PlayAudioWithDelay", 3f);

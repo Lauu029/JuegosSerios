@@ -9,7 +9,7 @@ public class playerController : MonoBehaviour
     void Awake()
     {
         if (instance_ != null && instance_ != this)
-            Destroy(this);
+            Destroy(gameObject);
         else
         {
             instance_ = this;

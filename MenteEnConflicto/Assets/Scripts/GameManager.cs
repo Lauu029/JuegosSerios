@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using Unity.XR.CoreUtils;
 using UnityEngine;
 using UnityEngine.Rendering;
@@ -15,18 +16,22 @@ public class GameManager : MonoBehaviour
     bool playerLocked = false;
     private MotionBlur motionBlur_;
     private DepthOfField depthOfField_;
+    private LensDistortion lensDistortion;
     Transform dest;
     [SerializeField]
     [Range(0, 100)]
     private float anxiety;
     private float timerAddAnxiety;
     private float timerRemoveAnxiety;
-
+    private float maxscale = 5.0f;
+    private float minscale = 1.0f;
+    private float currentScale;
+    private bool hasMaxScale = false;
     public VolumeProfile volume;
     private void Awake()
     {
         if (instance_ != null && instance_ != this)
-            Destroy(this);
+            Destroy(gameObject);
         else
         {
             instance_ = this;
@@ -49,11 +54,17 @@ public class GameManager : MonoBehaviour
         timerAddAnxiety = 0;
         timerRemoveAnxiety = 0;
         characterController_ = player.GetNamedChild("Complete XR Origin Set Up").GetNamedChild("XR Origin").GetComponent<CharacterController>();
+        volume.TryGet<LensDistortion>(out lensDistortion);
+        lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(2.0f));
+        lensDistortion.active = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        volume.TryGet<MotionBlur>(out motionBlur_);
+        volume.TryGet<DepthOfField>(out depthOfField_);
+        volume.TryGet<LensDistortion>(out lensDistortion);
         player.GetComponent<AnxietyController>().setAnxiety(anxiety);
         if (SceneManager.GetActiveScene().name == "RoomScene")
         {
@@ -68,25 +79,54 @@ public class GameManager : MonoBehaviour
 
         if (anxiety >= 70)
         {
+            if (!lensDistortion.active)
+            {
+                lensDistortion.active = true;
+                lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(2.0f));
+                currentScale = 2.0f;
+                hasMaxScale = false;
+            }
             //volume.SetActive(true);
-            volume.TryGet<MotionBlur>(out motionBlur_);
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(anxiety / 100));
 
-            volume.TryGet<DepthOfField>(out depthOfField_);
             depthOfField_.active = true;
             depthOfField_.gaussianStart.SetValue(new UnityEngine.Rendering.FloatParameter(0.0f));
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1 - (anxiety / 100)));
+            lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(1 + (anxiety / 100)));
             //if (!playerLocked)
             //    lockPlayer();
-
         }
+        if (anxiety >= 85)
+        {
+            if (!hasMaxScale && currentScale <= maxscale)
+            {
+                currentScale += 0.1f;
+            }
+            else if(currentScale >= maxscale)
+            {
+                hasMaxScale = true;
+            }
+            if (hasMaxScale && currentScale > minscale)
+                currentScale -= 0.01f;
+            lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
+        }
+
+
         else
         {
-            volume.TryGet<MotionBlur>(out motionBlur_);
-            volume.TryGet<DepthOfField>(out depthOfField_);
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(0));
             depthOfField_.active = false;
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1000));
+            if (currentScale < maxscale)
+            {
+                currentScale += 0.01f;
+            }
+            lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
+            if (currentScale >= maxscale)
+            {
+
+                lensDistortion.active = false;
+            }
             //volume.SetActive(false);
             //if (playerLocked)
             //    unLockPlayer();

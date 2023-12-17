@@ -5,7 +5,7 @@ using UnityEngine;
 public class AttachPlayer : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         playerController.Instance.transform.position = transform.position;
     }

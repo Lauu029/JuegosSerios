@@ -31,10 +31,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
   m_Name: Vignette
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   color:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: {r: 0, g: 0, b: 0, a: 1}
     hdr: 0
     showAlpha: 0
@@ -43,17 +43,17 @@ MonoBehaviour:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   intensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.726
     min: 0
     max: 1
   smoothness:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0.424
     min: 0.01
     max: 1
   rounded:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -73,6 +73,44 @@ MonoBehaviour:
   - {fileID: 9113098229674025853}
   - {fileID: -1683833529292900614}
   - {fileID: 4782251283897397097}
+  - {fileID: 3592916569371603372}
+--- !u!114 &3592916569371603372
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e1dc532bcb41949b58bc4f2abfbb7e, type: 3}
+  m_Name: LensDistortion
+  m_EditorClassIdentifier: 
+  active: 1
+  m_AdvancedMode: 0
+  intensity:
+    m_OverrideState: 1
+    m_Value: -0.84
+    min: -1
+    max: 1
+  xMultiplier:
+    m_OverrideState: 0
+    m_Value: 0.097
+    min: 0
+    max: 1
+  yMultiplier:
+    m_OverrideState: 0
+    m_Value: 0.03
+    min: 0
+    max: 1
+  center:
+    m_OverrideState: 0
+    m_Value: {x: 0.5, y: 0.5}
+  scale:
+    m_OverrideState: 1
+    m_Value: 3.6199985
+    min: 0.01
+    max: 5
 --- !u!114 &4782251283897397097
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -118,10 +156,10 @@ MonoBehaviour:
   active: 0
   m_AdvancedMode: 0
   mode:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   gaussianStart:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 0
     min: 0
   gaussianEnd:
@@ -177,14 +215,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   m_AdvancedMode: 0
   threshold:
     m_OverrideState: 0
     m_Value: 0.03
     min: 0
   intensity:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1.54
     min: 0
   scatter:
