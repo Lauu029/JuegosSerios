@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
     private float currentScale;
     private bool hasMaxScale = false;
     public VolumeProfile volume;
+
+    public FadeScreen fadeScreen;
     private void Awake()
     {
         if (instance_ != null && instance_ != this)
@@ -123,7 +125,7 @@ public class GameManager : MonoBehaviour
             }
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
 
-            if (lensDistortion.active && currentScale >=2.0)
+            if (lensDistortion.active && currentScale >= 2.0)
             {
                 lensDistortion.active = false;
             }
@@ -153,7 +155,7 @@ public class GameManager : MonoBehaviour
     public void changeScene(string SceneName)
     {
         anxiety = 0;
-        SceneManager.LoadScene(SceneName);
+        StartCoroutine(changeSceneRoutine(SceneName));
     }
     private void lockPlayer()
     {
@@ -179,5 +181,13 @@ public class GameManager : MonoBehaviour
     public void stopGame()
     {
         Application.Quit();
+    }
+
+    private IEnumerator changeSceneRoutine(string SceneName)
+    {
+        fadeScreen.FadeOut();
+        yield return new WaitForSeconds(fadeScreen.fadeDuration);
+        SceneManager.LoadScene(SceneName);
+        fadeScreen.FadeIn();
     }
 }
