@@ -35,7 +35,8 @@ public class Spawner : MonoBehaviour
 
         if (transform.childCount > maxPeople)
         {
-            for (int i = transform.childCount - 1; i >= maxPeople; i--)
+            int i = transform.childCount - 1;
+            for (; i >= maxPeople; i--)
                 Destroy(transform.GetChild(i).gameObject);
 
         }
