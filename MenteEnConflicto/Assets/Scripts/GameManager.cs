@@ -19,16 +19,19 @@ public class GameManager : MonoBehaviour
     private MotionBlur motionBlur_;
     private DepthOfField depthOfField_;
     private LensDistortion lensDistortion;
-    [SerializeField]
-    [Range(0, 100)]
-    private float anxiety;
-    private float timerAddAnxiety;
-    private float timerRemoveAnxiety;
     private float maxscale = 5.0f;
     private float minscale = 1.0f;
     private float currentScale;
     private bool hasMaxScale = false;
     public VolumeProfile volume;
+
+    [SerializeField]
+    [Range(0, 100)]
+    private float anxiety;
+    private float timerAddAnxiety = 0;
+    private float timerRemoveAnxiety = 0;
+    private float timerAnxietyAttack = 0;
+    private bool anxietyAttack = false;
 
     private void Awake()
     {
@@ -85,14 +88,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        //Restar ansiedad
-        timerRemoveAnxiety += Time.deltaTime;
-        if (timerRemoveAnxiety >= 0.1)
-        {
-            timerRemoveAnxiety = 0;
-            removeAnxiety();
-        }
-
+        removeAnxiety();
 
         volume.TryGet<MotionBlur>(out motionBlur_);
         volume.TryGet<DepthOfField>(out depthOfField_);
@@ -163,14 +159,44 @@ public class GameManager : MonoBehaviour
 
     public void addAnxiety()
     {
-        if (characterController_.velocity != Vector3.zero && anxiety < 100)
+        if (anxietyAttack) return;
+
+        if (anxiety < 100)
+        {
             anxiety++;
+            if (anxiety >= 100) anxietyAttack = true;
+        }
     }
 
     public void removeAnxiety()
     {
-        if (characterController_.velocity == Vector3.zero && anxiety > 0)
-            anxiety--;
+        if (!anxietyAttack) return;
+
+
+        if (timerAnxietyAttack >= 5.0)
+        {
+            if (anxiety > 10)
+            {
+                if (characterController_.velocity == Vector3.zero)
+                {
+                    timerRemoveAnxiety += Time.deltaTime;
+                    if (timerRemoveAnxiety >= 0.1)
+                    {
+                        timerRemoveAnxiety = 0;
+                        anxiety--;
+                    }
+                }
+            }
+            else
+            {
+                anxietyAttack = false;
+                timerAnxietyAttack = 0;
+            }
+        }
+        else
+        {
+            timerAnxietyAttack += Time.deltaTime;
+        }
     }
 
     public int getAnxiety()
