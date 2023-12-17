@@ -2,12 +2,15 @@
 [LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
 [LOG] SystemI::init                            : Initialize version=20219 (137979), maxchannels=256, flags=0x00020000
 [LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
-[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
-[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=8, nSamplesPerSec=44100, nAvgBytesPerSec=1411200, nBlockAlign=32, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x0000063F, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 3760 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] DownMix::init                            : dspbuffersize: 1024  rate: 48000. output speaker mode: 7, input speaker mode 3
+[LOG] DownMix::init                            : done.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001C9739895C8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000013AF19560B8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -25,6 +28,246 @@
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
 [LOG] Manager::readBank                        : fileversion = 142, compatVersion = 140 (oldest = 44, newest = 142)
+[LOG] SoundI::release                          : risasJugando2 (0000013A5E352E38)
+[LOG] SoundI::release                          :     risasJugando2 (000001380DD57D68)
+[LOG] SoundI::release                          :     risasJugando2 (0000013A5E355A18)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E3571B8, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E3571B8
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F4620F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='risasJugando2', format=5, channels=2, frequency=48000, lengthbytes=151296, lengthpcm=787968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494659.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E3571B8
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E359018, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E359018
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F7A07F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bebeLlorando3', format=5, channels=2, frequency=48000, lengthbytes=533056, lengthpcm=1914624, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.786102.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E359018
+[LOG] SoundI::release                          : risasJugando2 (0000013A5E3571B8)
+[LOG] SoundI::release                          :     risasJugando2 (000001380DD57068)
+[LOG] SoundI::release                          :     risasJugando2 (0000013A5E358E68)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E35A0F8, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E35A0F8
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F7A0070
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='risasJugando2', format=5, channels=2, frequency=48000, lengthbytes=151296, lengthpcm=787968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494659.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E35A0F8
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E35A7B8, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E35A7B8
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F4620F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambienteCentroComercial', format=5, channels=2, frequency=48000, lengthbytes=704576, lengthpcm=2667653, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.458557.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E35A7B8
+[LOG] SoundI::release                          : ambienteCentroComercial (0000013AF1D61538)
+[LOG] SoundI::release                          :     ambienteCentroComercial (0000013AE0B9E788)
+[LOG] SoundI::release                          :     ambienteCentroComercial (0000013A5E357008)
+[LOG] SoundI::release                          : bebeLlorando3 (0000013A5E359018)
+[LOG] SoundI::release                          :     bebeLlorando3 (000001380DD57D68)
+[LOG] SoundI::release                          :     bebeLlorando3 (0000013A5E35ACC8)
+[LOG] SoundI::release                          : risasJugando2 (0000013A5E35A0F8)
+[LOG] SoundI::release                          :     risasJugando2 (000001380DD57548)
+[LOG] SoundI::release                          :     risasJugando2 (0000013A5E35B898)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E355A18, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E355A18
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A134863A0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bebeLlorando2', format=5, channels=2, frequency=48000, lengthbytes=261792, lengthpcm=1040256, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E355A18
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E358E68, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E358E68
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A13486760
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='risasJugando2', format=5, channels=2, frequency=48000, lengthbytes=151296, lengthpcm=787968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494659.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E358E68
+[LOG] SoundI::release                          : risasJugando2 (0000013A5E358E68)
+[LOG] SoundI::release                          :     risasJugando2 (000001380DD57548)
+[LOG] SoundI::release                          :     risasJugando2 (0000013A5E359018)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E35A608, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E35A608
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F4624B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='risasJugando2', format=5, channels=2, frequency=48000, lengthbytes=151296, lengthpcm=787968, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.494659.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E35A608
+[LOG] SoundI::release                          : bebeLlorando2 (0000013A5E355A18)
+[LOG] SoundI::release                          :     bebeLlorando2 (0000013AE0BB7D98)
+[LOG] SoundI::release                          :     bebeLlorando2 (0000013A5E357008)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E35AB18, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E35AB18
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F4625F0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ambienteCentroComercial', format=5, channels=2, frequency=48000, lengthbytes=704576, lengthpcm=2667653, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.458557.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E35AB18
+[LOG] SoundI::release                          : ambienteCentroComercial (0000013A5E35A7B8)
+[LOG] SoundI::release                          :     ambienteCentroComercial (000001380DD57208)
+[LOG] SoundI::release                          :     ambienteCentroComercial (0000013A5E359D98)
+[LOG] SoundI::release                          : risasJugando2 (0000013A5E35A608)
+[LOG] SoundI::release                          :     risasJugando2 (000001380DD576E8)
+[LOG] SoundI::release                          :     risasJugando2 (0000013A5E35ACC8)
+[LOG] SystemI::createSound                     : filename = ../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000013A5E35A7B8, queue head = 0000013AE12078A8, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013A5E35A7B8
+[LOG] SystemI::createSoundInternal             :     Create name='../ProyectoSonido/MenteEnConflicto/Build/Desktop/CentroComercial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3028928
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 15680
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000013A5F7A01B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='bebeLlorando4', format=5, channels=2, frequency=48000, lengthbytes=137312, lengthpcm=523008, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.700104.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013A5E35A7B8
+[LOG] SoundI::release                          :  (0000013A191C9CC8)
+[LOG] SoundI::release                          :     Latidorapido (0000013AF2346C78)
+[LOG] SoundI::release                          :  (0000013A191D3F38)
+[LOG] SoundI::release                          :     Latido3 (0000013AF23477D8)
+[LOG] SoundI::release                          :  (0000013A191CE618)
+[LOG] SoundI::release                          :     anuncio2 (0000013AF23472F8)
+[LOG] SoundI::release                          :  (0000013A191CA118)
+[LOG] SoundI::release                          :     anuncio1 (0000013AF2347638)
+[LOG] SoundI::release                          :  (0000013A191CE788)
+[LOG] SoundI::release                          :     risasJugando (0000013AF2346FB8)
+[LOG] SoundI::release                          :  (0000013A191CCAC8)
+[LOG] SoundI::release                          :     risas1 (0000013AFA0FA258)
+[LOG] SoundI::release                          :  (0000013A191CF198)
+[LOG] SoundI::release                          :     risas2 (0000013AFA0F9BD8)
+[LOG] SoundI::release                          :  (0000013A191CCF18)
+[LOG] SoundI::release                          :     risas3 (0000013AFA0F9A38)
+[LOG] SoundI::release                          :  (0000013A191C9878)
+[LOG] SoundI::release                          :     risas4 (0000013AFA0F9F18)
+[LOG] SoundI::release                          :  (0000013A191CE338)
+[LOG] SoundI::release                          :     risas5 (0000013AE0CCCF08)
+[LOG] SoundI::release                          :  (0000013A191D2F68)
+[LOG] SoundI::release                          :     inspiraLento1 (0000013A1517B3E8)
+[LOG] SoundI::release                          : bebeLlorando4 (0000013A5E35A7B8)
+[LOG] SoundI::release                          :     bebeLlorando4 (000001380DD573A8)
+[LOG] SoundI::release                          :     bebeLlorando4 (0000013A5E35B1D8)
+[LOG] SoundI::release                          : ambienteCentroComercial (0000013A5E35AB18)
+[LOG] SoundI::release                          :     ambienteCentroComercial (000001380DD57BC8)
+[LOG] SoundI::release                          :     ambienteCentroComercial (0000013A5E35B028)
+[LOG] SoundI::release                          :  (0000013A191D0E58)
+[LOG] SoundI::release                          :     inspiraLento2 (000001380DCCA458)
+[LOG] SoundI::release                          :  (0000013A191D4948)
+[LOG] SoundI::release                          :     espiraLento1 (0000013A15549228)
+[LOG] SoundI::release                          :  (0000013A191D2DF8)
+[LOG] SoundI::release                          :     espiraLento2 (0000013AF1D50BC8)
+[LOG] SoundI::release                          :  (0000013A191CF758)
+[LOG] SoundI::release                          :     espiraFuerte1 (0000013A1517BC08)
+[LOG] SoundI::release                          :  (0000013A191D1868)
+[LOG] SoundI::release                          :     espiraFuerte2 (000001380DCCA2B8)
+[LOG] SoundI::release                          :  (0000013A191D4F08)
+[LOG] SoundI::release                          :     espiraFuerte3 (0000013A1517B728)
+[LOG] SoundI::release                          :  (0000013A191D4C28)
+[LOG] SoundI::release                          :     inspiraMuyFuerte1 (0000013A18EB1D88)
+[LOG] SoundI::release                          :  (0000013A191D4AB8)
+[LOG] SoundI::release                          :     inspiraMuyFuerte2 (0000013A18EB13C8)
+[LOG] SoundI::release                          :  (0000013A191D47D8)
+[LOG] SoundI::release                          :     inspiraMuyFuerte3 (0000013A15549D88)
+[LOG] SoundI::release                          :  (0000013A191D2C88)
+[LOG] SoundI::release                          :     inspiraFuerte1 (000001380DCC9F78)
+[LOG] SoundI::release                          :  (0000013A191D4D98)
+[LOG] SoundI::release                          :     inspiraFuerte2 (000001380DCCA938)
+[LOG] SoundI::release                          :  (0000013A191CF5E8)
+[LOG] SoundI::release                          :     inspiraFuerte3 (0000013A15549BE8)
+[LOG] SoundI::release                          :  (0000013A191D0168)
+[LOG] SoundI::release                          :     respiracion_tranquilizarse (0000013AF1D50A28)
+[LOG] SoundI::release                          :  (0000013A191D23E8)
+[LOG] SoundI::release                          :     espiraMuyFuerte1 (000001380DCC9C38)
+[LOG] SoundI::release                          :  (0000013A191D40A8)
+[LOG] SoundI::release                          :     espiraMuyFuerte2 (0000013A18EB1708)
+[LOG] SoundI::release                          :  (0000013A191CFBA8)
+[LOG] SoundI::release                          :     espiraMuyFuerte3 (0000013AF1D50208)
+[LOG] SoundI::release                          :  (0000013A191D3AE8)
+[LOG] SoundI::release                          :     transicionMedioLento (0000013A18EB1BE8)
+[LOG] SoundI::release                          :  (0000013A191CFD18)
+[LOG] SoundI::release                          :     transicionLentoMedio (0000013A18EB1A48)
+[LOG] SoundI::release                          :  (0000013A191D0728)
+[LOG] SoundI::release                          :     transicionMedioRapido (0000013A15549708)
+[LOG] SoundI::release                          :  (0000013A191CFE88)
+[LOG] SoundI::release                          :     transicionRapidoMedio (0000013AF1D506E8)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -32,3 +275,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

@@ -122,6 +122,7 @@ public class GameManager : MonoBehaviour
                 currentScale += 0.01f;
             }
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
+
             if (lensDistortion.active && currentScale >=2.0)
             {
                 lensDistortion.active = false;
@@ -169,6 +170,12 @@ public class GameManager : MonoBehaviour
     {
         anxiety++;
     }
+
+    public int getAnxiety()
+    {
+        return (int)anxiety;
+    }
+
     public void stopGame()
     {
         Application.Quit();

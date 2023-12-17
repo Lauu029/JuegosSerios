@@ -26,7 +26,7 @@ public class LevelManager : MonoBehaviour
         get
         {
             if (instance_ == null)
-                Debug.Log("Game Manager is Null");
+                Debug.Log("Level Manager is Null");
             return instance_;
         }
     }
@@ -35,10 +35,27 @@ public class LevelManager : MonoBehaviour
         gameManager = GameManager.Instance;
         objectsCollected = 0;
         canChangeScene = false;
-        if (SceneManager.GetActiveScene().name == "CentroCocotero") return;
-        door.changeLock(true);
-        Debug.Log("HE cerrado la puerta");
 
+        if (SceneManager.GetActiveScene().name == "CentroCocotero")
+        {
+            Outline outline = objectsToCollect[objectsCollected].AddComponent<Outline>();
+            outline.OutlineMode = Outline.Mode.OutlineAll;
+            outline.OutlineColor = new Color(0.0f, 0.7f, 1.0f);
+            outline.OutlineWidth = 5f;
+        }
+        else if (SceneManager.GetActiveScene().name == "RoomScene")
+        {
+            door.changeLock(true);
+            Debug.Log("HE cerrado la puerta");
+
+            foreach (GameObject obj in objectsToCollect)
+            {
+                Outline outline = obj.AddComponent<Outline>();
+                outline.OutlineMode = Outline.Mode.OutlineAll;
+                outline.OutlineColor = new Color(0.0f, 0.7f, 1.0f);
+                outline.OutlineWidth = 5f;
+            }
+        }
     }
 
     public void addObjectSelected()
@@ -46,15 +63,30 @@ public class LevelManager : MonoBehaviour
         objectsCollected++;
         Debug.Log("Objects Collected: " + objectsCollected);
 
-        PathManager pathManager;
-        if (TryGetComponent<PathManager>(out pathManager))
+        if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
-            pathManager.ChangeActualPath();
+            PathManager pathManager;
+            if (TryGetComponent<PathManager>(out pathManager))
+            {
+                pathManager.ChangeActualPath();
+            }
+
+            if (!everyObjectCollected())
+            {
+                Outline outline = objectsToCollect[objectsCollected].AddComponent<Outline>();
+                outline.OutlineMode = Outline.Mode.OutlineAll;
+                outline.OutlineColor = new Color(0.0f, 0.7f, 1.0f);
+                outline.OutlineWidth = 5f;
+            }
         }
-        else if (objectsCollected == objectsToCollect.Length)
+        else if (SceneManager.GetActiveScene().name == "RoomScene")
         {
-            canChangeScene = true;
+            if (objectsCollected == objectsToCollect.Length)
+            {
+                canChangeScene = true;
+            }
         }
+
     }
     public void removeObjectSelected()
     {

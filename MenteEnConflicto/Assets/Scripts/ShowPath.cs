@@ -57,4 +57,10 @@ public class ShowPath : MonoBehaviour
     {
         this.enabled = false;
     }
+
+    private void OnDisable()
+    {
+        spherePath.ForEach(Destroy);
+        spherePath.Clear();
+    }
 }

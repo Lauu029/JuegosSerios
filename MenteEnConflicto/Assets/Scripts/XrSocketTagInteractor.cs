@@ -27,5 +27,19 @@ public class XrSocketTagInteractor : XRSocketInteractor
         {
             interactable.gameObject.active = false;
         }
+        else if (SceneManager.GetActiveScene().name == "RoomScene")
+        {
+            interactable.gameObject.GetComponent<Outline>().enabled = false;
+        }
+    }
+    protected override void OnSelectExited(XRBaseInteractable interactable)
+    {
+        base.OnSelectExited(interactable);
+
+        if (SceneManager.GetActiveScene().name == "RoomScene")
+        {
+            levelManager.removeObjectSelected();
+            interactable.gameObject.GetComponent<Outline>().enabled = true;
+        }
     }
 }
