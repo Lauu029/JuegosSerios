@@ -117,12 +117,12 @@ public class GameManager : MonoBehaviour
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(0));
             depthOfField_.active = false;
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1000));
-            if (lensDistortion.active && currentScale < 2.4)
+            if (lensDistortion.active && currentScale < 2.0)
             {
                 currentScale += 0.01f;
             }
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
-            if (lensDistortion.active && currentScale >=2.4)
+            if (lensDistortion.active && currentScale >=2.0)
             {
                 lensDistortion.active = false;
             }

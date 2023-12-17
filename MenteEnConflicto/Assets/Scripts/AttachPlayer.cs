@@ -7,7 +7,8 @@ public class AttachPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        playerController.Instance.transform.position = transform.position;
+        GameObject player = GameObject.Find("XR Origin");
+        player.transform.position = transform.position;
     }
 
     // Update is called once per frame

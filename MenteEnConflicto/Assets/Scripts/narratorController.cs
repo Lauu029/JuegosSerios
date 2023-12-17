@@ -14,7 +14,7 @@ public class narratorController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        botonPanico.SetActive(false);
+        //botonPanico.SetActive(false);
         //door.changeLock(false);
         narratorEventInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEventNarrator);
         narratorEventInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
