@@ -13,11 +13,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
     private CharacterController characterController_;
-    bool playerLocked = false;
+    public FadeScreen fadeScreen;
+
+
     private MotionBlur motionBlur_;
     private DepthOfField depthOfField_;
     private LensDistortion lensDistortion;
-    Transform dest;
     [SerializeField]
     [Range(0, 100)]
     private float anxiety;
@@ -29,7 +30,6 @@ public class GameManager : MonoBehaviour
     private bool hasMaxScale = false;
     public VolumeProfile volume;
 
-    public FadeScreen fadeScreen;
     private void Awake()
     {
         if (instance_ != null && instance_ != this)
@@ -50,7 +50,7 @@ public class GameManager : MonoBehaviour
             return instance_;
         }
     }
-    // Start is called before the first frame update
+
     void Start()
     {
         timerAddAnxiety = 0;
@@ -61,37 +61,53 @@ public class GameManager : MonoBehaviour
         lensDistortion.active = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        volume.TryGet<MotionBlur>(out motionBlur_);
-        volume.TryGet<DepthOfField>(out depthOfField_);
-        volume.TryGet<LensDistortion>(out lensDistortion);
-        player.GetComponent<AnxietyController>().setAnxiety(anxiety);
-        if (SceneManager.GetActiveScene().name == "RoomScene" && characterController_.velocity != Vector3.zero)
+        if (SceneManager.GetActiveScene().name == "RoomScene")
         {
-            timerAddAnxiety += Time.deltaTime;
-            if (timerAddAnxiety >= 1)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                timerAddAnxiety = 0;
-                if (anxiety <= 100) anxiety++;
+                stopGame();
             }
         }
 
+        player.GetComponent<AnxietyController>().setAnxiety(anxiety);
+        Debug.Log(anxiety);
+
+        //Sumar ansiedad en roomscene
+        if (SceneManager.GetActiveScene().name == "RoomScene")
+        {
+            timerAddAnxiety += Time.deltaTime;
+            if (timerAddAnxiety >= 0.5)
+            {
+                timerAddAnxiety = 0;
+                addAnxiety();
+            }
+        }
+
+        //Restar ansiedad
+        timerRemoveAnxiety += Time.deltaTime;
+        if (timerRemoveAnxiety >= 0.1)
+        {
+            timerRemoveAnxiety = 0;
+            removeAnxiety();
+        }
+
+
+        volume.TryGet<MotionBlur>(out motionBlur_);
+        volume.TryGet<DepthOfField>(out depthOfField_);
+        volume.TryGet<LensDistortion>(out lensDistortion);
 
         if (anxiety >= 70)
         {
-            //volume.SetActive(true);
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(anxiety / 100));
 
             depthOfField_.active = true;
             depthOfField_.gaussianStart.SetValue(new UnityEngine.Rendering.FloatParameter(0.0f));
             depthOfField_.gaussianEnd.SetValue(new UnityEngine.Rendering.FloatParameter(1 - (anxiety / 100)));
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(1 + (anxiety / 100)));
-            //if (!playerLocked)
-            //    lockPlayer();
         }
-        if (anxiety >= 85)
+        else if (anxiety >= 85)
         {
             if (!lensDistortion.active)
             {
@@ -112,8 +128,6 @@ public class GameManager : MonoBehaviour
                 currentScale -= 0.01f;
             lensDistortion.scale.SetValue(new UnityEngine.Rendering.FloatParameter(currentScale));
         }
-
-
         else
         {
             motionBlur_.intensity.SetValue(new UnityEngine.Rendering.FloatParameter(0));
@@ -129,25 +143,6 @@ public class GameManager : MonoBehaviour
             {
                 lensDistortion.active = false;
             }
-            //volume.SetActive(false);
-            //if (playerLocked)
-            //    unLockPlayer();
-        }
-
-        if (characterController_.velocity == Vector3.zero && anxiety > 0)
-        {
-            timerRemoveAnxiety += Time.deltaTime;
-            if (timerRemoveAnxiety >= 1)
-            {
-                timerRemoveAnxiety = 0;
-                anxiety--;
-            }
-        }
-
-        if (playerLocked)
-        {
-            player.transform.position = dest.position;
-            player.transform.rotation = dest.rotation;
         }
 
     }
@@ -157,20 +152,25 @@ public class GameManager : MonoBehaviour
         anxiety = 0;
         StartCoroutine(changeSceneRoutine(SceneName));
     }
-    private void lockPlayer()
+
+    private IEnumerator changeSceneRoutine(string SceneName)
     {
-        dest = player.transform;
-        playerLocked = true;
-    }
-    private void unLockPlayer()
-    {
-        //dest = player.transform;
-        playerLocked = false;
+        fadeScreen.FadeOut();
+        yield return new WaitForSeconds(fadeScreen.fadeDuration);
+        SceneManager.LoadScene(SceneName);
+        fadeScreen.FadeIn();
     }
 
     public void addAnxiety()
     {
-        anxiety++;
+        if (characterController_.velocity != Vector3.zero && anxiety < 100)
+            anxiety++;
+    }
+
+    public void removeAnxiety()
+    {
+        if (characterController_.velocity == Vector3.zero && anxiety > 0)
+            anxiety--;
     }
 
     public int getAnxiety()
@@ -181,13 +181,5 @@ public class GameManager : MonoBehaviour
     public void stopGame()
     {
         Application.Quit();
-    }
-
-    private IEnumerator changeSceneRoutine(string SceneName)
-    {
-        fadeScreen.FadeOut();
-        yield return new WaitForSeconds(fadeScreen.fadeDuration);
-        SceneManager.LoadScene(SceneName);
-        fadeScreen.FadeIn();
     }
 }
