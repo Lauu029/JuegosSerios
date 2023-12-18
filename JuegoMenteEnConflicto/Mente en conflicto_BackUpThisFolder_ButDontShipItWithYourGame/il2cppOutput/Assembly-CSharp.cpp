@@ -31199,6 +31199,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool XRSocketInteractor_CanSelect_m76164FD5D8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractor_OnSelectEntered_m141EDCD666A08B559AAFDC9B4F4554D79A620358 (XRBaseInteractor_t78FB23CA3FFA1C934E25A72B172879C3AE6D887F * __this, XRBaseInteractable_t6D8F476542495E625DE6A3454D4BC9323B6EDCBF * ___interactable0, const RuntimeMethod* method);
 // System.Void LevelManager::addObjectSelected()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LevelManager_addObjectSelected_mCDAD11C7BEF4E1CE426EA2BD7CDB7600C5A7AFEF (LevelManager_t010B312A2B35B45291F58195216ABB5673174961 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.GameObject::set_active(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.Interaction.Toolkit.XRBaseInteractor::OnSelectExited(UnityEngine.XR.Interaction.Toolkit.XRBaseInteractable)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRBaseInteractor_OnSelectExited_m9B7CF8908EBD9B81811E92373CB81F2A060F8429 (XRBaseInteractor_t78FB23CA3FFA1C934E25A72B172879C3AE6D887F * __this, XRBaseInteractable_t6D8F476542495E625DE6A3454D4BC9323B6EDCBF * ___interactable0, const RuntimeMethod* method);
 // System.Void LevelManager::removeObjectSelected()
@@ -46961,13 +46963,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XrSocketTagInteractor_OnSelectEntered_m4
 		}
 	}
 	{
-		// interactable.gameObject.SetActive(false);
+		// interactable.gameObject.active = false;
 		XRBaseInteractable_t6D8F476542495E625DE6A3454D4BC9323B6EDCBF * L_5 = ___interactable0;
 		NullCheck(L_5);
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_6;
 		L_6 = Component_get_gameObject_m55DC35B149AFB9157582755383BA954655FE0C5B(L_5, /*hidden argument*/NULL);
 		NullCheck(L_6);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_6, (bool)0, /*hidden argument*/NULL);
+		GameObject_set_active_mC5C02354788BC2EDF19359EEAE7396BE350C2BFA(L_6, (bool)0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
