@@ -96,7 +96,7 @@ Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@
 
 ### Vista general
 <p align="center">
-  <img src="./Imagenes/VistaGeneralMenu.png" alt="vista"/>
+  <img src="./Imagenes/VistaGeneralInicio.PNG" alt="vista"/>
 </p>
 
 <p align="center">
