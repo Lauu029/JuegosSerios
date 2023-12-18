@@ -271,6 +271,6 @@ La imagen muestra un esquema de como será el centro comercial.
 - Quick Outline: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
 - Toolkit utilizado para trabajar con VR: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
 ### 6. Vídeo del juego
-<video width="320" height="240">
-  <source src="Mente en conflicto demo.mp4" type="video/mp4">
+<video width="320" height="240" controls>
+  <source src="Mente-en-conflicto-demo.mov" type="video/mp4">
 </video>
