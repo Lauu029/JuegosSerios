@@ -254,3 +254,11 @@ La imagen muestra un esquema de como será el centro comercial.
 - Please Knock on My Door: [Steam - Please Knock on My Door](https://store.steampowered.com/app/613450/Please_Knock_on_My_Door/)
 - SoundFields: [MDPI - SoundFields](https://www.mdpi.com/2076-3417/13/11/6783)
 - Logotipo del juego hecho con el chat de IA de bing, con gpt4
+- Modelo de la habitación: https://www.cgtrader.com/free-3d-models/interior/bedroom/another-bedroom
+- Modelo del centro comercial: https://assetstore.unity.com/packages/3d/props/interior/simple-shop-interiors-cartoon-assets-38029
+- Modelo de los personajes: https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214
+- Tutoriales en VR: https://www.youtube.com/@ValemTutorials
+- Animaciones: https://www.mixamo.com/#/
+- Sonidos: https://freesound.org/ y https://mixkit.co/
+- Reloj de la habitación: https://assetstore.unity.com/packages/3d/props/interior/clock-free-44164
+- Quick Outline: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
