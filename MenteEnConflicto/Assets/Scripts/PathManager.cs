@@ -12,20 +12,15 @@ public class PathManager : MonoBehaviour
         int actualObjects = LevelManager.Instance.getObjectsCollected();
         paths[actualObjects - 1].enabled = false;
 
-        if(actualObjects < paths.Length)
+        if (actualObjects < paths.Length)
         {
-            paths[actualObjects].enabled = true;        
+            paths[actualObjects].enabled = true;
         }
     }
-    // Start is called before the first frame update
     void Start()
     {
         paths[0].enabled = true;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+
+

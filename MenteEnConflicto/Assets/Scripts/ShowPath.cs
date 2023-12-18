@@ -52,11 +52,6 @@ public class ShowPath : MonoBehaviour
         }
     }
 
-    private void Awake()
-    {
-        this.enabled = false;
-    }
-
     private void OnDisable()
     {
         spherePath.ForEach(Destroy);

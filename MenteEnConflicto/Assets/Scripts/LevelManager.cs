@@ -10,6 +10,8 @@ public class LevelManager : MonoBehaviour
     private int objectsCollected;
     public Door door;
     private static LevelManager instance_;
+
+    [SerializeField]
     private GameObject key = null;
 
     private void Awake()
