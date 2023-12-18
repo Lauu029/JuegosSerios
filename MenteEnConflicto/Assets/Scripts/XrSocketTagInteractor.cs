@@ -25,7 +25,7 @@ public class XrSocketTagInteractor : XRSocketInteractor
         levelManager.addObjectSelected();
         if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
-            interactable.gameObject.active = false;
+            interactable.gameObject.SetActive(false);
         }
         else if (SceneManager.GetActiveScene().name == "RoomScene")
         {

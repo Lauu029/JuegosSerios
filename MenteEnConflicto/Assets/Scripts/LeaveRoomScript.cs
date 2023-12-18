@@ -9,24 +9,12 @@ public class LeaveRoomScript : MonoBehaviour
     private GameObject pickUpText = null;
     [SerializeField]
     private GameObject keyText = null;
-    bool canTryLeave = true;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
-            if(LevelManager.Instance.hasCollectedAllObjects())
+            if (LevelManager.Instance.hasCollectedAllObjects())
                 GameManager.Instance.changeScene("EndScene");
 
         }
