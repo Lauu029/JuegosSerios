@@ -807,11 +807,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 631582053}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88fc4ccb92a489540b3c7731e25e8e83, type: 3}
+  m_Script: {fileID: 11500000, guid: f960b035a956f8b4091c1d6f222ba8fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 7293731753796419061, guid: c3303131bac8fbd4eb8f9dda27330a98, type: 3}
-  nextScene: RoomScene
+  pickUpText: {fileID: 0}
+  keyText: {fileID: 0}
 --- !u!65 &631582055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -823,8 +823,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.91194, y: 1, z: 1}
-  m_Center: {x: 0.044030044, y: 0, z: 0}
+  m_Size: {x: 0.4933927, y: 1, z: 1}
+  m_Center: {x: 0.25330368, y: 0, z: 0}
 --- !u!65 &631582056
 BoxCollider:
   m_ObjectHideFlags: 0

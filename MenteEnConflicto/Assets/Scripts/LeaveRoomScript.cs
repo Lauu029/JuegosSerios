@@ -1,36 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LeaveRoomScript : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject pickUpText = null;
-    [SerializeField]
-    private GameObject keyText = null;
-
     private void OnTriggerEnter(Collider other)
     {
-        if (SceneManager.GetActiveScene().name == "CentroCocotero")
+        if (other.gameObject.tag == "Player")
         {
-            if (LevelManager.Instance.hasCollectedAllObjects())
-                GameManager.Instance.changeScene("EndScene");
+            if (SceneManager.GetActiveScene().name == "StartScene")
+                GameManager.Instance.changeScene("RoomScene");
+            else
+            {
+                LevelManager levelManager = LevelManager.Instance;
 
-        }
-        if (other.gameObject.tag == "Player")
-        {
-            LevelManager.Instance.tryLeaveRoom();
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            if (pickUpText != null)
-                pickUpText.SetActive(false);
-            if (keyText != null)
-                keyText.SetActive(false);
+                if (levelManager.everyObjectCollected())
+                {
+                    if (SceneManager.GetActiveScene().name == "CentroCocotero")
+                    {
+                        GameManager.Instance.changeScene("EndScene");
+                    }
+                    else if (SceneManager.GetActiveScene().name == "RoomScene" && !levelManager.door.isLocked())
+                    {
+                        GameManager.Instance.changeScene("CentroCocotero");
+                    }
+                }
+
+            }
         }
     }
 }

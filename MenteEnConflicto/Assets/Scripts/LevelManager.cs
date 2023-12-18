@@ -8,15 +8,8 @@ public class LevelManager : MonoBehaviour
 {
     public GameObject[] objectsToCollect;
     private int objectsCollected;
-    private bool canChangeScene;
     public Door door;
     private static LevelManager instance_;
-    private GameManager gameManager;
-    [SerializeField]
-    private GameObject pickUpText = null;
-    [SerializeField]
-    private GameObject keyText = null;
-    [SerializeField]
     private GameObject key = null;
 
     private void Awake()
@@ -38,9 +31,7 @@ public class LevelManager : MonoBehaviour
     }
     void Start()
     {
-        gameManager = GameManager.Instance;
         objectsCollected = 0;
-        canChangeScene = false;
         if (key != null)
         {
             key.AddComponent<Outline>();
@@ -90,45 +81,20 @@ public class LevelManager : MonoBehaviour
                 outline.OutlineWidth = 5f;
             }
         }
-        else if (SceneManager.GetActiveScene().name == "RoomScene")
-        {
-            if (objectsCollected == objectsToCollect.Length)
-            {
-                canChangeScene = true;
-            }
-        }
 
     }
+
     public void removeObjectSelected()
     {
         objectsCollected--;
         Debug.Log("Objects Collected: " + objectsCollected);
-    }
-    public void tryLeaveRoom()
-    {
-        if (SceneManager.GetActiveScene().name == "CentroCocotero") return;
-
-        if (canChangeScene && !door.isLocked())
-        {
-            gameManager.changeScene("CentroCocotero");
-        }
-        else
-        {
-            if (!canChangeScene)
-                pickUpText.SetActive(true);
-            else
-                keyText.SetActive(true);
-        }
     }
 
     public int getObjectsCollected()
     {
         return objectsCollected;
     }
-    public bool hasCollectedAllObjects()
-    {
-        return objectsCollected == objectsToCollect.Length;
-    }
+
     public bool everyObjectCollected()
     {
         return objectsCollected == objectsToCollect.Length;
