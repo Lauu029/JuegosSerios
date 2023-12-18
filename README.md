@@ -108,7 +108,7 @@ Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@
 
 #### 1.1. Relato breve y parcial de una partida típica  
 
-<p style="text-align: justify;">El jugador comienza la partida en una escena de menú que tiene una puerta bloqueada, en esta un narrador le introduce al juego y le explica lo que está a punto de experimentar. Una vez el narrador acabe de hablar, se desbloquea la puerta. Al abrira pasa a una habitación desordenada que debe ordenar, colocando cada objeto en su sitio. Mientras tanto, escuchará distintos sonidos que vienen de dentro y fuera de la habitación, a medida que pasa el tiempo, estos sonidos se iran volviendo más intensos y la ansiedad irá subiendo, hasta provocar un ataque de ansiedad. Una vez haya recogido la habitación, el jugador abre la puerta con la llave y pasa a la escena del centro comercial. En esta escena tendrá que ir de tienda en tienda recogiendo los objetos marcados, evitando chocarse con los npc para no desatar un ataque de ansiedad. Una vez recogidos los objetos, el jugador se traslada a una escena en la que un narrador le explica lo que acaba de suceder y los efectos de la ansiedad social. 
+<p style="text-align: justify;">El jugador comienza la partida en una escena de menú que tiene una puerta bloqueada, en esta un narrador le introduce al juego y le explica lo que está a punto de experimentar. Una vez el narrador acabe de hablar, se desbloquea la puerta. Al abrira pasa a una habitación desordenada que debe ordenar, colocando cada objeto en su sitio. Mientras tanto, escuchará distintos sonidos que vienen de dentro y fuera de la habitación, a medida que pasa el tiempo, estos sonidos se iran volviendo más intensos y la ansiedad irá subiendo, hasta provocar un ataque de ansiedad. Una vez haya recogido la habitación, el jugador abre la puerta con la llave y pasa a la escena del centro comercial. En esta escena tendrá que ir de tienda en tienda recogiendo los objetos marcados, evitando chocarse con los npc para no desatar un ataque de ansiedad. Una vez recogidos los objetos, se le muestra al jugador un camino hacia un trigger que traslada al jugador a una escena en la que un narrador le explica lo que acaba de suceder y los efectos de la ansiedad social.
 
 ## 2. Menús y modos de juego
 
@@ -127,7 +127,7 @@ El juego no tiene ningún menú de configuración y no habrá menú de pausa.
 <p style="text-align: justify;">La interfaz se representa mediante objetos físicos en cada nivel. Esto es porque una imagen fija en realidad virtual causaría malestar físico al jugador, al ser algo antinatural.
 
 - <p style="text-align: justify;">Tiempo de partida: En cada escena habrá un reloj físico a la vista, con el que el jugador no podrá interactuar, que lleve la cuenta del tiempo que lleva el jugador en la partida.
-- <p style="text-align: justify;">Objetivo del nivel: se representará como un cartel en algún punto que sea altamente visible de la sala.
+- <p style="text-align: justify;">Objetivo del nivel: se representará como un cartel en algún punto que sea altamente visible de la sala. Los objetos que tengas que recoger tendrán un outline para hacerle entender al jugador los objetos con los que tiene que interactuar.
 - <p style="text-align: justify;">Centro comercial: Para representar, en el centro comercial, el objetivo, el sitio hacia donde se tiene que dirigir el jugador, se dibujará en el suelo un camino de puntos que indicará al jugador como llegar al objetivo
 
 ## 3. Jugabilidad
@@ -143,6 +143,7 @@ El juego no tiene ningún menú de configuración y no habrá menú de pausa.
 #### 3.1.2. Mecánicas de escenario
 
 - El nivel contendrá objetos con los que se podrá interactuar, se podrán recoger y soltar.
+- Todos los niveles contienen algún botón del pánico, el cual se puede pulsar para acabar con la partida.
 
 ##### 3.1.2.1. Fonofobia
 
@@ -192,8 +193,8 @@ Los modelos 3D serán low poly.
 <p style="text-align: justify;">Al jugador se le transmitirá una sensación de agobio y ansiedad mediante técnicas como el uso de sonidos y el movimiento de la cámara:
 
 - A medida que el jugador va avanzando, empezará a escuchar su corazón, el cual está latiendo muy deprisa.
-- Sonará su respiración entrecortada a medida que el jugador va avanzando.
-- La cámara temblará para dar un efecto de mareo o náuseas a medida que el jugador va avanzando.
+- Sonará su respiración entrecortada a medida que la ansiedad del jugador va avanzando.
+- La cámara temblará para dar un efecto de mareo o náuseas a medida que la ansiedad del jugador va avanzando.
 
 ### 3.4. Cámara
 
@@ -204,6 +205,7 @@ Los modelos 3D serán low poly.
 - El juego se controlará mediante las Meta Quest 2.
 - La cámara se controlará mediante el movimiento de la cabeza del jugador
 - El jugador se moverá mediante el joystick del mando de la mano izquierda.
+- - La rotación del jugador se podrá manejar también mediante el joystick del mando de la mano derecha.
 - Para interactuar con objetos (agarrar, pulsar cosas, etcétera) se usarán los gatillos inferiores de los mandos
 
 <p style="text-align: justify;">El objetivo educativo de este juego en realidad virtual es hacer que el jugador se implique mucho más con las situaciones, y que sienta de forma más real las sensaciones que intentamos transmitir, de tal forma que se cumpla el objetivo de concienciación propuesto.
@@ -212,13 +214,16 @@ Los modelos 3D serán low poly.
 
 ### 4.1 Juego
 
-<p style="text-align: justify;">El juego se divide en dos partes, ambas poniendo el enfoque en una de las dos fobias que vamos a abordar.
+<p style="text-align: justify;">El juego se divide en cuatro partes, dos de inicio y final donde hay un audio que explican cosas relacionadas con el juego, y las otras dos que ponen el enfoque en una de las dos fobias que vamos a abordar.
 
-#### 4.1.1 Fonofobia
+#### 4.1.1 Presentación
+El juego empieza en una sala de espera en la que sale un audio de una television que explica de qué trata el juego y cuál es su objetivo. Al acabar el audio se desbloquea una puerta que te lleva a la siguiente escena.
+
+#### 4.1.2 Fonofobia
 
 En esta escena se presenta al jugador en una sala completamente desorganizada.
 
-<p style="text-align: justify;">El objetivo de este nivel es recoger la habitación. A lo largo del nivel irán sonando ruidos de fondo (ambulancias, portazos, gritos, etc.), cada vez más altos. Cuanto más ruido se genera, más alto suenan las voces. Al final de esta parte, la cámara comienza a temblar, la visión se pone borrosa y comienza a oírse el timbre y la voz de la vecina constantemente a alto volumen. El jugador tendrá que mantenerse quieto y en silencio total hasta que pase el ruido,  además no se permitirá que el jugador interaccione con nada hasta que finalice esta situación unos segundos después. Se pretende con esto simular un ataque de pánico, y generar gran  ansiedad en el jugador. Esta parte del nivel terminará cuando acabe de recoger la habitación, dando lugar a la segunda parte.
+<p style="text-align: justify;">El objetivo de este nivel es recoger la habitación. A lo largo del nivel irán sonando ruidos de fondo (ambulancias, portazos, gritos, etc.), cada vez más altos y de intensidades más altas dependiendo de la intensidad del jugador, la cual va aumentando a lo largo del tiempo. Cuando se llega a un nivel alto de ansiedad al jugador le dará un ataque, representado por el sonido de latidos de tu corazón cada vez más altos y rápidos y la cámara cada vez más borrosa. Cuando eso suceda, el jugador tendrá que mantenerse quieto y en silencio total hasta que se le pase. Se pretende con esto simular un ataque de pánico, y generar gran  ansiedad en el jugador. Esta parte del nivel terminará cuando acabe de recoger la habitación y salgas por la puerta, dando lugar a la segunda parte.
 
 <p align="center">
   <img src="./Imagenes/EsquemaHabitacion.png" alt="vista"/>
@@ -236,9 +241,9 @@ En esta escena se presenta al jugador en una sala completamente desorganizada.
 <p style="text-align: justify;">En la habitación habrá también una llave, que el jugador tendrá que coger para poder abrir la puerta de la habitación y salir. No obstante, el jugador no podrá salir de la habitación hasta que no haya recogido todos los objetos.
 
 
-#### 4.1.2 Agorafobia
+#### 4.1.3 Agorafobia
 
-<p style="text-align: justify;">El jugador sale de casa a un centro comercial. A medida que avanza el camino habrá cada vez más personas y más ruido, haciendo que el agobio se incremente en el tiempo. El jugador tendrá que coger un bus que está lleno de gente para acabar en un centro comercial medianamente lleno. El jugador tendrá que ir a varias tiendas recogiendo objetos y volver a la entrada del centro comercial, viendo el centro cada vez más lleno. El juego acaba cuando el jugador llega a la entrada del centro comercial.
+<p style="text-align: justify;">El jugador sale de casa a un centro comercial. A medida que avanza el camino habrá cada vez más personas y más ruido, haciendo que el agobio se incremente en el tiempo. El jugador tendrá que ir a varias tiendas recogiendo objetos y volver a la entrada del centro comercial, viendo el centro cada vez más lleno. Esta escena acaba cuando el jugador llega a la entrada del centro comercial, marcada con un camino de puntos cuando se hayan recogido todos los objetos.
 
 <p align="center">
   <img src="./Imagenes/VistaGEneralCentroComercial.png" alt="vista"/>
@@ -262,3 +267,4 @@ La imagen muestra un esquema de como será el centro comercial.
 - Sonidos: https://freesound.org/ y https://mixkit.co/
 - Reloj de la habitación: https://assetstore.unity.com/packages/3d/props/interior/clock-free-44164
 - Quick Outline: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
+- Toolkit utilizado para trabajar con VR: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
