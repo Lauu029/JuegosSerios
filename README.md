@@ -270,3 +270,7 @@ La imagen muestra un esquema de como será el centro comercial.
 - Reloj de la habitación: https://assetstore.unity.com/packages/3d/props/interior/clock-free-44164
 - Quick Outline: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
 - Toolkit utilizado para trabajar con VR: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
+
+### 6. Vídeo
+
+https://drive.google.com/file/d/1kuPaO0daKjAS-ms5Gso2HsNyM9N5jPYr/view?usp=drive_link
