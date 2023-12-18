@@ -1,5 +1,7 @@
 # Mente en conflicto: la experiencia VR
 
+Repositorio del juego serio "Mente en conflicto" para la asignatura Juegos Serios del Grado de Desarrollo de Videojuegos de la Universidad Complutense de Madrid.
+
 Laura Gómez Bodego ( <lgomez25@ucm.es> ),
 Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@ucm.es> )
 
