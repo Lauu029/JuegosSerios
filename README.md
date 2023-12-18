@@ -1,5 +1,7 @@
 # Mente en conflicto: la experiencia VR
 
+Repositorio del juego serio "Mente en conflicto" para la asignatura Juegos Serios del Grado de Desarrollo de Videojuegos de la Universidad Complutense de Madrid.
+
 Laura Gómez Bodego ( <lgomez25@ucm.es> ),
 Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@ucm.es> )
 
@@ -268,3 +270,7 @@ La imagen muestra un esquema de como será el centro comercial.
 - Reloj de la habitación: https://assetstore.unity.com/packages/3d/props/interior/clock-free-44164
 - Quick Outline: https://assetstore.unity.com/packages/tools/particles-effects/quick-outline-115488
 - Toolkit utilizado para trabajar con VR: https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@2.5/manual/index.html
+### 6. Vídeo del juego
+<video width="320" height="240">
+  <source src="Mente en conflicto demo.mp4" type="video/mp4">
+</video>
