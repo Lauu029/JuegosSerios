@@ -146,17 +146,15 @@ public class GameManager : MonoBehaviour
     public void changeScene(string SceneName)
     {
         anxiety = 0;
-        //SceneManager.LoadScene(SceneName);
-
-        StartCoroutine(changeSceneRoutine(SceneName));
+        instance_.StartCoroutine(changeSceneRoutine(SceneName));
     }
 
     private IEnumerator changeSceneRoutine(string SceneName)
     {
-        fadeScreen.FadeOut();
-        yield return new WaitForSeconds(fadeScreen.fadeDuration);
+        instance_.fadeScreen.FadeOut();
+        yield return new WaitForSeconds(instance_.fadeScreen.fadeDuration);
         SceneManager.LoadScene(SceneName);
-        fadeScreen.FadeIn();
+        instance_.fadeScreen.FadeIn();
     }
 
     public void addAnxiety()

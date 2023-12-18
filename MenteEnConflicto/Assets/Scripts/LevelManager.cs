@@ -13,7 +13,7 @@ public class LevelManager : MonoBehaviour
     private static LevelManager instance_;
     private GameManager gameManager;
     [SerializeField]
-    private GameObject pickUpText= null;
+    private GameObject pickUpText = null;
     [SerializeField]
     private GameObject keyText = null;
     [SerializeField]
@@ -118,7 +118,6 @@ public class LevelManager : MonoBehaviour
                 pickUpText.SetActive(true);
             else
                 keyText.SetActive(true);
-            //Debug.Log("Player has not collected all objects");
         }
     }
 
