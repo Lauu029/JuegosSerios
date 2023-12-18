@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR.Content.Interaction;
 
 public class narratorController : MonoBehaviour
@@ -12,15 +13,14 @@ public class narratorController : MonoBehaviour
     private bool hasStarted = false;
     [SerializeField]
     private GameObject botonPanico = null;
-    // Start is called before the first frame update
     void Start()
     {
-        //botonPanico.SetActive(false);
-        //door.changeLock(false);
         narratorEventInstance = FMODUnity.RuntimeManager.CreateInstance(fmodEventNarrator);
         narratorEventInstance.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         Invoke("PlayAudioWithDelay", 3f);
-        Invoke("startBotonPanico", 70f);
+
+        if (SceneManager.GetActiveScene().name == "StartScene")
+            Invoke("startBotonPanico", 70f);
     }
 
     // Update is called once per frame
@@ -28,12 +28,14 @@ public class narratorController : MonoBehaviour
     {
         FMOD.Studio.PLAYBACK_STATE playbackState;
         narratorEventInstance.getPlaybackState(out playbackState);
-        if (door != null)
+
+        if (hasStarted && playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
         {
-            if (hasStarted && playbackState == FMOD.Studio.PLAYBACK_STATE.STOPPED)
-            {
+            if (SceneManager.GetActiveScene().name == "StartScene" && door != null)
                 door.changeLock(false);
-            }
+            else if (SceneManager.GetActiveScene().name == "EndScene")
+                GameManager.Instance.changeScene("MainMenu");
+
         }
     }
     private void PlayAudioWithDelay()
