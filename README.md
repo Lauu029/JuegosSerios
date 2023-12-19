@@ -248,7 +248,7 @@ En esta escena se presenta al jugador en una sala completamente desorganizada.
 <p style="text-align: justify;">El jugador sale de casa a un centro comercial. A medida que avanza el camino habrá cada vez más personas y más ruido, haciendo que el agobio se incremente en el tiempo. El jugador tendrá que ir a varias tiendas recogiendo objetos y volver a la entrada del centro comercial, viendo el centro cada vez más lleno. Esta escena acaba cuando el jugador llega a la entrada del centro comercial, marcada con un camino de puntos cuando se hayan recogido todos los objetos.
 
 <p align="center">
-  <img src="./Imagenes/VistaGEneralCentroComercial.png" alt="vista"/>
+  <img src="./Imagenes/Boceto Centro comercial.png" alt="vista"/>
 </p>
 
 La imagen muestra un esquema de como será el centro comercial.
