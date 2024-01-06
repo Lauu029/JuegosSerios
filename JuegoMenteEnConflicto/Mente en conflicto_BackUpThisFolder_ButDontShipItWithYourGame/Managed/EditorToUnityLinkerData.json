@@ -763,7 +763,8 @@
             "fullManagedTypeName": "UnityEngine.ParticleSystem",
             "moduleName": "ParticleSystem",
             "usedInScenes": [
-                "Assets/Scenes/StartScene.unity"
+                "Assets/Scenes/StartScene.unity",
+                "Assets/Scenes/CentroCocotero.unity"
             ]
         },
         {
@@ -772,7 +773,8 @@
             "fullManagedTypeName": "UnityEngine.ParticleSystemRenderer",
             "moduleName": "ParticleSystem",
             "usedInScenes": [
-                "Assets/Scenes/StartScene.unity"
+                "Assets/Scenes/StartScene.unity",
+                "Assets/Scenes/CentroCocotero.unity"
             ]
         },
         {
@@ -887,6 +889,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Door",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "FadeScreen",
             "moduleName": "",
             "usedInScenes": []
@@ -936,13 +945,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "SetOptionFromUI",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "ShowPath",
             "moduleName": "",
             "usedInScenes": []
@@ -965,13 +967,6 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UIAudio",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.XR.Content.Interaction.Door",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1433,13 +1428,6 @@
         {
             "managedAssemblyName": "Unity.TextMeshPro.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TMP_Dropdown",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "TMPro.TMP_FontAsset",
             "moduleName": "",
             "usedInScenes": []
@@ -1770,6 +1758,13 @@
             "managedAssemblyName": "Unity.XR.Management.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.XR.Management.XRManagerSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.XR.Oculus.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Unity.XR.Oculus.OculusSettings",
             "moduleName": "",
             "usedInScenes": []
         },

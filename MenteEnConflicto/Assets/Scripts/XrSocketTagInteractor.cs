@@ -6,40 +6,41 @@ using UnityEngine.SceneManagement;
 public class XrSocketTagInteractor : XRSocketInteractor
 {
     public string tagToCollect;
-    private LevelManager levelManager;
-    void Start()
-    {
-        levelManager = LevelManager.Instance;
-    }
     public override bool CanHover(IXRHoverInteractable interactable)
     {
         return base.CanHover(interactable) && interactable.transform.tag == tagToCollect;
     }
-    public override bool CanSelect(XRBaseInteractable interactable)
+    public override bool CanSelect(IXRSelectInteractable interactable)
     {
         return base.CanSelect(interactable) && interactable.transform.tag == tagToCollect;
     }
-    protected override void OnSelectEntered(XRBaseInteractable interactable)
+
+    protected override void OnSelectEntered(SelectEnterEventArgs args)
     {
-        base.OnSelectEntered(interactable);
-        levelManager.addObjectSelected();
+        base.OnSelectEntered(args);
+        LevelManager.Instance.addObjectSelected();
+        GameObject gameObject = args.interactableObject.transform.gameObject;
+
         if (SceneManager.GetActiveScene().name == "CentroCocotero")
         {
-            interactable.gameObject.active = false;
+            gameObject.SetActive(false);
         }
         else if (SceneManager.GetActiveScene().name == "RoomScene")
         {
-            interactable.gameObject.GetComponent<Outline>().enabled = false;
+            gameObject.GetComponent<Outline>().enabled = false;
         }
+
     }
-    protected override void OnSelectExited(XRBaseInteractable interactable)
+
+    protected override void OnSelectExited(SelectExitEventArgs args)
     {
-        base.OnSelectExited(interactable);
+        base.OnSelectExited(args);
 
         if (SceneManager.GetActiveScene().name == "RoomScene")
         {
-            levelManager.removeObjectSelected();
-            interactable.gameObject.GetComponent<Outline>().enabled = true;
+            LevelManager.Instance.removeObjectSelected();
+            args.interactableObject.transform.gameObject.GetComponent<Outline>().enabled = true;
         }
     }
+
 }

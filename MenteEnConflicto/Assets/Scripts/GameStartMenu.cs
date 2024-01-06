@@ -24,6 +24,7 @@ public class GameStartMenu : MonoBehaviour
         //Hook events
         startButton.onClick.AddListener(StartGame);
         quitButton.onClick.AddListener(QuitGame);
+        aboutButton.onClick.AddListener(EnableAbout);
 
         foreach (var item in returnButtons)
         {
@@ -40,7 +41,6 @@ public class GameStartMenu : MonoBehaviour
     {
         HideAll();
         GameManager.Instance.changeScene("StartScene");
-        //SceneTransitionManager.singleton.GoToSceneAsync(1);
     }
 
     public void HideAll()
@@ -54,11 +54,7 @@ public class GameStartMenu : MonoBehaviour
         mainMenu.SetActive(true);
         about.SetActive(false);
     }
-    public void EnableOption()
-    {
-        mainMenu.SetActive(false);
-        about.SetActive(false);
-    }
+    
     public void EnableAbout()
     {
         mainMenu.SetActive(false);

@@ -75,6 +75,7 @@
 		<type fullname="AudioManager" preserve="nothing"/>
 		<type fullname="Clock" preserve="nothing"/>
 		<type fullname="CloseStore" preserve="nothing"/>
+		<type fullname="Door" preserve="nothing"/>
 		<type fullname="FadeScreen" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="GameStartMenu" preserve="nothing"/>
@@ -82,12 +83,10 @@
 		<type fullname="LevelManager" preserve="nothing"/>
 		<type fullname="NPCBehaviour" preserve="nothing"/>
 		<type fullname="PathManager" preserve="nothing"/>
-		<type fullname="SetOptionFromUI" preserve="nothing"/>
 		<type fullname="ShowPath" preserve="nothing"/>
 		<type fullname="Spawner" preserve="nothing"/>
 		<type fullname="TryLeaveRoom" preserve="nothing"/>
 		<type fullname="UIAudio" preserve="nothing"/>
-		<type fullname="UnityEngine.XR.Content.Interaction.Door" preserve="nothing"/>
 		<type fullname="XrSocketTagInteractor" preserve="nothing"/>
 		<type fullname="narratorController" preserve="nothing"/>
 		<type fullname="openDoor" preserve="nothing"/>
@@ -163,7 +162,6 @@
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
-		<type fullname="TMPro.TMP_Dropdown" preserve="nothing"/>
 		<type fullname="TMPro.TMP_FontAsset" preserve="nothing"/>
 		<type fullname="TMPro.TMP_Settings" preserve="nothing"/>
 		<type fullname="TMPro.TMP_SpriteAsset" preserve="nothing"/>
@@ -222,6 +220,9 @@
 	<assembly fullname="Unity.XR.Management">
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Management.XRManagerSettings" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Unity.XR.Oculus">
+		<type fullname="Unity.XR.Oculus.OculusSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.OpenXR.Features.ConformanceAutomation">
 		<type fullname="UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature" preserve="nothing"/>
