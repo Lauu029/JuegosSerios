@@ -34,7 +34,7 @@ public class narratorController : MonoBehaviour
             if (SceneManager.GetActiveScene().name == "StartScene" && door != null)
                 door.changeLock(false);
             else if (SceneManager.GetActiveScene().name == "EndScene")
-                GameManager.Instance.changeScene("MainMenu");
+                GameManager.Instance.changeScene("EndMenuScene");
 
         }
     }
