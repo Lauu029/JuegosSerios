@@ -76,6 +76,8 @@
 		<type fullname="Clock" preserve="nothing"/>
 		<type fullname="CloseStore" preserve="nothing"/>
 		<type fullname="Door" preserve="nothing"/>
+		<type fullname="EmpezarButton" preserve="nothing"/>
+		<type fullname="ExitButton" preserve="nothing"/>
 		<type fullname="FadeScreen" preserve="nothing"/>
 		<type fullname="GameManager" preserve="nothing"/>
 		<type fullname="GameStartMenu" preserve="nothing"/>
@@ -149,16 +151,27 @@
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Universal.Runtime">
 		<type fullname="UnityEngine.Rendering.Universal.Bloom" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ChannelMixer" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.ChromaticAberration" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ColorAdjustments" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ColorCurves" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ColorLookup" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.DepthOfField" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.FilmGrain" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.ForwardRendererData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.LensDistortion" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.LiftGammaGain" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.MotionBlur" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.PaniniProjection" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.PostProcessData" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.SplitToning" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.Tonemapping" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalLightData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.Vignette" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.Universal.WhiteBalance" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.Universal.XRSystemData" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.TextMeshPro">
@@ -220,9 +233,6 @@
 	<assembly fullname="Unity.XR.Management">
 		<type fullname="UnityEngine.XR.Management.XRGeneralSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.XR.Management.XRManagerSettings" preserve="nothing"/>
-	</assembly>
-	<assembly fullname="Unity.XR.Oculus">
-		<type fullname="Unity.XR.Oculus.OculusSettings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.XR.OpenXR.Features.ConformanceAutomation">
 		<type fullname="UnityEngine.XR.OpenXR.Features.ConformanceAutomation.ConformanceAutomationFeature" preserve="nothing"/>

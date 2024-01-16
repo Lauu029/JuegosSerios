@@ -1295,16 +1295,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IteratorStateMachineAttribute__ctor_m019
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerHiddenAttribute__ctor_mB40799BB5DAFE439BEFE895836CF792B8DBEA7F3 (DebuggerHiddenAttribute_tD84728997C009D6F540FB29D88F032350E046A88 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.Management.XRConfigurationDataAttribute::.ctor(System.String,System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRConfigurationDataAttribute__ctor_m8BC8EB57DFC926006F8E5F70E7A150F7711299BB (XRConfigurationDataAttribute_tC94F83D607B934FF3F894802DF857C51AA165236 * __this, String_t* ___displayName0, String_t* ___buildSettingsKey1, const RuntimeMethod* method);
-// System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042 (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * __this, String_t* ___tooltip0, const RuntimeMethod* method);
 // System.Void UnityEngine.SerializeField::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3 (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.Scripting.PreserveAttribute::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.TooltipAttribute::.ctor(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042 (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * __this, String_t* ___tooltip0, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlLayoutAttribute::set_displayName(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * __this, String_t* ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.Scripting.PreserveAttribute::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2 (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6 (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.InputSystem.Layouts.InputControlAttribute::set_aliases(System.String[])
@@ -1337,34 +1337,6 @@ static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttribute
 	}
 }
 static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocusLost(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-}
-static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_add_InputFocusAcquired_m792AC75AEC3F732433E7490A43EDD5ED153F6094(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-}
-static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_remove_InputFocusAcquired_m19273BB66624D67CE968DEC379569ECA0AA7D43A(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-}
-static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_add_InputFocusLost_m11782A9ADE16C0FE65636052AEEACA5BF4BE07C1(CustomAttributesCache* cache)
-{
-	{
-		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
-		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
-	}
-}
-static void InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_remove_InputFocusLost_m381E9CF962F5C1CBB6E737334ED070A356C02582(CustomAttributesCache* cache)
 {
 	{
 		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
@@ -1519,12 +1491,12 @@ static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttri
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_m_StereoRenderingModeDesktop(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x73\x74\x65\x72\x65\x6F\x20\x72\x65\x6E\x64\x65\x72\x69\x6E\x67\x20\x6D\x6F\x64\x65\x20\x73\x65\x6C\x65\x63\x74\x65\x64\x20\x66\x6F\x72\x20\x64\x65\x73\x6B\x74\x6F\x70\x2D\x62\x61\x73\x65\x64\x20\x4F\x63\x75\x6C\x75\x73\x20\x70\x6C\x61\x74\x66\x6F\x72\x6D\x73\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x54\x68\x65\x20\x63\x75\x72\x72\x65\x6E\x74\x20\x73\x74\x65\x72\x65\x6F\x20\x72\x65\x6E\x64\x65\x72\x69\x6E\x67\x20\x6D\x6F\x64\x65\x20\x73\x65\x6C\x65\x63\x74\x65\x64\x20\x66\x6F\x72\x20\x64\x65\x73\x6B\x74\x6F\x70\x2D\x62\x61\x73\x65\x64\x20\x4F\x63\x75\x6C\x75\x73\x20\x70\x6C\x61\x74\x66\x6F\x72\x6D\x73\x2E"), NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_m_StereoRenderingModeAndroid(CustomAttributesCache* cache)
@@ -1541,12 +1513,12 @@ static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttri
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_SharedDepthBuffer(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x6C\x6C\x6F\x77\x73\x20\x55\x6E\x69\x74\x79\x20\x61\x6E\x64\x20\x74\x68\x65\x20\x4F\x63\x75\x6C\x75\x73\x20\x72\x75\x6E\x74\x69\x6D\x65\x20\x74\x6F\x20\x73\x68\x61\x72\x65\x20\x61\x20\x63\x6F\x6D\x6D\x6F\x6E\x20\x64\x65\x70\x74\x68\x20\x62\x75\x66\x66\x65\x72\x20\x66\x6F\x72\x20\x62\x65\x74\x74\x65\x72\x20\x73\x63\x65\x6E\x65\x20\x69\x6E\x74\x65\x67\x72\x61\x74\x69\x6F\x6E\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x44\x61\x73\x68\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x6C\x6C\x6F\x77\x73\x20\x55\x6E\x69\x74\x79\x20\x61\x6E\x64\x20\x74\x68\x65\x20\x4F\x63\x75\x6C\x75\x73\x20\x72\x75\x6E\x74\x69\x6D\x65\x20\x74\x6F\x20\x73\x68\x61\x72\x65\x20\x61\x20\x63\x6F\x6D\x6D\x6F\x6E\x20\x64\x65\x70\x74\x68\x20\x62\x75\x66\x66\x65\x72\x20\x66\x6F\x72\x20\x62\x65\x74\x74\x65\x72\x20\x73\x63\x65\x6E\x65\x20\x69\x6E\x74\x65\x67\x72\x61\x74\x69\x6F\x6E\x20\x77\x69\x74\x68\x20\x74\x68\x65\x20\x44\x61\x73\x68\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_DashSupport(CustomAttributesCache* cache)
@@ -1563,12 +1535,12 @@ static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttri
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_V2Signing(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x66\x69\x67\x75\x72\x65\x20\x4D\x61\x6E\x69\x66\x65\x73\x74\x20\x66\x6F\x72\x20\x4F\x63\x75\x6C\x75\x73\x20\x51\x75\x65\x73\x74\x2E\x20\x54\x68\x69\x73\x20\x69\x73\x20\x64\x65\x70\x72\x65\x63\x61\x74\x65\x64\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x62\x65\x20\x72\x65\x6D\x6F\x76\x65\x64\x20\x69\x6E\x20\x4F\x63\x75\x6C\x75\x73\x20\x58\x52\x20\x50\x6C\x75\x67\x69\x6E\x20\x32\x2E\x30\x2E\x30"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x66\x69\x67\x75\x72\x65\x20\x4D\x61\x6E\x69\x66\x65\x73\x74\x20\x66\x6F\x72\x20\x4F\x63\x75\x6C\x75\x73\x20\x51\x75\x65\x73\x74\x2E\x20\x54\x68\x69\x73\x20\x69\x73\x20\x64\x65\x70\x72\x65\x63\x61\x74\x65\x64\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x62\x65\x20\x72\x65\x6D\x6F\x76\x65\x64\x20\x69\x6E\x20\x4F\x63\x75\x6C\x75\x73\x20\x58\x52\x20\x50\x6C\x75\x67\x69\x6E\x20\x32\x2E\x30\x2E\x30"), NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_LowOverheadMode(CustomAttributesCache* cache)
@@ -1596,12 +1568,12 @@ static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttri
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_FocusAware(CustomAttributesCache* cache)
 {
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x66\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x74\x68\x65\x20\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x63\x6F\x6E\x74\x69\x6E\x75\x65\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x77\x68\x65\x6E\x20\x73\x79\x73\x74\x65\x6D\x20\x6F\x76\x65\x72\x6C\x61\x79\x73\x20\x61\x70\x70\x65\x61\x72\x2E\x20\x54\x68\x69\x73\x20\x69\x73\x20\x64\x65\x70\x72\x65\x63\x61\x74\x65\x64\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x62\x65\x20\x72\x65\x6D\x6F\x76\x65\x64\x20\x69\x6E\x20\x4F\x63\x75\x6C\x75\x73\x20\x58\x52\x20\x50\x6C\x75\x67\x69\x6E\x20\x32\x2E\x30\x2E\x30"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x49\x66\x20\x65\x6E\x61\x62\x6C\x65\x64\x2C\x20\x74\x68\x65\x20\x61\x70\x70\x6C\x69\x63\x61\x74\x69\x6F\x6E\x20\x77\x69\x6C\x6C\x20\x63\x6F\x6E\x74\x69\x6E\x75\x65\x20\x72\x75\x6E\x6E\x69\x6E\x67\x20\x77\x68\x65\x6E\x20\x73\x79\x73\x74\x65\x6D\x20\x6F\x76\x65\x72\x6C\x61\x79\x73\x20\x61\x70\x70\x65\x61\x72\x2E\x20\x54\x68\x69\x73\x20\x69\x73\x20\x64\x65\x70\x72\x65\x63\x61\x74\x65\x64\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x62\x65\x20\x72\x65\x6D\x6F\x76\x65\x64\x20\x69\x6E\x20\x4F\x63\x75\x6C\x75\x73\x20\x58\x52\x20\x50\x6C\x75\x67\x69\x6E\x20\x32\x2E\x30\x2E\x30"), NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_OptimizeBufferDiscards(CustomAttributesCache* cache)
@@ -1640,57 +1612,57 @@ static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttri
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_SubsampledLayout(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x45\x6E\x61\x62\x6C\x65\x73\x20\x61\x20\x73\x75\x62\x73\x61\x6D\x70\x6C\x65\x64\x20\x65\x79\x65\x20\x74\x65\x78\x74\x75\x72\x65\x20\x6C\x61\x79\x6F\x75\x74\x2C\x20\x77\x68\x69\x63\x68\x20\x63\x61\x6E\x20\x69\x6D\x70\x72\x6F\x76\x65\x20\x70\x65\x72\x66\x6F\x72\x6D\x61\x6E\x63\x65\x20\x77\x68\x65\x6E\x20\x75\x73\x69\x6E\x67\x20\x46\x46\x52\x20\x61\x6E\x64\x20\x72\x65\x64\x75\x63\x65\x20\x46\x46\x52\x20\x72\x65\x6C\x61\x74\x65\x64\x20\x61\x72\x74\x69\x66\x61\x63\x74\x73\x2E\x20\x56\x75\x6C\x6B\x61\x6E\x20\x61\x6E\x64\x20\x51\x75\x65\x73\x74\x20\x32\x20\x6F\x6E\x6C\x79\x2E\x20\x52\x65\x71\x75\x69\x72\x65\x73\x20\x55\x6E\x69\x74\x79\x20\x32\x30\x32\x30\x2E\x33\x2E\x31\x31\x66\x31\x20\x6F\x72\x20\x32\x30\x32\x31\x2E\x31\x2E\x39\x66\x31\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x2C\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x72\x65\x73\x75\x6C\x74\x20\x69\x6E\x20\x61\x20\x62\x6C\x61\x63\x6B\x20\x73\x63\x72\x65\x65\x6E\x20\x69\x66\x20\x65\x6E\x61\x62\x6C\x65\x64\x20\x6F\x6E\x20\x65\x61\x72\x6C\x69\x65\x72\x20\x76\x65\x72\x73\x69\x6F\x6E\x73\x20\x6F\x66\x20\x55\x6E\x69\x74\x79\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x45\x6E\x61\x62\x6C\x65\x73\x20\x61\x20\x73\x75\x62\x73\x61\x6D\x70\x6C\x65\x64\x20\x65\x79\x65\x20\x74\x65\x78\x74\x75\x72\x65\x20\x6C\x61\x79\x6F\x75\x74\x2C\x20\x77\x68\x69\x63\x68\x20\x63\x61\x6E\x20\x69\x6D\x70\x72\x6F\x76\x65\x20\x70\x65\x72\x66\x6F\x72\x6D\x61\x6E\x63\x65\x20\x77\x68\x65\x6E\x20\x75\x73\x69\x6E\x67\x20\x46\x46\x52\x20\x61\x6E\x64\x20\x72\x65\x64\x75\x63\x65\x20\x46\x46\x52\x20\x72\x65\x6C\x61\x74\x65\x64\x20\x61\x72\x74\x69\x66\x61\x63\x74\x73\x2E\x20\x56\x75\x6C\x6B\x61\x6E\x20\x61\x6E\x64\x20\x51\x75\x65\x73\x74\x20\x32\x20\x6F\x6E\x6C\x79\x2E\x20\x52\x65\x71\x75\x69\x72\x65\x73\x20\x55\x6E\x69\x74\x79\x20\x32\x30\x32\x30\x2E\x33\x2E\x31\x31\x66\x31\x20\x6F\x72\x20\x32\x30\x32\x31\x2E\x31\x2E\x39\x66\x31\x20\x6F\x72\x20\x68\x69\x67\x68\x65\x72\x2C\x20\x61\x6E\x64\x20\x77\x69\x6C\x6C\x20\x72\x65\x73\x75\x6C\x74\x20\x69\x6E\x20\x61\x20\x62\x6C\x61\x63\x6B\x20\x73\x63\x72\x65\x65\x6E\x20\x69\x66\x20\x65\x6E\x61\x62\x6C\x65\x64\x20\x6F\x6E\x20\x65\x61\x72\x6C\x69\x65\x72\x20\x76\x65\x72\x73\x69\x6F\x6E\x73\x20\x6F\x66\x20\x55\x6E\x69\x74\x79\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_TargetQuest(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x51\x75\x65\x73\x74\x20\x65\x6E\x74\x72\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x64\x65\x76\x69\x63\x65\x73\x20\x6C\x69\x73\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x41\x6E\x64\x72\x6F\x69\x64\x20\x6D\x61\x6E\x69\x66\x65\x73\x74\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x51\x75\x65\x73\x74\x20\x65\x6E\x74\x72\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x64\x65\x76\x69\x63\x65\x73\x20\x6C\x69\x73\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x41\x6E\x64\x72\x6F\x69\x64\x20\x6D\x61\x6E\x69\x66\x65\x73\x74\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_TargetQuest2(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x51\x75\x65\x73\x74\x20\x32\x20\x65\x6E\x74\x72\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x64\x65\x76\x69\x63\x65\x73\x20\x6C\x69\x73\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x41\x6E\x64\x72\x6F\x69\x64\x20\x6D\x61\x6E\x69\x66\x65\x73\x74\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x51\x75\x65\x73\x74\x20\x32\x20\x65\x6E\x74\x72\x79\x20\x74\x6F\x20\x74\x68\x65\x20\x73\x75\x70\x70\x6F\x72\x74\x65\x64\x20\x64\x65\x76\x69\x63\x65\x73\x20\x6C\x69\x73\x74\x20\x69\x6E\x20\x74\x68\x65\x20\x41\x6E\x64\x72\x6F\x69\x64\x20\x6D\x61\x6E\x69\x66\x65\x73\x74\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void OculusSettings_t4712D0425F8C41B07DC49C5DB0BCB8608046F63C_CustomAttributesCacheGenerator_SystemSplashScreen(CustomAttributesCache* cache)
 {
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[0];
+		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x50\x4E\x47\x20\x75\x6E\x64\x65\x72\x20\x74\x68\x65\x20\x41\x73\x73\x65\x74\x73\x20\x66\x6F\x6C\x64\x65\x72\x20\x61\x73\x20\x74\x68\x65\x20\x73\x70\x6C\x61\x73\x68\x20\x73\x63\x72\x65\x65\x6E\x20\x69\x6D\x61\x67\x65\x2E\x20\x49\x66\x20\x73\x65\x74\x2C\x20\x4F\x63\x75\x6C\x75\x73\x20\x4F\x53\x20\x77\x69\x6C\x6C\x20\x64\x69\x73\x70\x6C\x61\x79\x20\x74\x68\x65\x20\x73\x79\x73\x74\x65\x6D\x20\x73\x70\x6C\x61\x73\x68\x20\x73\x63\x72\x65\x65\x6E\x20\x61\x73\x20\x61\x20\x68\x69\x67\x68\x20\x71\x75\x61\x6C\x69\x74\x79\x20\x63\x6F\x6D\x70\x6F\x73\x69\x74\x6F\x72\x20\x6C\x61\x79\x65\x72\x20\x61\x73\x20\x73\x6F\x6F\x6E\x20\x61\x73\x20\x74\x68\x65\x20\x61\x70\x70\x20\x69\x73\x20\x73\x74\x61\x72\x74\x69\x6E\x67\x20\x74\x6F\x20\x6C\x61\x75\x6E\x63\x68\x20\x75\x6E\x74\x69\x6C\x20\x74\x68\x65\x20\x61\x70\x70\x20\x73\x75\x62\x6D\x69\x74\x73\x20\x74\x68\x65\x20\x66\x69\x72\x73\x74\x20\x66\x72\x61\x6D\x65\x2E"), NULL);
 	}
 	{
-		TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B * tmp = (TooltipAttribute_t503A1598A4E68E91673758F50447D0EDFB95149B *)cache->attributes[1];
-		TooltipAttribute__ctor_m1839ACEC1560968A6D0EA55D7EB4535546588042(tmp, il2cpp_codegen_string_new_wrapper("\x41\x64\x64\x73\x20\x61\x20\x50\x4E\x47\x20\x75\x6E\x64\x65\x72\x20\x74\x68\x65\x20\x41\x73\x73\x65\x74\x73\x20\x66\x6F\x6C\x64\x65\x72\x20\x61\x73\x20\x74\x68\x65\x20\x73\x70\x6C\x61\x73\x68\x20\x73\x63\x72\x65\x65\x6E\x20\x69\x6D\x61\x67\x65\x2E\x20\x49\x66\x20\x73\x65\x74\x2C\x20\x4F\x63\x75\x6C\x75\x73\x20\x4F\x53\x20\x77\x69\x6C\x6C\x20\x64\x69\x73\x70\x6C\x61\x79\x20\x74\x68\x65\x20\x73\x79\x73\x74\x65\x6D\x20\x73\x70\x6C\x61\x73\x68\x20\x73\x63\x72\x65\x65\x6E\x20\x61\x73\x20\x61\x20\x68\x69\x67\x68\x20\x71\x75\x61\x6C\x69\x74\x79\x20\x63\x6F\x6D\x70\x6F\x73\x69\x74\x6F\x72\x20\x6C\x61\x79\x65\x72\x20\x61\x73\x20\x73\x6F\x6F\x6E\x20\x61\x73\x20\x74\x68\x65\x20\x61\x70\x70\x20\x69\x73\x20\x73\x74\x61\x72\x74\x69\x6E\x67\x20\x74\x6F\x20\x6C\x61\x75\x6E\x63\x68\x20\x75\x6E\x74\x69\x6C\x20\x74\x68\x65\x20\x61\x70\x70\x20\x73\x75\x62\x6D\x69\x74\x73\x20\x74\x68\x65\x20\x66\x69\x72\x73\x74\x20\x66\x72\x61\x6D\x65\x2E"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
-		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[1];
+		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[0];
 		InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D(tmp, NULL);
 		InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x63\x75\x6C\x75\x73\x20\x48\x65\x61\x64\x73\x65\x74"), NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_U3CuserPresenceU3Ek__BackingField(CustomAttributesCache* cache)
@@ -2179,12 +2151,12 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____userPresence_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____trackingState_PropertyInfo(CustomAttributesCache* cache)
@@ -2196,15 +2168,15 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x74\x72\x61\x63\x6B\x69\x6E\x67\x73\x74\x61\x74\x65"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____isTracked_PropertyInfo(CustomAttributesCache* cache)
@@ -2216,15 +2188,15 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x64\x65\x76\x69\x63\x65\x69\x73\x74\x72\x61\x63\x6B\x65\x64"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____devicePosition_PropertyInfo(CustomAttributesCache* cache)
@@ -2252,23 +2224,23 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____deviceAngularVelocity_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
-	}
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-}
-static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____deviceAcceleration_PropertyInfo(CustomAttributesCache* cache)
-{
-	{
 		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
 		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
 		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+	}
+}
+static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____deviceAcceleration_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____deviceAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
@@ -2285,39 +2257,50 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyePosition_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyeRotation_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyeAngularVelocity_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyeAcceleration_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+	}
+	{
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+	}
+}
+static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyeAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
 		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
@@ -2326,37 +2309,26 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
-static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____leftEyeAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
-{
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
-	}
-}
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____rightEyePosition_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____rightEyeRotation_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____rightEyeAngularVelocity_PropertyInfo(CustomAttributesCache* cache)
@@ -2439,12 +2411,12 @@ static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributes
 static void OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A_CustomAttributesCacheGenerator_OculusHMD_t5E5B812FE0E5FE397A1D12517903EDCA7DFE048A____centerEyeAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -2456,17 +2428,17 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_commonUsages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_commonUsages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x48\x61\x6E\x64"));
 		(_tmp_commonUsages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x48\x61\x6E\x64"));
-		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[1];
+		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[0];
 		InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D(tmp, NULL);
 		InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x63\x75\x6C\x75\x73\x20\x54\x6F\x75\x63\x68\x20\x43\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72"), NULL);
 		InputControlLayoutAttribute_set_commonUsages_m90DF6C99577ED3F33D5D442613F2FBCD6B3B35C2_inline(tmp, _tmp_commonUsages, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_U3CthumbstickU3Ek__BackingField(CustomAttributesCache* cache)
@@ -2962,17 +2934,17 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+	}
+	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 3);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x41"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x58"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(2), il2cpp_codegen_string_new_wrapper("\x41\x6C\x74\x65\x72\x6E\x61\x74\x65"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
-	}
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____secondaryButton_PropertyInfo(CustomAttributesCache* cache)
@@ -3104,16 +3076,16 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x69\x6E\x64\x65\x78\x54\x6F\x75\x63\x68"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x69\x6E\x64\x65\x78\x4E\x65\x61\x72\x54\x6F\x75\x63\x68\x65\x64"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____triggerPressed_PropertyInfo(CustomAttributesCache* cache)
@@ -3125,16 +3097,16 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+	}
+	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x69\x6E\x64\x65\x78\x42\x75\x74\x74\x6F\x6E"));
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x69\x6E\x64\x65\x78\x54\x6F\x75\x63\x68\x65\x64"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
-	}
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____thumbstickTouched_PropertyInfo(CustomAttributesCache* cache)
@@ -3167,15 +3139,15 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x54\x72\x61\x63\x6B\x69\x6E\x67\x53\x74\x61\x74\x65"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____isTracked_PropertyInfo(CustomAttributesCache* cache)
@@ -3187,8 +3159,28 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+	}
+	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x43\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x49\x73\x54\x72\x61\x63\x6B\x65\x64"));
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+}
+static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____devicePosition_PropertyInfo(CustomAttributesCache* cache)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x50\x6F\x73\x69\x74\x69\x6F\x6E"));
 		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
@@ -3198,7 +3190,7 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
-static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____devicePosition_PropertyInfo(CustomAttributesCache* cache)
+static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____deviceRotation_PropertyInfo(CustomAttributesCache* cache)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -3212,30 +3204,10 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 	}
 	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x50\x6F\x73\x69\x74\x69\x6F\x6E"));
+		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x52\x6F\x74\x61\x74\x69\x6F\x6E"));
 		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
-	}
-}
-static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____deviceRotation_PropertyInfo(CustomAttributesCache* cache)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
-		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x52\x6F\x74\x61\x74\x69\x6F\x6E"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
-		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
-	}
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____deviceVelocity_PropertyInfo(CustomAttributesCache* cache)
@@ -3267,15 +3239,15 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x41\x6E\x67\x75\x6C\x61\x72\x56\x65\x6C\x6F\x63\x69\x74\x79"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_CustomAttributesCacheGenerator_OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA____deviceAcceleration_PropertyInfo(CustomAttributesCache* cache)
@@ -3307,27 +3279,27 @@ static void OculusTouchController_t7612C344276CDE88CE68E8D34B539962FE3552DA_Cust
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_aliases = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 1);
 		(_tmp_aliases)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x63\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72\x41\x6E\x67\x75\x6C\x61\x72\x41\x63\x63\x65\x6C\x65\x72\x61\x74\x69\x6F\x6E"));
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 		InputControlAttribute_set_aliases_mAAF8C0AF005FE0941373BD4DCDE4CE81182FE14B_inline(tmp, _tmp_aliases, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[0];
-		InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D(tmp, NULL);
-		InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x63\x75\x6C\x75\x73\x20\x54\x72\x61\x63\x6B\x69\x6E\x67\x20\x52\x65\x66\x65\x72\x65\x6E\x63\x65"), NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[1];
+		InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D(tmp, NULL);
+		InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x63\x75\x6C\x75\x73\x20\x54\x72\x61\x63\x6B\x69\x6E\x67\x20\x52\x65\x66\x65\x72\x65\x6E\x63\x65"), NULL);
 	}
 }
 static void OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807_CustomAttributesCacheGenerator_U3CtrackingStateU3Ek__BackingField(CustomAttributesCache* cache)
@@ -3457,23 +3429,23 @@ static void OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807_Cu
 static void OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807_CustomAttributesCacheGenerator_OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807____devicePosition_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807_CustomAttributesCacheGenerator_OculusTrackingReference_t79C8D095C2CE84761CE9E12ADA114485F446D807____deviceRotation_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void OculusRemote_t6C3BA59AA4DE09B5BE28029B65E1D16AE5BC60E3_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -3593,17 +3565,17 @@ static void OculusGoController_tE3AB6FC9374A8DB24CFA9AB6592CB6235F6AB21B_CustomA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-	{
 		StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A* _tmp_commonUsages = (StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A*)SZArrayNew(StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var, 2);
 		(_tmp_commonUsages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(0), il2cpp_codegen_string_new_wrapper("\x4C\x65\x66\x74\x48\x61\x6E\x64"));
 		(_tmp_commonUsages)->SetAtUnchecked(static_cast<il2cpp_array_size_t>(1), il2cpp_codegen_string_new_wrapper("\x52\x69\x67\x68\x74\x48\x61\x6E\x64"));
-		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[1];
+		InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 * tmp = (InputControlLayoutAttribute_t92D3593AAC39BC73B0C3DEBAC9BE2974A48A48F4 *)cache->attributes[0];
 		InputControlLayoutAttribute__ctor_mC3116EDC1E7F4ECB5189AC475B9F450B52FC0A3D(tmp, NULL);
 		InputControlLayoutAttribute_set_displayName_m8E531FF1F16B4A6F47F2806E47F20D094C6FD032_inline(tmp, il2cpp_codegen_string_new_wrapper("\x4F\x63\x75\x6C\x75\x73\x20\x47\x6F\x20\x43\x6F\x6E\x74\x72\x6F\x6C\x6C\x65\x72"), NULL);
 		InputControlLayoutAttribute_set_commonUsages_m90DF6C99577ED3F33D5D442613F2FBCD6B3B35C2_inline(tmp, _tmp_commonUsages, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
@@ -3664,12 +3636,12 @@ static void OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC_CustomAt
 static void OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC_CustomAttributesCacheGenerator_OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC____back_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC_CustomAttributesCacheGenerator_OculusHMDExtended_t5DFE5313C3F3C76E6B8CB1A9F9A13485C2723DCC____touchpad_PropertyInfo(CustomAttributesCache* cache)
@@ -3982,12 +3954,12 @@ static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_Cu
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____touchpad_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____trigger_PropertyInfo(CustomAttributesCache* cache)
@@ -4015,23 +3987,23 @@ static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_Cu
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____triggerPressed_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____touchpadClicked_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____touchpadTouched_PropertyInfo(CustomAttributesCache* cache)
@@ -4070,12 +4042,12 @@ static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_Cu
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____devicePosition_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 }
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____deviceRotation_PropertyInfo(CustomAttributesCache* cache)
@@ -4092,26 +4064,15 @@ static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_Cu
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____deviceAngularVelocity_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
 	}
 	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[1];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
 static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____deviceAcceleration_PropertyInfo(CustomAttributesCache* cache)
-{
-	{
-		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
-		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
-	}
-	{
-		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
-		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
-	}
-}
-static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____deviceAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
 {
 	{
 		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[0];
@@ -4122,8 +4083,19 @@ static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_Cu
 		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
 	}
 }
+static void GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D____deviceAngularAcceleration_PropertyInfo(CustomAttributesCache* cache)
+{
+	{
+		InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A * tmp = (InputControlAttribute_tC8868913E6B58BD5CF5A9C3BFC72143911131D1A *)cache->attributes[0];
+		InputControlAttribute__ctor_mBB8DCD1D56C061622719117C31C6A85505F2D2C6(tmp, NULL);
+	}
+	{
+		PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 * tmp = (PreserveAttribute_tD3CDF1454F8E64CEF59CF7094B45BBACE2C69948 *)cache->attributes[1];
+		PreserveAttribute__ctor_mBD1EEF1095DBD581365C77729CF4ACB914859CD2(tmp, NULL);
+	}
+}
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_Unity_XR_Oculus_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_Unity_XR_Oculus_AttributeGenerators[312] = 
+const CustomAttributesCacheGenerator g_Unity_XR_Oculus_AttributeGenerators[308] = 
 {
 	U3CPauseAndRestartCoroutineU3Ed__22_tB2C01E4BC27AD9BE6161508D49252BF4D6A67E77_CustomAttributesCacheGenerator,
 	U3CRestartCoroutineU3Ed__23_t22ED932CF8C05985AD3BC43DDA2487410FC4112D_CustomAttributesCacheGenerator,
@@ -4219,10 +4191,6 @@ const CustomAttributesCacheGenerator g_Unity_XR_Oculus_AttributeGenerators[312] 
 	GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_U3CdeviceAngularVelocityU3Ek__BackingField,
 	GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_U3CdeviceAccelerationU3Ek__BackingField,
 	GearVRTrackedController_tFDAACDAF7AA95AABE41555D3687458F2CE285F6D_CustomAttributesCacheGenerator_U3CdeviceAngularAccelerationU3Ek__BackingField,
-	InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_add_InputFocusAcquired_m792AC75AEC3F732433E7490A43EDD5ED153F6094,
-	InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_remove_InputFocusAcquired_m19273BB66624D67CE968DEC379569ECA0AA7D43A,
-	InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_add_InputFocusLost_m11782A9ADE16C0FE65636052AEEACA5BF4BE07C1,
-	InputFocus_t747D82A1D7D44939A261162788D35A962D6E8F8C_CustomAttributesCacheGenerator_InputFocus_remove_InputFocusLost_m381E9CF962F5C1CBB6E737334ED070A356C02582,
 	OculusLoader_tD15B17A95554127ED764AFC39FE3D0E720C8BFEB_CustomAttributesCacheGenerator_OculusLoader_RuntimeLoadOVRPlugin_m2CA81B2C2F621A6BEF5495DF46AE5B2E2F04C042,
 	OculusRestarter_tC087F3507BB90D788A467B42A2F68763B0D68D65_CustomAttributesCacheGenerator_OculusRestarter_get_TimeBetweenRestartAttempts_m4643B819097BB5929C5EA5AAC0BBD798817B2465,
 	OculusRestarter_tC087F3507BB90D788A467B42A2F68763B0D68D65_CustomAttributesCacheGenerator_OculusRestarter_set_TimeBetweenRestartAttempts_m3FDA87CEAC42CF6AF6521DFF3E4EB1CC0BC9454F,
