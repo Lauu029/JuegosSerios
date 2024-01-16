@@ -2,6 +2,10 @@
 
 Repositorio del juego serio "Mente en conflicto" para la asignatura Juegos Serios del Grado de Desarrollo de Videojuegos de la Facultad de informática de la Universidad Complutense de Madrid.
 
+Vídeo sobre el juego: 
+
+Vídeo de Gameplay: https://youtu.be/sCt7C92yv-g
+
 Laura Gómez Bodego ( <lgomez25@ucm.es> ),
 Sergio Baña Marchante ( <sebana@ucm.es> ) y Pablo Sánchez Martín ( <pablos19@ucm.es> )
 
